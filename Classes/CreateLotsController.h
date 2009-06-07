@@ -59,7 +59,7 @@
 @property (nonatomic, retain) LotsData						*lotsData;
 
 - (void) buttonEditDown:(id)sender;
-- (void) buttonStartDown:(id)sender;
+- (void) buttonSaveDown:(id)sender;
 - (void) segControlNumberValueChanged:(id)sender;
 - (void) segControlGroupValueChanged:(id)sender;
 - (void) backBarButtonDown:(id)sender;

@@ -1,8 +1,9 @@
 "Photo" = "相片";
 "Number" = "數字";
 "String" = "字串";
-"Draw Lots" = "萬能籤桶";
-"Create New Lots" = "新增籤桶";
+"List of Lots" = "籤列表";
+"Create New Lots" = "新增籤";
 "Share My Photos" = "傳輸本機資料";
 "Share My Photos to Another Device." = "傳輸本機資料至另一台裝置";
-"Untitled Lots" = "未命名籤桶";
+"Untitled Lots" = "未命名籤";
+"Drawing Lots" = "抽籤";

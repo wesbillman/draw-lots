@@ -9,6 +9,8 @@
 #import "RootViewController.h"
 #import "CreateLotsController.h"
 #import "LotsData.h"
+#import "DrawLots1Controller.h"
+#import "DrawLots2Controller.h"
 
 
 @implementation RootViewController
@@ -33,7 +35,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	self.title = NSLocalizedString(@"Draw Lots", @"Draw Lots");
+	self.title = NSLocalizedString(@"List of Lots", @"List of Lots");
 	[self.tableView reloadData];
 }
 
@@ -109,9 +111,9 @@
 					UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 					if (cell == nil) {
 						cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-						cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 					}
 					cell.textLabel.text = NSLocalizedString(@"Create New Lots", @"Create New Lots");
+					cell.textLabel.textAlignment = UITextAlignmentCenter;
 					return cell;
 				}
 
@@ -121,10 +123,11 @@
 					UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 					if (cell == nil) {
 						cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-						cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 					}
 					cell.textLabel.text = NSLocalizedString(@"Share My Photos", @"Share My Photos");
+					cell.textLabel.textAlignment = UITextAlignmentCenter;
 					cell.detailTextLabel.text = NSLocalizedString(@"Share My Photos to Another Device.", @"Share My Photos to Another Device.");
+					cell.detailTextLabel.textAlignment = UITextAlignmentCenter;
 					return cell;
 				}
 			}
@@ -188,19 +191,30 @@
 			if(indexPath.row == 0)
 			{
 				CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
+				self.title = nil;
 				[self.navigationController pushViewController:controller animated:YES];
-				self.title = NSLocalizedString(@"Back", @"Back");
 				[controller release];
 			}
 			break;
 		case 1:
 			{
-				CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
-				controller.lotsData = [appDelegate.lotsData objectAtIndex:indexPath.row];
-				//self.title = NSLocalizedString(@"Back", @"Back");
-				[self.navigationController pushViewController:controller animated:YES];
-				self.title = NSLocalizedString(@"Back", @"Back");
-				[controller release];
+				LotsData *data = [appDelegate.lotsData objectAtIndex:indexPath.row];
+				if(data.numberOfGroup == 1)
+				{
+					DrawLots1Controller *controller = [[DrawLots1Controller alloc] initWithNibName:@"DrawLots1Controller" bundle:nil];
+					controller.lotsData = data;
+					self.title = nil;
+					[self.navigationController pushViewController:controller animated:YES];
+					[controller release];
+				}
+				else
+				{
+					DrawLots2Controller *controller = [[DrawLots2Controller alloc] initWithNibName:@"DrawLots2Controller" bundle:nil];
+					controller.lotsData = data;
+					self.title = nil;
+					[self.navigationController pushViewController:controller animated:YES];
+					[controller release];
+				}
 			}
 			break;
 	}

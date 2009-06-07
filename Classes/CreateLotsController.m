@@ -51,12 +51,10 @@
 		stringLots2.stringArray = lotsData.stringLots2;
 		
 		self.title = NSLocalizedString(@"Edit Lots", @"Edit Lots");
-		buttonStart.titleLabel.text = NSLocalizedString(@"Start", @"Start");
 	}
 	else
 	{
 		self.title = NSLocalizedString(@"Create New Lots", @"Create New Lots");
-		buttonStart.titleLabel.text = NSLocalizedString(@"Save and Start", @"Save and Start");
 	}
 	[self segControlNumberValueChanged:segControlNumber];
 	[self segControlGroupValueChanged:segControlGroup1];
@@ -159,7 +157,7 @@
 	}
 }
 
-- (void) buttonStartDown:(id)sender
+- (void) buttonSaveDown:(id)sender
 {
 	switch(segControlGroup1.selectedSegmentIndex)
 	{
@@ -246,6 +244,22 @@
 		PickOneForMeAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
 		[appDelegate.lotsData addObject:lotsData];
 		//[lotsData release];
+	}
+	else
+	{
+		
+		lotsData.numberOfGroup = segControlNumber.selectedSegmentIndex+1;
+		lotsData.lotsName = textFieldName.text;
+		
+		lotsData.group1Type = segControlGroup1.selectedSegmentIndex;
+		lotsData.group2Type = segControlGroup2.selectedSegmentIndex;
+		
+		lotsData.photoLots1 = photoLots1.imageArray;
+		lotsData.photoLots2 = photoLots2.imageArray;
+		lotsData.numberLots1 = numberLots1.range;
+		lotsData.numberLots2 = numberLots2.range;
+		lotsData.stringLots1 = stringLots1.stringArray;
+		lotsData.stringLots2 = stringLots2.stringArray;
 	}
 	[self.navigationController popToRootViewControllerAnimated:YES];
 }
