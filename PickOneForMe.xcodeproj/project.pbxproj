@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* PickOneForMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
-		F129AC1B0FDA5D06004DD2DF /* CreatePhotoLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */; };
-		F129AC1C0FDA5D06004DD2DF /* CreatePhotoLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F129AC1A0FDA5D06004DD2DF /* CreatePhotoLotsController.xib */; };
-		F12E062A0FDBD2E7006F06CD /* CreateNumberLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */; };
-		F12E062B0FDBD2E7006F06CD /* CreateNumberLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12E06290FDBD2E7006F06CD /* CreateNumberLotsController.xib */; };
-		F12E062F0FDBD2F2006F06CD /* CreateStringLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */; };
-		F12E06300FDBD2F2006F06CD /* CreateStringLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12E062E0FDBD2F2006F06CD /* CreateStringLotsController.xib */; };
 		F12E08110FDBF754006F06CD /* LotsData.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E08100FDBF754006F06CD /* LotsData.m */; };
 		F177111E0FDB63A9009B3560 /* UIKeepRatioImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */; };
-		F17712860FDBA427009B3560 /* CreateLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17712840FDBA427009B3560 /* CreateLotsController.m */; };
-		F17712870FDBA427009B3560 /* CreateLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17712850FDBA427009B3560 /* CreateLotsController.xib */; };
 		F1C47B780FDC2821007A6B05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1C47B730FDC2821007A6B05 /* InfoPlist.strings */; };
-		F1C47B790FDC2821007A6B05 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1C47B760FDC2821007A6B05 /* Localizable.strings */; };
+		F1CDB0FE0FDC41650056A42D /* CreateLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CDB0FD0FDC41650056A42D /* CreateLotsController.xib */; };
+		F1CDB1000FDC417A0056A42D /* CreatePhotoLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CDB0FF0FDC417A0056A42D /* CreatePhotoLotsController.xib */; };
+		F1CDB1020FDC41860056A42D /* CreateNumberLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CDB1010FDC41860056A42D /* CreateNumberLotsController.xib */; };
+		F1CDB1040FDC41900056A42D /* CreateStringLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CDB1030FDC41900056A42D /* CreateStringLotsController.xib */; };
+		F1CDB1270FDC43E30056A42D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		F1CDB1280FDC43EB0056A42D /* PickOneForMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */; };
+		F1CDB12A0FDC43F50056A42D /* CreatePhotoLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */; };
+		F1CDB12F0FDC44060056A42D /* CreateLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17712840FDBA427009B3560 /* CreateLotsController.m */; };
+		F1CDB1310FDC44120056A42D /* CreateNumberLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */; };
+		F1CDB1320FDC441A0056A42D /* CreateStringLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */; };
+		F1CDB1430FDC44EA0056A42D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CDB1410FDC44EA0056A42D /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,23 +45,27 @@
 		8D1107310486CEB800E47090 /* PickOneForMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PickOneForMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePhotoLotsController.h; sourceTree = "<group>"; };
 		F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePhotoLotsController.m; sourceTree = "<group>"; };
-		F129AC1A0FDA5D06004DD2DF /* CreatePhotoLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePhotoLotsController.xib; sourceTree = "<group>"; };
+		F129AC1A0FDA5D06004DD2DF /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CreatePhotoLotsController.xib; sourceTree = "<group>"; };
 		F12E06270FDBD2E7006F06CD /* CreateNumberLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNumberLotsController.h; sourceTree = "<group>"; };
 		F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNumberLotsController.m; sourceTree = "<group>"; };
-		F12E06290FDBD2E7006F06CD /* CreateNumberLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateNumberLotsController.xib; sourceTree = "<group>"; };
+		F12E06290FDBD2E7006F06CD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CreateNumberLotsController.xib; sourceTree = "<group>"; };
 		F12E062C0FDBD2F2006F06CD /* CreateStringLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateStringLotsController.h; sourceTree = "<group>"; };
 		F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateStringLotsController.m; sourceTree = "<group>"; };
-		F12E062E0FDBD2F2006F06CD /* CreateStringLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateStringLotsController.xib; sourceTree = "<group>"; };
+		F12E062E0FDBD2F2006F06CD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CreateStringLotsController.xib; sourceTree = "<group>"; };
 		F12E080F0FDBF754006F06CD /* LotsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotsData.h; sourceTree = "<group>"; };
 		F12E08100FDBF754006F06CD /* LotsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotsData.m; sourceTree = "<group>"; };
 		F177111C0FDB63A9009B3560 /* UIKeepRatioImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKeepRatioImageView.h; sourceTree = "<group>"; };
 		F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKeepRatioImageView.m; sourceTree = "<group>"; };
 		F17712830FDBA427009B3560 /* CreateLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateLotsController.h; sourceTree = "<group>"; };
 		F17712840FDBA427009B3560 /* CreateLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateLotsController.m; sourceTree = "<group>"; };
-		F17712850FDBA427009B3560 /* CreateLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateLotsController.xib; sourceTree = "<group>"; };
+		F17712850FDBA427009B3560 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/CreateLotsController.xib; sourceTree = "<group>"; };
 		F1C47B740FDC2821007A6B05 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1C47B750FDC2821007A6B05 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F1C47B770FDC2821007A6B05 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1CDB1050FDC41A30056A42D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = zh_TW.lproj/CreateLotsController.xib; sourceTree = "<group>"; };
+		F1CDB1370FDC44370056A42D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = zh_TW.lproj/CreatePhotoLotsController.xib; sourceTree = "<group>"; };
+		F1CDB1380FDC44440056A42D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = zh_TW.lproj/CreateNumberLotsController.xib; sourceTree = "<group>"; };
+		F1CDB1390FDC444E0056A42D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = zh_TW.lproj/CreateStringLotsController.xib; sourceTree = "<group>"; };
+		F1CDB1420FDC44EA0056A42D /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,18 +91,18 @@
 				1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */,
 				F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */,
 				F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */,
-				F129AC1A0FDA5D06004DD2DF /* CreatePhotoLotsController.xib */,
+				F1CDB0FF0FDC417A0056A42D /* CreatePhotoLotsController.xib */,
 				F177111C0FDB63A9009B3560 /* UIKeepRatioImageView.h */,
 				F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */,
 				F17712830FDBA427009B3560 /* CreateLotsController.h */,
 				F17712840FDBA427009B3560 /* CreateLotsController.m */,
-				F17712850FDBA427009B3560 /* CreateLotsController.xib */,
+				F1CDB0FD0FDC41650056A42D /* CreateLotsController.xib */,
 				F12E06270FDBD2E7006F06CD /* CreateNumberLotsController.h */,
 				F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */,
-				F12E06290FDBD2E7006F06CD /* CreateNumberLotsController.xib */,
+				F1CDB1010FDC41860056A42D /* CreateNumberLotsController.xib */,
 				F12E062C0FDBD2F2006F06CD /* CreateStringLotsController.h */,
 				F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */,
-				F12E062E0FDBD2F2006F06CD /* CreateStringLotsController.xib */,
+				F1CDB1030FDC41900056A42D /* CreateStringLotsController.xib */,
 				F12E080F0FDBF754006F06CD /* LotsData.h */,
 				F12E08100FDBF754006F06CD /* LotsData.m */,
 			);
@@ -158,8 +162,8 @@
 		F1C47B720FDC2821007A6B05 /* Locales */ = {
 			isa = PBXGroup;
 			children = (
+				F1CDB1410FDC44EA0056A42D /* Localizable.strings */,
 				F1C47B730FDC2821007A6B05 /* InfoPlist.strings */,
-				F1C47B760FDC2821007A6B05 /* Localizable.strings */,
 			);
 			path = Locales;
 			sourceTree = "<group>";
@@ -216,12 +220,12 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
-				F129AC1C0FDA5D06004DD2DF /* CreatePhotoLotsController.xib in Resources */,
-				F17712870FDBA427009B3560 /* CreateLotsController.xib in Resources */,
-				F12E062B0FDBD2E7006F06CD /* CreateNumberLotsController.xib in Resources */,
-				F12E06300FDBD2F2006F06CD /* CreateStringLotsController.xib in Resources */,
+				F1CDB1000FDC417A0056A42D /* CreatePhotoLotsController.xib in Resources */,
+				F1CDB0FE0FDC41650056A42D /* CreateLotsController.xib in Resources */,
+				F1CDB1020FDC41860056A42D /* CreateNumberLotsController.xib in Resources */,
+				F1CDB1040FDC41900056A42D /* CreateStringLotsController.xib in Resources */,
 				F1C47B780FDC2821007A6B05 /* InfoPlist.strings in Resources */,
-				F1C47B790FDC2821007A6B05 /* Localizable.strings in Resources */,
+				F1CDB1430FDC44EA0056A42D /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* PickOneForMeAppDelegate.m in Sources */,
-				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				F129AC1B0FDA5D06004DD2DF /* CreatePhotoLotsController.m in Sources */,
+				F1CDB1280FDC43EB0056A42D /* PickOneForMeAppDelegate.m in Sources */,
+				F1CDB1270FDC43E30056A42D /* RootViewController.m in Sources */,
+				F1CDB12A0FDC43F50056A42D /* CreatePhotoLotsController.m in Sources */,
 				F177111E0FDB63A9009B3560 /* UIKeepRatioImageView.m in Sources */,
-				F17712860FDBA427009B3560 /* CreateLotsController.m in Sources */,
-				F12E062A0FDBD2E7006F06CD /* CreateNumberLotsController.m in Sources */,
-				F12E062F0FDBD2F2006F06CD /* CreateStringLotsController.m in Sources */,
+				F1CDB12F0FDC44060056A42D /* CreateLotsController.m in Sources */,
+				F1CDB1310FDC44120056A42D /* CreateNumberLotsController.m in Sources */,
+				F1CDB1320FDC441A0056A42D /* CreateStringLotsController.m in Sources */,
 				F12E08110FDBF754006F06CD /* LotsData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,10 +260,46 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F1C47B760FDC2821007A6B05 /* Localizable.strings */ = {
+		F1CDB0FD0FDC41650056A42D /* CreateLotsController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1C47B770FDC2821007A6B05 /* zh_TW */,
+				F17712850FDBA427009B3560 /* English */,
+				F1CDB1050FDC41A30056A42D /* zh_TW */,
+			);
+			name = CreateLotsController.xib;
+			sourceTree = "<group>";
+		};
+		F1CDB0FF0FDC417A0056A42D /* CreatePhotoLotsController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F129AC1A0FDA5D06004DD2DF /* English */,
+				F1CDB1370FDC44370056A42D /* zh_TW */,
+			);
+			name = CreatePhotoLotsController.xib;
+			sourceTree = "<group>";
+		};
+		F1CDB1010FDC41860056A42D /* CreateNumberLotsController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12E06290FDBD2E7006F06CD /* English */,
+				F1CDB1380FDC44440056A42D /* zh_TW */,
+			);
+			name = CreateNumberLotsController.xib;
+			sourceTree = "<group>";
+		};
+		F1CDB1030FDC41900056A42D /* CreateStringLotsController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12E062E0FDBD2F2006F06CD /* English */,
+				F1CDB1390FDC444E0056A42D /* zh_TW */,
+			);
+			name = CreateStringLotsController.xib;
+			sourceTree = "<group>";
+		};
+		F1CDB1410FDC44EA0056A42D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CDB1420FDC44EA0056A42D /* zh_TW */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

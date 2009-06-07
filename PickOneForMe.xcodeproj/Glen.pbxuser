@@ -11,7 +11,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 812}}";
 			sepNavSelRange = "{1076, 0}";
-			sepNavVisRect = "{{0, 296}, {1185, 516}}";
+			sepNavVisRect = "{{0, 249}, {1185, 539}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* PickOneForMe */ = {
@@ -36,21 +36,20 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 3416}}";
-			sepNavSelRange = "{4755, 0}";
-			sepNavVisRect = "{{0, 721}, {1185, 539}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 3682}}";
+			sepNavSelRange = "{4289, 15}";
+			sepNavVisRect = "{{0, 3119}, {1185, 539}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = F129ABD80FDA572E004DD2DF /* PickOneForMe */;
-		activeSDKPreference = iphonesimulator3.0;
+		activeSDKPreference = iphoneos3.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* PickOneForMe */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* PickOneForMe */,
 		);
 		breakpoints = (
-			F12E0B560FDC20E9006F06CD /* RootViewController.m:236 */,
 		);
 		codeSenseManager = F129ABE80FDA573E004DD2DF /* Code sense */;
 		executables = (
@@ -79,8 +78,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 266090721;
-			PBXWorkspaceStateSaveDate = 266090721;
+			PBXPerProjectTemplateStateSaveDate = 266091842;
+			PBXWorkspaceStateSaveDate = 266091842;
 		};
 		perUserProjectItems = {
 			F129AC2B0FDA6429004DD2DF = F129AC2B0FDA6429004DD2DF /* PBXTextBookmark */;
@@ -655,34 +654,90 @@
 			F12E0BA40FDC2273006F06CD = F12E0BA40FDC2273006F06CD /* PlistBookmark */;
 			F12E0BA50FDC2273006F06CD = F12E0BA50FDC2273006F06CD /* PBXTextBookmark */;
 			F12E0BAB0FDC23BA006F06CD = F12E0BAB0FDC23BA006F06CD /* PlistBookmark */;
-			F15776880FDC38F400A6B4D3 /* PlistBookmark */ = F15776880FDC38F400A6B4D3 /* PlistBookmark */;
-			F15776890FDC38F400A6B4D3 /* PlistBookmark */ = F15776890FDC38F400A6B4D3 /* PlistBookmark */;
-			F157768A0FDC38F400A6B4D3 /* PBXTextBookmark */ = F157768A0FDC38F400A6B4D3 /* PBXTextBookmark */;
-			F15776970FDC390300A6B4D3 /* PBXTextBookmark */ = F15776970FDC390300A6B4D3 /* PBXTextBookmark */;
-			F15776980FDC390300A6B4D3 /* PBXTextBookmark */ = F15776980FDC390300A6B4D3 /* PBXTextBookmark */;
-			F15776990FDC390300A6B4D3 /* PBXTextBookmark */ = F15776990FDC390300A6B4D3 /* PBXTextBookmark */;
-			F157769A0FDC390300A6B4D3 /* PBXTextBookmark */ = F157769A0FDC390300A6B4D3 /* PBXTextBookmark */;
-			F157769D0FDC396200A6B4D3 /* PBXTextBookmark */ = F157769D0FDC396200A6B4D3 /* PBXTextBookmark */;
-			F157769E0FDC396200A6B4D3 /* PBXTextBookmark */ = F157769E0FDC396200A6B4D3 /* PBXTextBookmark */;
-			F157769F0FDC396200A6B4D3 /* PBXTextBookmark */ = F157769F0FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A00FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A00FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A10FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A10FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A20FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A20FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A30FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A30FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A40FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A40FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A50FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A50FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A60FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A60FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A70FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A70FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A80FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A80FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776A90FDC396200A6B4D3 /* PBXTextBookmark */ = F15776A90FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776AA0FDC396200A6B4D3 /* PBXTextBookmark */ = F15776AA0FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776AB0FDC396200A6B4D3 /* PBXTextBookmark */ = F15776AB0FDC396200A6B4D3 /* PBXTextBookmark */;
-			F15776AC0FDC396200A6B4D3 /* PBXTextBookmark */ = F15776AC0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776880FDC38F400A6B4D3 = F15776880FDC38F400A6B4D3 /* PlistBookmark */;
+			F15776890FDC38F400A6B4D3 = F15776890FDC38F400A6B4D3 /* PlistBookmark */;
+			F157768A0FDC38F400A6B4D3 = F157768A0FDC38F400A6B4D3 /* PBXTextBookmark */;
+			F15776970FDC390300A6B4D3 = F15776970FDC390300A6B4D3 /* PBXTextBookmark */;
+			F15776980FDC390300A6B4D3 = F15776980FDC390300A6B4D3 /* PBXTextBookmark */;
+			F15776990FDC390300A6B4D3 = F15776990FDC390300A6B4D3 /* PBXTextBookmark */;
+			F157769A0FDC390300A6B4D3 = F157769A0FDC390300A6B4D3 /* PBXTextBookmark */;
+			F157769D0FDC396200A6B4D3 = F157769D0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F157769E0FDC396200A6B4D3 = F157769E0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F157769F0FDC396200A6B4D3 = F157769F0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A00FDC396200A6B4D3 = F15776A00FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A10FDC396200A6B4D3 = F15776A10FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A20FDC396200A6B4D3 = F15776A20FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A30FDC396200A6B4D3 = F15776A30FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A40FDC396200A6B4D3 = F15776A40FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A50FDC396200A6B4D3 = F15776A50FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A60FDC396200A6B4D3 = F15776A60FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A70FDC396200A6B4D3 = F15776A70FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A80FDC396200A6B4D3 = F15776A80FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776A90FDC396200A6B4D3 = F15776A90FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776AA0FDC396200A6B4D3 = F15776AA0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776AB0FDC396200A6B4D3 = F15776AB0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776AC0FDC396200A6B4D3 = F15776AC0FDC396200A6B4D3 /* PBXTextBookmark */;
+			F15776B00FDC3BB900A6B4D3 = F15776B00FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B10FDC3BB900A6B4D3 = F15776B10FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B20FDC3BB900A6B4D3 = F15776B20FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B30FDC3BB900A6B4D3 = F15776B30FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B40FDC3BB900A6B4D3 = F15776B40FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B50FDC3BB900A6B4D3 = F15776B50FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B60FDC3BB900A6B4D3 = F15776B60FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B70FDC3BB900A6B4D3 = F15776B70FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776B80FDC3BB900A6B4D3 = F15776B80FDC3BB900A6B4D3 /* PBXTextBookmark */;
+			F15776BB0FDC3C8F00A6B4D3 = F15776BB0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776BC0FDC3C8F00A6B4D3 = F15776BC0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776BD0FDC3C8F00A6B4D3 = F15776BD0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776BE0FDC3C8F00A6B4D3 = F15776BE0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776BF0FDC3C8F00A6B4D3 = F15776BF0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C00FDC3C8F00A6B4D3 = F15776C00FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C10FDC3C8F00A6B4D3 = F15776C10FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C20FDC3C8F00A6B4D3 = F15776C20FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C30FDC3C8F00A6B4D3 = F15776C30FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C40FDC3C8F00A6B4D3 = F15776C40FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C50FDC3C8F00A6B4D3 = F15776C50FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C60FDC3C8F00A6B4D3 = F15776C60FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C70FDC3C8F00A6B4D3 = F15776C70FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C80FDC3C8F00A6B4D3 = F15776C80FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776C90FDC3C8F00A6B4D3 = F15776C90FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776CA0FDC3C8F00A6B4D3 = F15776CA0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776CB0FDC3C8F00A6B4D3 = F15776CB0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776CC0FDC3C8F00A6B4D3 = F15776CC0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776CD0FDC3C8F00A6B4D3 = F15776CD0FDC3C8F00A6B4D3 /* PBXTextBookmark */;
+			F15776D40FDC3CA300A6B4D3 = F15776D40FDC3CA300A6B4D3 /* PBXTextBookmark */;
+			F15776D70FDC3CC800A6B4D3 = F15776D70FDC3CC800A6B4D3 /* PBXTextBookmark */;
 			F17711270FDB64F0009B3560 = F17711270FDB64F0009B3560 /* PBXTextBookmark */;
 			F17711280FDB64F0009B3560 = F17711280FDB64F0009B3560 /* PBXTextBookmark */;
 			F17712910FDBAD9D009B3560 = F17712910FDBAD9D009B3560 /* PBXTextBookmark */;
 			F1C47B7E0FDC28EB007A6B05 = F1C47B7E0FDC28EB007A6B05 /* PBXTextBookmark */;
 			F1C47B7F0FDC28EB007A6B05 = F1C47B7F0FDC28EB007A6B05 /* PBXTextBookmark */;
+			F1CDB0CB0FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0CB0FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0CC0FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0CC0FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0CD0FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0CD0FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0CE0FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0CE0FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0CF0FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0CF0FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0D00FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0D00FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0D10FDC3F120056A42D /* PBXTextBookmark */ = F1CDB0D10FDC3F120056A42D /* PBXTextBookmark */;
+			F1CDB0E20FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E20FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E30FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E30FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E40FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E40FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E50FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E50FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E60FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E60FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E70FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E70FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E80FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E80FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0E90FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0E90FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0EA0FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0EA0FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0EB0FDC3FAF0056A42D /* PBXTextBookmark */ = F1CDB0EB0FDC3FAF0056A42D /* PBXTextBookmark */;
+			F1CDB0EE0FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0EE0FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0EF0FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0EF0FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F00FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F00FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F10FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F10FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F20FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F20FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F30FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F30FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F40FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F40FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F50FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F50FDC3FDC0056A42D /* PBXTextBookmark */;
+			F1CDB0F60FDC3FDC0056A42D /* PBXTextBookmark */ = F1CDB0F60FDC3FDC0056A42D /* PBXTextBookmark */;
 		};
 		sourceControlManager = F129ABE70FDA573E004DD2DF /* Source Control */;
 		userBuildSettings = {
@@ -695,7 +750,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -737,8 +792,8 @@
 	F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1280, 3990}}";
-			sepNavSelRange = "{8568, 96}";
-			sepNavVisRect = "{{0, 3451}, {1185, 539}}";
+			sepNavSelRange = "{932, 0}";
+			sepNavVisRect = "{{0, 389}, {1185, 539}}";
 		};
 	};
 	F129AC2B0FDA6429004DD2DF /* PBXTextBookmark */ = {
@@ -837,7 +892,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: 58";
 		rLen = 0;
-		rLoc = 8725;
+		rLoc = 9055;
 		rType = 0;
 		vrLen = 1093;
 		vrLoc = 0;
@@ -857,7 +912,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4463;
+		rLoc = 4793;
 		rType = 0;
 		vrLen = 558;
 		vrLoc = 1186;
@@ -907,7 +962,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3825;
+		rLoc = 4155;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 1249;
@@ -926,8 +981,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
-		rLen = 279;
-		rLoc = 5399;
+		rLen = 64;
+		rLoc = 6214;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 3132;
@@ -937,7 +992,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: 29";
 		rLen = 0;
-		rLoc = 2881;
+		rLoc = 3211;
 		rType = 0;
 		vrLen = 1155;
 		vrLoc = 584;
@@ -957,7 +1012,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4434;
+		rLoc = 4764;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 1484;
@@ -977,7 +1032,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4470;
+		rLoc = 4800;
 		rType = 0;
 		vrLen = 1223;
 		vrLoc = 391;
@@ -1047,7 +1102,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4470;
+		rLoc = 4800;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 0;
@@ -1077,7 +1132,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3734;
+		rLoc = 4064;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 1269;
@@ -1097,7 +1152,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3592;
+		rLoc = 3922;
 		rType = 0;
 		vrLen = 745;
 		vrLoc = 1268;
@@ -1117,7 +1172,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlNumberValueChanged:";
 		rLen = 0;
-		rLoc = 8445;
+		rLoc = 8775;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 1694;
@@ -1137,7 +1192,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlNumberValueChanged:";
 		rLen = 0;
-		rLoc = 8445;
+		rLoc = 8775;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 1694;
@@ -1157,7 +1212,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlNumberValueChanged:";
 		rLen = 0;
-		rLoc = 8445;
+		rLoc = 8775;
 		rType = 0;
 		vrLen = 630;
 		vrLoc = 1723;
@@ -1177,7 +1232,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlNumberValueChanged:";
 		rLen = 0;
-		rLoc = 8720;
+		rLoc = 9050;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 1772;
@@ -1237,7 +1292,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlNumberValueChanged:";
 		rLen = 0;
-		rLoc = 8720;
+		rLoc = 9050;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 1826;
@@ -1287,7 +1342,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = self.navigationController;
 		rLen = 0;
-		rLoc = 4470;
+		rLoc = 4800;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 1797;
@@ -1307,7 +1362,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = ".navigationController pushViewController";
 		rLen = 40;
-		rLoc = 4155;
+		rLoc = 4485;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 1748;
@@ -1372,8 +1427,8 @@
 	F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 1400}}";
-			sepNavSelRange = "{1739, 1121}";
-			sepNavVisRect = "{{0, 861}, {1185, 539}}";
+			sepNavSelRange = "{873, 0}";
+			sepNavVisRect = "{{0, 0}, {1185, 539}}";
 		};
 	};
 	F12E062C0FDBD2F2006F06CD /* CreateStringLotsController.h */ = {
@@ -1386,8 +1441,8 @@
 	F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 1946}}";
-			sepNavSelRange = "{2273, 0}";
-			sepNavVisRect = "{{0, 902}, {1185, 539}}";
+			sepNavSelRange = "{2051, 0}";
+			sepNavVisRect = "{{0, 576}, {1185, 516}}";
 		};
 	};
 	F12E063D0FDBD40E006F06CD /* PBXTextBookmark */ = {
@@ -1455,7 +1510,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = ".navigationController pushViewController";
 		rLen = 40;
-		rLoc = 4155;
+		rLoc = 4485;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 0;
@@ -1505,7 +1560,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3952;
+		rLoc = 4282;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 1484;
@@ -1555,7 +1610,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 2881;
+		rLoc = 3211;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 225;
@@ -1575,7 +1630,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 2881;
+		rLoc = 3211;
 		rType = 0;
 		vrLen = 1695;
 		vrLoc = 225;
@@ -1595,7 +1650,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4129;
+		rLoc = 4459;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 2316;
@@ -1615,7 +1670,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4789;
+		rLoc = 5119;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 2713;
@@ -2055,7 +2110,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonEditDown:";
 		rLen = 0;
-		rLoc = 4789;
+		rLoc = 5119;
 		rType = 0;
 		vrLen = 1589;
 		vrLoc = 0;
@@ -2435,7 +2490,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 2881;
+		rLoc = 3211;
 		rType = 0;
 		vrLen = 1568;
 		vrLoc = 0;
@@ -2464,8 +2519,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewWillAppear:";
-		rLen = 108;
-		rLoc = 946;
+		rLen = 169;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -2495,7 +2550,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 4861;
+		rLoc = 5191;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 2950;
@@ -2524,8 +2579,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewWillAppear:";
-		rLen = 108;
-		rLoc = 946;
+		rLen = 169;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -2554,8 +2609,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewWillAppear:";
-		rLen = 108;
-		rLoc = 946;
+		rLen = 169;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 0;
@@ -2605,7 +2660,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 4861;
+		rLoc = 5191;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 391;
@@ -2624,8 +2679,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "initWithNibName:@\"CreateLotsController\" bundle:";
-		rLen = 47;
-		rLoc = 5465;
+		rLen = 0;
+		rLoc = 6214;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3125;
@@ -2694,8 +2749,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewWillAppear:";
-		rLen = 108;
-		rLoc = 946;
+		rLen = 169;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 149;
@@ -2725,7 +2780,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = segControlGroup1.selectedSegmentIndex;
 		rLen = 37;
-		rLoc = 4092;
+		rLoc = 4422;
 		rType = 0;
 		vrLen = 873;
 		vrLoc = 3384;
@@ -2745,7 +2800,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: 176";
 		rLen = 0;
-		rLoc = 10375;
+		rLoc = 10705;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 4250;
@@ -2765,7 +2820,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 10372;
+		rLoc = 10702;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 3877;
@@ -2785,7 +2840,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 10375;
+		rLoc = 10705;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 4251;
@@ -2805,7 +2860,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9396;
+		rLoc = 9726;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 4250;
@@ -2825,7 +2880,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9032;
+		rLoc = 9362;
 		rType = 0;
 		vrLen = 902;
 		vrLoc = 4248;
@@ -2845,7 +2900,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 10375;
+		rLoc = 10705;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 4038;
@@ -2885,7 +2940,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "UIColor *color";
 		rLen = 0;
-		rLoc = 9230;
+		rLoc = 9560;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 4461;
@@ -2925,7 +2980,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8325;
+		rLoc = 8655;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 3846;
@@ -2945,7 +3000,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 6159;
+		rLoc = 6489;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 3846;
@@ -2965,7 +3020,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5641;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 4266;
@@ -2985,7 +3040,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7143;
+		rLoc = 7473;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 5275;
@@ -3039,7 +3094,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7376;
+		rLoc = 7706;
 		rType = 0;
 		vrLen = 1786;
 		vrLoc = 0;
@@ -3379,7 +3434,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3990;
+		rLoc = 4320;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 998;
@@ -3469,7 +3524,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: dealloc";
 		rLen = 0;
-		rLoc = 3990;
+		rLoc = 4320;
 		rType = 0;
 		vrLen = 1862;
 		vrLoc = 151;
@@ -3589,7 +3644,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9688;
+		rLoc = 10018;
 		rType = 0;
 		vrLen = 1793;
 		vrLoc = 30;
@@ -3659,7 +3714,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9864;
+		rLoc = 10194;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 0;
@@ -3739,7 +3794,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8324;
+		rLoc = 8654;
 		rType = 0;
 		vrLen = 1388;
 		vrLoc = 6571;
@@ -3778,8 +3833,8 @@
 		isa = PBXTextBookmark;
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewWillAppear:";
-		rLen = 108;
-		rLoc = 946;
+		rLen = 169;
+		rLoc = 885;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 2252;
@@ -3819,7 +3874,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8251;
+		rLoc = 8581;
 		rType = 0;
 		vrLen = 1656;
 		vrLoc = 6286;
@@ -3839,7 +3894,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8251;
+		rLoc = 8581;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 6629;
@@ -3859,7 +3914,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8209;
+		rLoc = 8539;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 6616;
@@ -3879,7 +3934,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8321;
+		rLoc = 8651;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 6616;
@@ -3909,7 +3964,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8321;
+		rLoc = 8651;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 6616;
@@ -3929,7 +3984,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8321;
+		rLoc = 8651;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 2655;
@@ -3979,7 +4034,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7566;
+		rLoc = 7896;
 		rType = 0;
 		vrLen = 1577;
 		vrLoc = 7139;
@@ -3999,7 +4054,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7659;
+		rLoc = 7989;
 		rType = 0;
 		vrLen = 1686;
 		vrLoc = 6701;
@@ -4019,7 +4074,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7786;
+		rLoc = 8116;
 		rType = 0;
 		vrLen = 1458;
 		vrLoc = 6923;
@@ -4049,7 +4104,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7824;
+		rLoc = 8154;
 		rType = 0;
 		vrLen = 1423;
 		vrLoc = 7380;
@@ -4079,7 +4134,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7824;
+		rLoc = 8154;
 		rType = 0;
 		vrLen = 1371;
 		vrLoc = 7506;
@@ -4139,7 +4194,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 941;
+		rLoc = 880;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 0;
@@ -4179,7 +4234,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "[appDelegate.lotsData addObject:lotsData];";
 		rLen = 42;
-		rLoc = 8255;
+		rLoc = 8585;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 7484;
@@ -4189,7 +4244,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 620;
+		rLoc = 559;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 0;
@@ -4219,7 +4274,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "appDelegate = [UIApplication sharedApplication].delegate;";
 		rLen = 57;
-		rLoc = 8195;
+		rLoc = 8525;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 7543;
@@ -4229,7 +4284,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: dealloc";
 		rLen = 0;
-		rLoc = 7092;
+		rLoc = 7692;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 4150;
@@ -4279,7 +4334,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "appDelegate = [UIApplication sharedApplication].delegate;";
 		rLen = 57;
-		rLoc = 8195;
+		rLoc = 8525;
 		rType = 0;
 		vrLen = 1719;
 		vrLoc = 0;
@@ -4299,7 +4354,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "appDelegate = [UIApplication sharedApplication].delegate;";
 		rLen = 57;
-		rLoc = 8195;
+		rLoc = 8525;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 7461;
@@ -4319,7 +4374,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1297;
 		vrLoc = 7506;
@@ -4339,7 +4394,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4359,7 +4414,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4429,7 +4484,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1371;
 		vrLoc = 7380;
@@ -4449,7 +4504,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4489,7 +4544,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8298;
+		rLoc = 8628;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4509,7 +4564,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 7525;
@@ -4529,7 +4584,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1575;
 		vrLoc = 7125;
@@ -4549,7 +4604,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 7461;
@@ -4589,7 +4644,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4619,7 +4674,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1371;
 		vrLoc = 7543;
@@ -4649,7 +4704,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 4244;
@@ -4679,7 +4734,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1583;
 		vrLoc = 7168;
@@ -4709,7 +4764,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 6958;
@@ -4749,7 +4804,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4829,7 +4884,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4849,7 +4904,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -4879,7 +4934,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7519;
@@ -4899,7 +4954,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 7525;
@@ -4919,7 +4974,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7519;
@@ -4939,7 +4994,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 7168;
@@ -4969,7 +5024,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7519;
@@ -4989,7 +5044,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 6958;
@@ -5019,7 +5074,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 7484;
@@ -5059,7 +5114,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1352;
 		vrLoc = 7525;
@@ -5079,7 +5134,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -5119,7 +5174,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7519;
@@ -5139,7 +5194,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -5169,7 +5224,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7519;
@@ -5189,7 +5244,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1410;
 		vrLoc = 6958;
@@ -5269,7 +5324,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1356;
 		vrLoc = 7525;
@@ -5289,7 +5344,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1354;
 		vrLoc = 7525;
@@ -5309,7 +5364,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1412;
 		vrLoc = 6958;
@@ -5339,7 +5394,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 7519;
@@ -5359,7 +5414,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1412;
 		vrLoc = 6958;
@@ -5379,7 +5434,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: 212";
 		rLen = 0;
-		rLoc = 6156;
+		rLoc = 6756;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 3050;
@@ -5399,7 +5454,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 7519;
@@ -5419,7 +5474,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 7484;
@@ -5439,7 +5494,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 7519;
@@ -5479,7 +5534,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7762;
+		rLoc = 8092;
 		rType = 0;
 		vrLen = 1398;
 		vrLoc = 7536;
@@ -5499,7 +5554,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 7097;
@@ -5519,7 +5574,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 6958;
@@ -5559,7 +5614,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 7519;
@@ -5579,7 +5634,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 7703;
@@ -5619,7 +5674,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1344;
 		vrLoc = 7519;
@@ -5639,7 +5694,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1433;
 		vrLoc = 6958;
@@ -5679,7 +5734,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 7519;
@@ -5699,7 +5754,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 7525;
@@ -5719,7 +5774,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -5739,7 +5794,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 7484;
@@ -5759,7 +5814,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -5779,7 +5834,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -5799,7 +5854,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -5819,7 +5874,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -5839,7 +5894,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -5859,7 +5914,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -5909,7 +5964,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -5929,7 +5984,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6059,7 +6114,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: dealloc";
 		rLen = 0;
-		rLoc = 7068;
+		rLoc = 7668;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 5965;
@@ -6069,7 +6124,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6089,7 +6144,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6109,7 +6164,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6129,27 +6184,10 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
-	};
-	F12E0B560FDC20E9006F06CD /* RootViewController.m:236 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		functionName = "-dealloc";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 236;
-		location = PickOneForMe;
-		modificationTime = 266090744.387687;
-		state = 1;
 	};
 	F12E0B5A0FDC20ED006F06CD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -6166,7 +6204,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6186,7 +6224,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6206,7 +6244,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6226,7 +6264,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6236,7 +6274,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 685;
+		rLoc = 624;
 		rType = 0;
 		vrLen = 1053;
 		vrLoc = 0;
@@ -6246,7 +6284,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6266,7 +6304,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6286,7 +6324,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6306,7 +6344,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8253;
+		rLoc = 8583;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 6958;
@@ -6336,7 +6374,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 7543;
+		rLoc = 7873;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 7519;
@@ -6486,7 +6524,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9864;
+		rLoc = 10194;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 9295;
@@ -6507,7 +6545,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: segControlGroupValueChanged:";
 		rLen = 0;
-		rLoc = 9864;
+		rLoc = 10194;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 9295;
@@ -6550,7 +6588,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: 245";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 7174;
@@ -6560,7 +6598,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 7174;
@@ -6577,7 +6615,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1598;
 		vrLoc = 7174;
@@ -6657,7 +6695,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 7125;
@@ -6677,7 +6715,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 7125;
@@ -6747,10 +6785,310 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: buttonStartDown:";
 		rLen = 0;
-		rLoc = 8302;
+		rLoc = 8632;
 		rType = 0;
 		vrLen = 1196;
 		vrLoc = 9295;
+	};
+	F15776B00FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 343;
+	};
+	F15776B10FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1134;
+	};
+	F15776B20FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6035;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 5015;
+	};
+	F15776B30FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 9295;
+	};
+	F15776B40FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 343;
+	};
+	F15776B50FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 1610;
+		vrLoc = 1023;
+	};
+	F15776B60FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6035;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 5015;
+	};
+	F15776B70FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 1134;
+	};
+	F15776B80FDC3BB900A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6196;
+		rType = 0;
+		vrLen = 987;
+		vrLoc = 5133;
+	};
+	F15776BB0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: tableView:cellForRowAtIndexPath:";
+		rLen = 96;
+		rLoc = 8568;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 329;
+	};
+	F15776BC0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */;
+		name = "CreateNumberLotsController.m: 31";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 1521;
+	};
+	F15776BD0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */;
+		name = "CreateStringLotsController.m: stringArray";
+		rLen = 0;
+		rLoc = 2273;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 1703;
+	};
+	F15776BE0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = self.editButtonItem;";
+		rLen = 61;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	F15776BF0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 0;
+	};
+	F15776C00FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */;
+		name = "UIKeepRatioImageView.m: 61";
+		rLen = 0;
+		rLoc = 1558;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 148;
+	};
+	F15776C10FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3175;
+	};
+	F15776C20FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6196;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 3;
+	};
+	F15776C30FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 343;
+	};
+	F15776C40FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6196;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 2206;
+	};
+	F15776C50FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: tableView:cellForRowAtIndexPath:";
+		rLen = 96;
+		rLoc = 8568;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 329;
+	};
+	F15776C60FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */;
+		name = "UIKeepRatioImageView.m: 61";
+		rLen = 0;
+		rLoc = 1558;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 148;
+	};
+	F15776C70FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonStartDown:";
+		rLen = 0;
+		rLoc = 8632;
+		rType = 0;
+		vrLen = 769;
+		vrLoc = 3175;
+	};
+	F15776C80FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */;
+		name = "CreateNumberLotsController.m: 31";
+		rLen = 0;
+		rLoc = 873;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 1521;
+	};
+	F15776C90FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E062D0FDBD2F2006F06CD /* CreateStringLotsController.m */;
+		name = "CreateStringLotsController.m: stringArray";
+		rLen = 0;
+		rLoc = 2273;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 1703;
+	};
+	F15776CA0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = self.editButtonItem;";
+		rLen = 61;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 1056;
+		vrLoc = 0;
+	};
+	F15776CB0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 0;
+	};
+	F15776CC0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */;
+		name = "UIKeepRatioImageView.m: 61";
+		rLen = 0;
+		rLoc = 1558;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 148;
+	};
+	F15776CD0FDC3C8F00A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3211;
+		rType = 0;
+		vrLen = 1332;
+		vrLoc = 1858;
+	};
+	F15776D40FDC3CA300A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3211;
+		rType = 0;
+		vrLen = 1332;
+		vrLoc = 1858;
+	};
+	F15776D70FDC3CC800A6B4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2794;
+		rType = 0;
+		vrLen = 1342;
+		vrLoc = 1623;
 	};
 	F177111C0FDB63A9009B3560 /* UIKeepRatioImageView.h */ = {
 		uiCtxt = {
@@ -6763,7 +7101,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 980}}";
 			sepNavSelRange = "{1558, 0}";
-			sepNavVisRect = "{{0, 287}, {1185, 539}}";
+			sepNavVisRect = "{{0, 0}, {1185, 539}}";
 		};
 	};
 	F17711270FDB64F0009B3560 /* PBXTextBookmark */ = {
@@ -6788,16 +7126,16 @@
 	};
 	F17712830FDBA427009B3560 /* CreateLotsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 938}}";
-			sepNavSelRange = "{1117, 0}";
-			sepNavVisRect = "{{0, 389}, {1185, 539}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 952}}";
+			sepNavSelRange = "{2047, 39}";
+			sepNavVisRect = "{{0, 399}, {1185, 539}}";
 		};
 	};
 	F17712840FDBA427009B3560 /* CreateLotsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1436, 4508}}";
-			sepNavSelRange = "{8302, 0}";
-			sepNavVisRect = "{{0, 3969}, {1185, 539}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1436, 4620}}";
+			sepNavSelRange = "{2690, 0}";
+			sepNavVisRect = "{{0, 357}, {1185, 539}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
 	};
@@ -6806,7 +7144,7 @@
 		fRef = F17712830FDBA427009B3560 /* CreateLotsController.h */;
 		name = "CreateLotsController.h: 17";
 		rLen = 0;
-		rLoc = 2053;
+		rLoc = 2092;
 		rType = 0;
 		vrLen = 240;
 		vrLoc = 0;
@@ -6822,14 +7160,20 @@
 	F1C47B750FDC2821007A6B05 /* zh_TW */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 539}}";
-			sepNavSelRange = "{29, 0}";
+			sepNavSelRange = "{27, 0}";
 			sepNavVisRect = "{{0, 0}, {1185, 539}}";
 		};
 	};
 	F1C47B770FDC2821007A6B05 /* zh_TW */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.plist.strings;
+		name = zh_TW;
+		path = /Users/Glen/iPhoneDev/Projects/PickOneForMe/Locales/zh_TW.lproj/Localizable.strings;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 516}}";
-			sepNavSelRange = "{47, 0}";
+			sepNavSelRange = "{211, 0}";
 			sepNavVisRect = "{{0, 0}, {1185, 516}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
@@ -6847,9 +7191,269 @@
 		fRef = F1C47B770FDC2821007A6B05 /* zh_TW */;
 		name = "zh_TW: 1";
 		rLen = 0;
-		rLoc = 51;
+		rLoc = 211;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
+	};
+	F1CDB0CB0FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712830FDBA427009B3560 /* CreateLotsController.h */;
+		name = "- (void) backBarButtonDown:(id)sender;";
+		rLen = 39;
+		rLoc = 2047;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 761;
+	};
+	F1CDB0CC0FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3108;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 2275;
+	};
+	F1CDB0CD0FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = self.editButtonItem;";
+		rLen = 61;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	F1CDB0CE0FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3171;
+		rType = 0;
+		vrLen = 1462;
+		vrLoc = 1922;
+	};
+	F1CDB0CF0FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712830FDBA427009B3560 /* CreateLotsController.h */;
+		name = "- (void) backBarButtonDown:(id)sender;";
+		rLen = 39;
+		rLoc = 2047;
+		rType = 0;
+		vrLen = 1331;
+		vrLoc = 761;
+	};
+	F1CDB0D00FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3108;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 2275;
+	};
+	F1CDB0D10FDC3F120056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = pushViewController;
+		rLen = 18;
+		rLoc = 6067;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 5248;
+	};
+	F1CDB0E20FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 5986;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 5248;
+	};
+	F1CDB0E30FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 932;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 0;
+	};
+	F1CDB0E40FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 1719;
+	};
+	F1CDB0E50FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 5986;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 5248;
+	};
+	F1CDB0E60FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 932;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 35;
+	};
+	F1CDB0E70FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 3108;
+		rType = 0;
+		vrLen = 1792;
+		vrLoc = 0;
+	};
+	F1CDB0E80FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 932;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 35;
+	};
+	F1CDB0E90FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2790;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 1719;
+	};
+	F1CDB0EA0FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: viewDidLoad";
+		rLen = 0;
+		rLoc = 932;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 0;
+	};
+	F1CDB0EB0FDC3FAF0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 1922;
+	};
+	F1CDB0EE0FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 1585;
+		vrLoc = 1922;
+	};
+	F1CDB0EF0FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 343;
+	};
+	F1CDB0F00FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */;
+		name = PickOneForMeAppDelegate;
+		rLen = 23;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	F1CDB0F10FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 5986;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 5247;
+	};
+	F1CDB0F20FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2690;
+		rType = 0;
+		vrLen = 1585;
+		vrLoc = 1922;
+	};
+	F1CDB0F30FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 5986;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 5247;
+	};
+	F1CDB0F40FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: lotsData";
+		rLen = 0;
+		rLoc = 1076;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 343;
+	};
+	F1CDB0F50FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */;
+		name = PickOneForMeAppDelegate;
+		rLen = 23;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	F1CDB0F60FDC3FDC0056A42D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6166;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 5246;
 	};
 }

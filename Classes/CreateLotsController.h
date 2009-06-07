@@ -62,5 +62,6 @@
 - (void) buttonStartDown:(id)sender;
 - (void) segControlNumberValueChanged:(id)sender;
 - (void) segControlGroupValueChanged:(id)sender;
+- (void) backBarButtonDown:(id)sender;
 
 @end
