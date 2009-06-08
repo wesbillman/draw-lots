@@ -88,6 +88,15 @@
 			[alert release];
 			return YES;
 		}
+		if(number > 1000)
+		{
+			textFieldRange.text = [NSString stringWithFormat:@"%d", range];
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Error", @"Error") message: NSLocalizedString(@"Range must smaller than 1000.", @"Range must smaller than 1000.")
+														   delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+			[alert show];    
+			[alert release];
+			return YES;
+		}
 		range.length = number;
 	}
 	

@@ -26,6 +26,7 @@
 	
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
+	srand(time(0));
 }
 
 

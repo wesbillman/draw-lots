@@ -23,6 +23,9 @@
 	NSRange			numberLots2;
 	NSMutableArray	*stringLots1;
 	NSMutableArray	*stringLots2;
+	
+	BOOL			repeatableLots1;
+	BOOL			repeatableLots2;
 }
 
 @property (nonatomic, assign) NSInteger			numberOfGroup;
@@ -37,6 +40,9 @@
 @property (nonatomic, assign) NSRange			numberLots2;
 @property (nonatomic, retain) NSMutableArray	*stringLots1;
 @property (nonatomic, retain) NSMutableArray	*stringLots2;
+
+@property (nonatomic, assign) BOOL			repeatableLots1;
+@property (nonatomic, assign) BOOL			repeatableLots2;
 
 - (id) initWithNumberofGroup:(NSInteger) nfg
 					lotsName:(NSString*) name

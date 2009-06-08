@@ -14,12 +14,27 @@
 	IBOutlet UIView				*lotsView;
 	IBOutlet UIView				*lastResultView;
 	IBOutlet UISwitch			*repeatableSwitch;
-	IBOutlet UILabel			*lastResultLabel;
+	IBOutlet UITextField		*lastResultLabel;
 	IBOutlet UIBarButtonItem	*barButtonStart;
+	IBOutlet UITextField		*lotsLabel;
+	IBOutlet UITextField		*remainderLotsLabel;
+	
+	NSTimer						*updateTimer;
+	NSMutableArray				*currentLots;
+	NSMutableArray				*resultLots;	
+	NSMutableArray				*lastFewLotsForAnamation;
+	int							lastRandomValue;
 }
 
 @property (nonatomic, retain) LotsData *lotsData;
+@property (nonatomic, retain) NSMutableArray *currentLots;
+@property (nonatomic, retain) NSMutableArray *resultLots;
 
 - (void) startBarButtonDown:(id)sender;
 - (void) editBarButtonDown:(id)sender;
+
+- (void) stopUpdateTimer;
+- (void) startUpdateTimer;
+- (void) repeatableSwitchValueChanged:(id)sender;
+
 @end

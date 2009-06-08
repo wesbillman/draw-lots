@@ -11,6 +11,7 @@
 
 @implementation LotsData
 @synthesize numberOfGroup, lotsName, lotsDate, group1Type, group2Type, photoLots1, photoLots2, numberLots1, numberLots2, stringLots1, stringLots2;
+@synthesize repeatableLots1, repeatableLots2;
 
 - (id) initWithNumberofGroup:(NSInteger) nfg
 					lotsName:(NSString*) name
@@ -37,6 +38,7 @@
 		self.numberLots2 = nLots2;
 		self.stringLots1 = sLots1;
 		self.stringLots2 = sLots2;
+		self.repeatableLots1 = self.repeatableLots2 = YES;
 	}
 	return self;
 }
