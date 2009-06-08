@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="56"/>
+			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -64,7 +64,7 @@
 					<object class="IBUIView" id="322065389">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrameSize">{320, 180}</string>
+						<string key="NSFrame">{{0, 92}, {320, 180}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -78,7 +78,7 @@
 					<object class="IBUIView" id="686867314">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{70, 0}, {180, 180}}</string>
+						<string key="NSFrame">{{70, 92}, {180, 180}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -90,7 +90,7 @@
 					<object class="IBUITextField" id="275249321">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{0, 40}, {320, 100}}</string>
+						<string key="NSFrame">{{0, 132}, {320, 100}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -115,8 +115,8 @@
 					</object>
 					<object class="IBUIActivityIndicatorView" id="978306932">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{141, 71}, {37, 37}}</string>
+						<int key="NSvFlags">-2147483392</int>
+						<string key="NSFrame">{{141, 163}, {37, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -126,13 +126,13 @@
 					</object>
 					<object class="IBUIView" id="588274652">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">256</int>
 						<object class="NSMutableArray" key="NSSubviews">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBUIView" id="823735249">
 								<reference key="NSNextResponder" ref="588274652"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{1, 1}, {318, 8}}</string>
+								<string key="NSFrame">{{1, 1}, {318, 4}}</string>
 								<reference key="NSSuperview" ref="588274652"/>
 								<object class="NSColor" key="IBUIBackgroundColor">
 									<int key="NSColorSpace">1</int>
@@ -141,7 +141,7 @@
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 							</object>
 						</object>
-						<string key="NSFrame">{{0, 180}, {320, 10}}</string>
+						<string key="NSFrame">{{0, 271}, {320, 6}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
