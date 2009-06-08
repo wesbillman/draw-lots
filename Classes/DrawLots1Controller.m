@@ -83,6 +83,7 @@
 			[self.currentLots addObjectsFromArray:lotsData.stringLots1];
 			break;
 	}
+	currentLotsOriginalCount= self.currentLots.count;
 }
 
 - (void) resetLots
@@ -110,17 +111,23 @@
 			[self.currentLots addObjectsFromArray:lotsData.stringLots1];
 			break;
 	}
+	currentLotsOriginalCount= self.currentLots.count;
+
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
 	lotsLabel.font = [UIFont systemFontOfSize:20];
-	remainderLotsLabel.text = [NSString stringWithFormat:@"%d", self.currentLots.count];
+	CGRect newFrame = remainderBar.frame;
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	remainderBar.frame = newFrame;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	self.title = self.lotsData.lotsName;
-	remainderLotsLabel.text = [NSString stringWithFormat:@"%d", self.currentLots.count];
-
+	CGRect newFrame = remainderBar.frame;
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	remainderBar.frame = newFrame;
+	
 	barButtonStart.enabled = YES;
 	lotsLabel.hidden = NO;
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
@@ -155,7 +162,10 @@
 	[lotsView release];
 	[barButtonStart release];
 	[lotsLabel release];
+	[indicatorView release];
 	
+	[remainderBar release];
+	[remainderBarBase release];
 	[self stopUpdateTimer];
 	[currentLots release];
 	[lastFewLotsForAnamation release];
@@ -215,6 +225,8 @@
 		}
 		barButtonStart.title = NSLocalizedString(@"Stop", @"Stop");
 		barButtonStart.enabled = YES;
+		indicatorView.hidden = NO;
+		[indicatorView startAnimating];
 		[self startUpdateTimer];
 	}
 	else
@@ -243,7 +255,9 @@
 	{
 		[self.currentLots removeObjectAtIndex:index];
 	}
-	remainderLotsLabel.text = [NSString stringWithFormat:@"%d", self.currentLots.count];
+	CGRect newFrame = remainderBar.frame;
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	remainderBar.frame = newFrame;
 	if(self.currentLots.count == 0)
 	{
 		barButtonStart.title = NSLocalizedString(@"Reset", @"Reset");
@@ -253,6 +267,8 @@
 		barButtonStart.title = NSLocalizedString(@"Start", @"Start");
 	}
 	barButtonStart.enabled = YES;
+	[indicatorView stopAnimating];
+	indicatorView.hidden = YES;
 }
 
 - (void)timerFunc:(NSTimer *)timer 
@@ -278,10 +294,11 @@
 					[[lotsView.subviews objectAtIndex:i] removeFromSuperview];
 				}
 			}
-			UIKeepRatioImageView *cur = [currentLots objectAtIndex:randValue];
-			NSLog(@"1: image %d\n", randValue);
+			UIImage *img = [currentLots objectAtIndex:randValue];
+			UIKeepRatioImageView *cur = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:img];
 			cur.frame = lotsView.bounds;
 			[lotsView addSubview:cur];
+			[cur release];
 		}
 			break;
 		case 1:
@@ -299,7 +316,6 @@
 		{
 			[self stopUpdateTimer];
 			[self lotGenerated:randValue];
-			NSLog(@"2: image %d\n", randValue);
 		}
 	}
 }

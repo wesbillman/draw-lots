@@ -15,13 +15,16 @@
 	IBOutlet UISwitch			*repeatableSwitch;
 	IBOutlet UIBarButtonItem	*barButtonStart;
 	IBOutlet UITextField		*lotsLabel;
-	IBOutlet UITextField		*remainderLotsLabel;
+	IBOutlet UIView				*remainderBar;
+	IBOutlet UIView				*remainderBarBase;
+	IBOutlet UIActivityIndicatorView *indicatorView;
 	
 	NSTimer						*updateTimer;
 	NSMutableArray				*currentLots;
 	NSMutableArray				*resultLots;	
 	NSMutableArray				*lastFewLotsForAnamation;
 	int							lastRandomValue;
+	float						currentLotsOriginalCount;
 }
 
 @property (nonatomic, retain) LotsData *lotsData;

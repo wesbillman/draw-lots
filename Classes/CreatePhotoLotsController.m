@@ -140,12 +140,59 @@
 }
 #endif
 
+- (UIImage *) createResizeImage:(UIImage*) srcImage
+{
+#if 0
+	NSData *sourceData = nil;
+	float resizeWidth = 13.0;
+	float resizeHeight = 13.0;
+	
+	NSImage *sourceImage = [[NSImage alloc] initWithData: sourceData];
+	NSImage *resizedImage = [[NSImage alloc] initWithSize: NSMakeSize(resizeWidth, resizeHeight)];
+	
+	NSSize originalSize = [sourceImage size];
+	
+	[resizedImage lockFocus];
+	[sourceImage drawInRect: NSMakeRect(0, 0, resizeWidth, resizeHeight) fromRect: NSMakeRect(0, 0, originalSize.width, originalSize.height) operation: NSCompositeSourceOver fraction: 1.0];
+	[resizedImage unlockFocus];
+	
+	NSData *resizedData = [resizedImage TIFFRepresentation];
+	
+	[sourceImage release];
+	[resizedImage release];
+
+#else
+#define IMAGE_WIDTH_WANT 180
+#define IMAGE_HEIGHT_WANT 180
+	
+	CGSize newSize;
+	float xRatio = srcImage.size.width / IMAGE_WIDTH_WANT;
+	float yRatio = srcImage.size.height / IMAGE_HEIGHT_WANT;
+	if(xRatio >= yRatio)
+	{
+		newSize.width = IMAGE_WIDTH_WANT;
+		newSize.height = srcImage.size.height / xRatio;
+	}
+	else
+	{
+		newSize.width = srcImage.size.width / yRatio;;
+		newSize.height = IMAGE_HEIGHT_WANT;
+	}
+	UIGraphicsBeginImageContext( newSize );// a CGSize that has the size you want
+	[srcImage drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
+	//srcImage is the original UIImage
+	UIImage* newImage = [UIGraphicsGetImageFromCurrentImageContext() retain];
+	UIGraphicsEndImageContext();
+	
+	return newImage;
+#endif
+}
+
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-	UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-	UIKeepRatioImageView *view = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:image];
-
-	[self.imageArray addObject:view];	
+	UIImage *image = [self createResizeImage:[info objectForKey:UIImagePickerControllerOriginalImage]];
+	[self.imageArray addObject:image];	
+	[image release];
 	if(picker.sourceType != UIImagePickerControllerSourceTypeCamera)
 	{
 		[self.imageAddedAlert show];    
@@ -246,14 +293,23 @@
 				cell.selectionStyle = UITableViewCellSelectionStyleNone;
 			}
 			int i;
-			int width = tableView.bounds.size.width;
+			for(int i=0;i<cell.subviews.count;++i)
+			{
+				if([[cell.subviews objectAtIndex:i] isKindOfClass:[UIKeepRatioImageView class]])
+				{
+					[[cell.subviews objectAtIndex:i] removeFromSuperview];
+				}
+			}
+				int width = tableView.bounds.size.width;
 			int imageWidth = (width - (IMAGE_PER_ROW + 1) * IMAGE_GAP_PIXEL) / IMAGE_PER_ROW;
 			for(i=0; i < IMAGE_PER_ROW; ++i)
 			{
 				if((i + IMAGE_PER_ROW * indexPath.row) >= self.imageArray.count)
 					break;
-				UIImageView *curView = [self.imageArray objectAtIndex:(i + IMAGE_PER_ROW * indexPath.row)];
-				[curView removeFromSuperview];
+
+				UIImage *img = [self.imageArray objectAtIndex:(i + IMAGE_PER_ROW * indexPath.row)];
+				UIKeepRatioImageView *curView = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:img];
+				
 				CGRect rect;
 				rect.size.width = imageWidth;
 				rect.size.height = IMAGE_HEIGHT_PIXEL;
@@ -261,6 +317,7 @@
 				rect.origin.y = IMAGE_GAP_PIXEL/2;
 				curView.frame = rect;
 				[cell addSubview:curView];
+				[curView release];
 			}
 			return cell;
 		break;

@@ -249,6 +249,8 @@
 											   numberLots2:numberLots2.range 
 											   stringLots1:stringLots1.stringArray
 											   stringLots2:stringLots2.stringArray];
+		lotsData.repeatableLots1 = repeatableSwitch1.on;
+		lotsData.repeatableLots2 = repeatableSwitch2.on;
 		PickOneForMeAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
 		[appDelegate.lotsData addObject:lotsData];
 		//[lotsData release];
