@@ -67,8 +67,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	defaultLableTextColor = labelDetail1.textColor;
-//	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Back", @"Back")
-//																			 style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonDown:)];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Save", @"Save")
+																			  style:UIBarButtonItemStyleDone target:self action:@selector(buttonSaveDown:)];
 }
 
 
@@ -103,11 +103,14 @@
 	[labelDetail1 release];
 	[segControlGroup1 release];
 	[buttonEdit1 release];
+	[repeatableSwitch1 release];
 
 	[labelGroup2 release];
 	[labelDetail2 release];
 	[segControlGroup2 release];
 	[buttonEdit2 release];
+	[repeatableSwitchLabel2 release];
+	[repeatableSwitch2 release];
 	
 	[buttonStart release];
 	
@@ -155,6 +158,11 @@
 				break;
 		}
 	}
+}
+
+- (void) buttonCancelDown:(id)sender
+{
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void) buttonSaveDown:(id)sender
@@ -261,7 +269,7 @@
 		lotsData.stringLots1 = stringLots1.stringArray;
 		lotsData.stringLots2 = stringLots2.stringArray;
 	}
-	[self.navigationController popToRootViewControllerAnimated:YES];
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void) segControlNumberValueChanged:(id)sender
@@ -270,6 +278,8 @@
 	labelDetail2.hidden = (segControlNumber.selectedSegmentIndex == 0);
 	segControlGroup2.hidden = (segControlNumber.selectedSegmentIndex == 0);
 	buttonEdit2.hidden = (segControlNumber.selectedSegmentIndex == 0);
+	repeatableSwitchLabel2.hidden = (segControlNumber.selectedSegmentIndex == 0);
+	repeatableSwitch2.hidden = (segControlNumber.selectedSegmentIndex == 0);
 }
 
 - (void) segControlGroupValueChanged:(id)sender
@@ -335,9 +345,16 @@
 	return YES;
 }
 
-- (void) backBarButtonDown:(id)sender
+
+- (void) repeatableSwitchValueChanged:(id)sender
 {
-	[self.navigationController popViewControllerAnimated:YES];
+	if(lotsData != nil)
+	{
+		if(sender == repeatableSwitch1)
+			self.lotsData.repeatableLots1 = repeatableSwitch1.on;
+		else if(sender == repeatableSwitch2)
+			self.lotsData.repeatableLots2 = repeatableSwitch2.on;
+	}
 }
 
 @end

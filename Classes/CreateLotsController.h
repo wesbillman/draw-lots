@@ -21,11 +21,14 @@
 	IBOutlet UILabel			*labelDetail1;
 	IBOutlet UISegmentedControl	*segControlGroup1;
 	IBOutlet UIButton			*buttonEdit1;
+	IBOutlet UISwitch			*repeatableSwitch1;
 
 	IBOutlet UILabel			*labelGroup2;
 	IBOutlet UILabel			*labelDetail2;
 	IBOutlet UISegmentedControl	*segControlGroup2;
 	IBOutlet UIButton			*buttonEdit2;
+	IBOutlet UILabel			*repeatableSwitchLabel2;
+	IBOutlet UISwitch			*repeatableSwitch2;
 
 	IBOutlet UIButton			*buttonStart;
 	
@@ -60,8 +63,9 @@
 
 - (void) buttonEditDown:(id)sender;
 - (void) buttonSaveDown:(id)sender;
+- (void) buttonCancelDown:(id)sender;
 - (void) segControlNumberValueChanged:(id)sender;
 - (void) segControlGroupValueChanged:(id)sender;
-- (void) backBarButtonDown:(id)sender;
+- (void) repeatableSwitchValueChanged:(id)sender;
 
 @end

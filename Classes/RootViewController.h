@@ -13,4 +13,6 @@
 	NSRange dateRange;
 }
 
+- (void) newBarButtonDown:(id)sender;
+
 @end

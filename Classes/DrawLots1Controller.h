@@ -12,9 +12,7 @@
 @interface DrawLots1Controller : UIViewController {
 	LotsData					*lotsData;
 	IBOutlet UIView				*lotsView;
-	IBOutlet UIView				*lastResultView;
 	IBOutlet UISwitch			*repeatableSwitch;
-	IBOutlet UITextField		*lastResultLabel;
 	IBOutlet UIBarButtonItem	*barButtonStart;
 	IBOutlet UITextField		*lotsLabel;
 	IBOutlet UITextField		*remainderLotsLabel;
@@ -35,6 +33,5 @@
 
 - (void) stopUpdateTimer;
 - (void) startUpdateTimer;
-- (void) repeatableSwitchValueChanged:(id)sender;
 
 @end

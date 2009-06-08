@@ -60,7 +60,6 @@
 {
 	[lotsData release];
 	lotsData = [newLots retain];
-	repeatableSwitch.on = self.lotsData.repeatableLots1;
 	[self.currentLots removeAllObjects];
 	[self.resultLots removeAllObjects];
 	switch(lotsData.group1Type)
@@ -111,7 +110,6 @@
 			[self.currentLots addObjectsFromArray:lotsData.stringLots1];
 			break;
 	}
-	lastResultLabel.text = @"";
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
 	lotsLabel.font = [UIFont systemFontOfSize:20];
@@ -121,7 +119,6 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	self.title = self.lotsData.lotsName;
-	repeatableSwitch.on = self.lotsData.repeatableLots1;
 	remainderLotsLabel.text = [NSString stringWithFormat:@"%d", self.currentLots.count];
 
 	barButtonStart.enabled = YES;
@@ -156,9 +153,6 @@
 	[resultLots release];
 	[lotsData release];
 	[lotsView release];
-	[lastResultView release];
-	[repeatableSwitch release];
-	[lastResultLabel release];
 	[barButtonStart release];
 	[lotsLabel release];
 	
@@ -245,30 +239,7 @@
 	lastFewLotsForAnamation = nil;
 	[array release];
 	[self.resultLots insertObject:[self.currentLots objectAtIndex:index] atIndex: 0];
-	switch(lotsData.group1Type)
-	{
-		case 0:
-		{
-			for(int i=0;i<lastResultView.subviews.count;++i)
-			{
-				if([[lastResultView.subviews objectAtIndex:i] isKindOfClass:[UIKeepRatioImageView class]])
-				{
-					[[lastResultView.subviews objectAtIndex:i] removeFromSuperview];
-				}
-			}
-			UIKeepRatioImageView *cur = [currentLots objectAtIndex:index];
-			cur.frame = lastResultView.bounds;
-			[lastResultView addSubview:cur];
-		}
-			break;
-		case 1:
-		case 2:
-		{
-			lastResultLabel.text = [NSString stringWithFormat:@"%@", [currentLots objectAtIndex:index]];
-		}
-			break;
-	}
-	if(repeatableSwitch.on == NO)
+	if(self.lotsData.repeatableLots1 == NO)
 	{
 		[self.currentLots removeObjectAtIndex:index];
 	}
@@ -349,11 +320,6 @@
 												 selector:@selector(timerFunc:)
 												 userInfo:nil
 												  repeats:YES];
-}
-
-- (void) repeatableSwitchValueChanged:(id)sender
-{
-	self.lotsData.repeatableLots1 = repeatableSwitch.on;
 }
 
 @end

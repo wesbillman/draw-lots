@@ -21,6 +21,10 @@
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Share", @"Share")
+																			  style:UIBarButtonItemStylePlain target:self action:@selector(newBarButtonDown:)];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"New", @"New")
+																			  style:UIBarButtonItemStylePlain target:self action:@selector(newBarButtonDown:)];
 	appDelegate = [UIApplication sharedApplication].delegate;
 
 	lotsTitleArray = [[NSMutableArray arrayWithCapacity:3] retain];
@@ -79,148 +83,77 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 1;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	switch(section)
-	{
-		case 0:
-			return 2;
-		case 1:
-			return appDelegate.lotsData.count;
-	}
-	return 0;
+	return appDelegate.lotsData.count;
 }
 
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    switch(indexPath.section)
+	int idx = indexPath.row;
+	LotsData *data = [appDelegate.lotsData objectAtIndex:idx];
+	if(data)
 	{
-		case 0:
-		{
-			switch(indexPath.row)
-			{
-				case 0:
-				{
-					static NSString *CellIdentifier = @"CreateNewLotsCell";
-					UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-					if (cell == nil) {
-						cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-					}
-					cell.textLabel.text = NSLocalizedString(@"Create New Lots", @"Create New Lots");
-					cell.textLabel.textAlignment = UITextAlignmentCenter;
-					return cell;
-				}
-
-				case 1:
-				{
-					static NSString *CellIdentifier = @"ShareMyPhotosCell";
-					UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-					if (cell == nil) {
-						cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-					}
-					cell.textLabel.text = NSLocalizedString(@"Share My Photos", @"Share My Photos");
-					cell.textLabel.textAlignment = UITextAlignmentCenter;
-					cell.detailTextLabel.text = NSLocalizedString(@"Share My Photos to Another Device.", @"Share My Photos to Another Device.");
-					cell.detailTextLabel.textAlignment = UITextAlignmentCenter;
-					return cell;
-				}
-			}
-			break;
+		static NSString *CellIdentifier = @"LotsDataCell";
+		UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+		if (cell == nil) {
+			cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+			cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
 		}
-		case 1:
+		if([data.lotsName length] == 0)
+			cell.textLabel.text = NSLocalizedString(@"Untitled Lots", @"Untitled Lots");
+		else
+			cell.textLabel.text = data.lotsName;
+		if(data.numberOfGroup == 1)
 		{
-			int idx = indexPath.row;
-			LotsData *data = [appDelegate.lotsData objectAtIndex:idx];
-			if(data)
-			{
-				static NSString *CellIdentifier = @"LotsDataCell";
-				UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-				if (cell == nil) {
-					cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-					cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
-				}
-				if([data.lotsName length] == 0)
-					cell.textLabel.text = NSLocalizedString(@"Untitled Lots", @"Untitled Lots");
-				else
-					cell.textLabel.text = data.lotsName;
-				if(data.numberOfGroup == 1)
-				{
-					cell.detailTextLabel.text = 
-					[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ Lots)", @"%@ (%@ Lots)"),
-						[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type]];
-				}
-				else
-				{
-					cell.detailTextLabel.text = 
-					[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ and %@ Lots)", @"%@ (%@ and %@ Lots)"),
-						[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type], [lotsTitleArray objectAtIndex:data.group2Type]];
-				}
-				return cell;
-			}
+			cell.detailTextLabel.text = 
+			[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ Lots)", @"%@ (%@ Lots)"),
+				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type]];
 		}
+		else
+		{
+			cell.detailTextLabel.text = 
+			[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ and %@ Lots)", @"%@ (%@ and %@ Lots)"),
+				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type], [lotsTitleArray objectAtIndex:data.group2Type]];
+		}
+		return cell;
 	}
-
-    return nil;
+	return nil;
 }
 
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	switch(section)
-	{
-		case 0:
-			return nil;
-		case 1:
-			return NSLocalizedString(@"Saved lots", @"Saved lots");
-	}
-	return nil;
+	return NSLocalizedString(@"Saved lots", @"Saved lots");
 }
 
 
 
 // Override to support row selection in the table view.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch(indexPath.section)
+	LotsData *data = [appDelegate.lotsData objectAtIndex:indexPath.row];
+	if(data.numberOfGroup == 1)
 	{
-		case 0:
-			if(indexPath.row == 0)
-			{
-				CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
-				self.title = nil;
-				[self.navigationController pushViewController:controller animated:YES];
-				[controller release];
-			}
-			break;
-		case 1:
-			{
-				LotsData *data = [appDelegate.lotsData objectAtIndex:indexPath.row];
-				if(data.numberOfGroup == 1)
-				{
-					DrawLots1Controller *controller = [[DrawLots1Controller alloc] initWithNibName:@"DrawLots1Controller" bundle:nil];
-					controller.lotsData = data;
-					self.title = nil;
-					[self.navigationController pushViewController:controller animated:YES];
-					[controller release];
-				}
-				else
-				{
-					DrawLots2Controller *controller = [[DrawLots2Controller alloc] initWithNibName:@"DrawLots2Controller" bundle:nil];
-					controller.lotsData = data;
-					self.title = nil;
-					[self.navigationController pushViewController:controller animated:YES];
-					[controller release];
-				}
-			}
-			break;
+		DrawLots1Controller *controller = [[DrawLots1Controller alloc] initWithNibName:@"DrawLots1Controller" bundle:nil];
+		controller.lotsData = data;
+		self.title = nil;
+		[self.navigationController pushViewController:controller animated:YES];
+		[controller release];
 	}
-			
+	else
+	{
+		DrawLots2Controller *controller = [[DrawLots2Controller alloc] initWithNibName:@"DrawLots2Controller" bundle:nil];
+		controller.lotsData = data;
+		self.title = nil;
+		[self.navigationController pushViewController:controller animated:YES];
+		[controller release];
+	}
 	[self.tableView deselectRowAtIndexPath:indexPath animated:NO];
-
 }
 
 
@@ -271,6 +204,12 @@
     [super dealloc];
 }
 
+- (void) newBarButtonDown:(id)sender
+{
+	CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
+}
 
 @end
 
