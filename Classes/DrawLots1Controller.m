@@ -12,7 +12,7 @@
 #import "UIKeepRatioImageView.h"
 
 @implementation DrawLots1Controller
-@synthesize lotsData, currentLots, resultLots;
+@synthesize lotsData, resultLots;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -38,15 +38,6 @@
 	//																			 style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonDown:)];
 }
 
-- (NSMutableArray *) currentLots {
-    if (currentLots == nil) {
-        NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:200];
-        self.currentLots = array;
-        [array release];
-    }
-    return currentLots;
-}
-
 - (NSMutableArray *) resultLots {
     if (resultLots == nil) {
         NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:200];
@@ -56,68 +47,75 @@
     return resultLots;
 }
 
+- (LotsRandomSequence *) randomSequence {
+    if (randomSequence == nil) {
+		randomSequence = [[LotsRandomSequence alloc] initWithSize: 10];
+    }
+    return randomSequence;
+}
+
 - (void) setLotsData: (LotsData*) newLots
 {
 	[lotsData release];
 	lotsData = [newLots retain];
-	[self.currentLots removeAllObjects];
 	[self.resultLots removeAllObjects];
 	switch(lotsData.group1Type)
 	{
 		case 0: // photo
 			lotsLabel.hidden = YES;
-			[self.currentLots addObjectsFromArray:lotsData.photoLots1];
+			[randomSequence setSrcArray:lotsData.photoLots1];
 			break;
 		case 1: // number
 		{
 			int i;
 			lotsLabel.hidden = NO;
-			for(i=lotsData.numberLots1.location; i< (lotsData.numberLots1.location+lotsData.numberLots1.length); ++i)
+			NSMutableArray *array = [NSMutableArray arrayWithCapacity: lotsData.numberLots1.length];
+			for(i=lotsData.numberLots1.location; i < (lotsData.numberLots1.location+lotsData.numberLots1.length); ++i)
 			{
-				[self.currentLots addObject: [NSNumber numberWithInt:i]];
+				[array addObject: [NSNumber numberWithInt:i]];
 			}
+			[self.randomSequence setSrcArray:array];
 		}
 			break;
 		case 2: // string
 			lotsLabel.hidden = NO;
-			[self.currentLots addObjectsFromArray:lotsData.stringLots1];
+			[self.randomSequence setSrcArray:lotsData.stringLots1];
 			break;
 	}
-	currentLotsOriginalCount= self.currentLots.count;
 }
 
 - (void) resetLots
 {
-	[self.currentLots removeAllObjects];
 	[self.resultLots removeAllObjects];
 	switch(lotsData.group1Type)
 	{
 		case 0: // photo
 			lotsLabel.hidden = YES;
-			[self.currentLots addObjectsFromArray:lotsData.photoLots1];
+			[self.randomSequence setSrcArray:lotsData.photoLots1];
 			break;
 		case 1: // number
 		{
 			int i;
 			lotsLabel.hidden = NO;
+			NSMutableArray *array = [NSMutableArray arrayWithCapacity: lotsData.numberLots1.length];
 			for(i=lotsData.numberLots1.location; i< (lotsData.numberLots1.location+lotsData.numberLots1.length); ++i)
 			{
-				[self.currentLots addObject: [NSNumber numberWithInt:i]];
+				[array addObject: [NSNumber numberWithInt:i]];
 			}
+			[self.randomSequence setSrcArray:array];
 		}
 			break;
 		case 2: // string
 			lotsLabel.hidden = NO;
-			[self.currentLots addObjectsFromArray:lotsData.stringLots1];
+			[self.randomSequence setSrcArray:lotsData.stringLots1];
 			break;
 	}
-	currentLotsOriginalCount= self.currentLots.count;
 
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
 	lotsLabel.font = [UIFont systemFontOfSize:20];
 	CGRect newFrame = remainderBar.frame;
-	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
 }
 
@@ -125,7 +123,7 @@
     [super viewWillAppear:animated];
 	self.title = self.lotsData.lotsName;
 	CGRect newFrame = remainderBar.frame;
-	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
 	
 	barButtonStart.enabled = YES;
@@ -167,51 +165,22 @@
 	[remainderBar release];
 	[remainderBarBase release];
 	[self stopUpdateTimer];
-	[currentLots release];
-	[lastFewLotsForAnamation release];
+	
+	[randomSequence release];
     [super dealloc];
 }
 
-- (int) nextRandomNumber
-{
-	int randValue = rand() % currentLots.count;
-	if(currentLots.count > 1)
-	{
-		randValue = (rand() % currentLots.count);
-		while(randValue == lastRandomValue)
-		{
-			randValue = (rand() % currentLots.count);
-		}
-	}
-	lastRandomValue = randValue;
-	return randValue;
-}
-
-- (void) generateALot
-{
-	int i, j, r;
-	[lastFewLotsForAnamation release];
-	NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:100];
-	for(i=0;i<10;++i)
-	{
-		r = [self nextRandomNumber];
-		for(j=9-i;j<10;++j)
-			[array addObject:[NSNumber numberWithInt: r]];
-	}
-	lastFewLotsForAnamation = array;
-}
 
 - (void) startBarButtonDown:(id)sender
 {
 	if(updateTimer == nil)
 	{
-		if(self.currentLots.count == 0)
+		if(self.randomSequence.srcArray.count == 0)
 		{
 			[self resetLots];
 			return;
 		}
 				
-		[lastFewLotsForAnamation removeAllObjects];
 		lotsLabel.hidden = (self.lotsData.group1Type == 0);
 		if(self.lotsData.group1Type == 1)
 		{
@@ -227,13 +196,14 @@
 		barButtonStart.enabled = YES;
 		indicatorView.hidden = NO;
 		[indicatorView startAnimating];
+		[self.randomSequence startGenerating];
 		[self startUpdateTimer];
 	}
 	else
 	{
 		barButtonStart.title = NSLocalizedString(@"Wait", @"Wait");
 		barButtonStart.enabled = NO;
-		[self generateALot];
+		[self.randomSequence stopGenerating];
 	}
 }
 
@@ -245,20 +215,15 @@
 	[controller release];
 }
 
-- (void) lotGenerated: (int) index
+- (void) lotGenerated
 {
-	NSMutableArray *array = lastFewLotsForAnamation;
-	lastFewLotsForAnamation = nil;
-	[array release];
-	[self.resultLots insertObject:[self.currentLots objectAtIndex:index] atIndex: 0];
-	if(self.lotsData.repeatableLots1 == NO)
-	{
-		[self.currentLots removeObjectAtIndex:index];
-	}
+	[self.resultLots insertObject:[[self.randomSequence getResult] objectForKey:RS_DATA] atIndex:0];
+	[self.randomSequence removeLatestResult:!self.lotsData.repeatableLots1];
+
 	CGRect newFrame = remainderBar.frame;
-	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * (self.currentLots.count / currentLotsOriginalCount);
+	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
-	if(self.currentLots.count == 0)
+	if(self.randomSequence.srcArray.count == 0)
 	{
 		barButtonStart.title = NSLocalizedString(@"Reset", @"Reset");
 	}
@@ -273,16 +238,12 @@
 
 - (void)timerFunc:(NSTimer *)timer 
 {
-	int randValue;
-	if(lastFewLotsForAnamation != nil)
-	{
-		if(lastFewLotsForAnamation.count == 0)
-			return;
-		randValue = ((NSNumber*)[lastFewLotsForAnamation objectAtIndex:0]).intValue;
-		[lastFewLotsForAnamation removeObjectAtIndex:0];
-	}
-	else
-		randValue = [self nextRandomNumber];
+	if([self.randomSequence getResultCount] == 0)
+		return;
+	NSMutableDictionary *dict = [self.randomSequence getResult];
+	id data = [dict objectForKey:RS_DATA];
+	int occurence = ((NSNumber*)[dict objectForKey:RS_OCCURENCE]).intValue;
+
 	switch(lotsData.group1Type)
 	{
 		case 0:
@@ -294,8 +255,7 @@
 					[[lotsView.subviews objectAtIndex:i] removeFromSuperview];
 				}
 			}
-			UIImage *img = [currentLots objectAtIndex:randValue];
-			UIKeepRatioImageView *cur = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:img];
+			UIKeepRatioImageView *cur = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:data];
 			cur.frame = lotsView.bounds;
 			[lotsView addSubview:cur];
 			[cur release];
@@ -305,18 +265,23 @@
 		case 2:
 		{
 			
-			lotsLabel.text = [NSString stringWithFormat:@"%@", [currentLots objectAtIndex:randValue]];
+			lotsLabel.text = [NSString stringWithFormat:@"%@", data];
 		}
 			break;
 	}
-	
-	if(lastFewLotsForAnamation != nil)
+	if([self.randomSequence getResultCount] == 1 && occurence <= 1)
 	{
-		if(lastFewLotsForAnamation.count == 0)
-		{
-			[self stopUpdateTimer];
-			[self lotGenerated:randValue];
-		}
+		[self stopUpdateTimer];
+		[self lotGenerated];
+		return;
+	}
+	if(occurence <= 1)
+	{
+		[self.randomSequence removeLatestResult:NO]; 
+	}
+	else
+	{
+		[dict setObject:[NSNumber numberWithInt:--occurence] forKey:RS_OCCURENCE];
 	}
 }
 

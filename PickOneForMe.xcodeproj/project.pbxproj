@@ -18,6 +18,7 @@
 		F1B713010FDC54740084CCAB /* DrawLots1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */; };
 		F1B713060FDC54880084CCAB /* DrawLots2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */; };
 		F1B713E70FDC66D90084CCAB /* DrawLots2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1B713050FDC54880084CCAB /* DrawLots2Controller.xib */; };
+		F1B8B9110FDE058700A20059 /* LotsRandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */; };
 		F1C47B780FDC2821007A6B05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1C47B730FDC2821007A6B05 /* InfoPlist.strings */; };
 		F1CDB1270FDC43E30056A42D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		F1CDB1280FDC43EB0056A42D /* PickOneForMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */; };
@@ -69,6 +70,8 @@
 		F1B713030FDC54880084CCAB /* DrawLots2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLots2Controller.h; sourceTree = "<group>"; };
 		F1B713040FDC54880084CCAB /* DrawLots2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawLots2Controller.m; sourceTree = "<group>"; };
 		F1B713050FDC54880084CCAB /* DrawLots2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DrawLots2Controller.xib; path = Classes/DrawLots2Controller.xib; sourceTree = "<group>"; };
+		F1B8B90F0FDE058700A20059 /* LotsRandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotsRandomSequence.h; sourceTree = "<group>"; };
+		F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotsRandomSequence.m; sourceTree = "<group>"; };
 		F1C47B740FDC2821007A6B05 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1C47B750FDC2821007A6B05 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1CDB1420FDC44EA0056A42D /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */,
 				F1B713030FDC54880084CCAB /* DrawLots2Controller.h */,
 				F1B713040FDC54880084CCAB /* DrawLots2Controller.m */,
+				F1B8B90F0FDE058700A20059 /* LotsRandomSequence.h */,
+				F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				F12E08110FDBF754006F06CD /* LotsData.m in Sources */,
 				F1B713010FDC54740084CCAB /* DrawLots1Controller.m in Sources */,
 				F1B713060FDC54880084CCAB /* DrawLots2Controller.m in Sources */,
+				F1B8B9110FDE058700A20059 /* LotsRandomSequence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

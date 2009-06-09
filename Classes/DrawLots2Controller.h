@@ -12,19 +12,18 @@
 @interface DrawLots2Controller : UIViewController {
 	LotsData					*lotsData;
 	IBOutlet UIView				*lotsView;
-	IBOutlet UISwitch			*repeatableSwitch;
 	IBOutlet UIBarButtonItem	*barButtonStart;
 	IBOutlet UITextField		*lotsLabel;
 	IBOutlet UIView				*remainderBar;
 	IBOutlet UIView				*remainderBarBase;
 	IBOutlet UIActivityIndicatorView *indicatorView;
 	
-	NSTimer						*updateTimer;
 	NSMutableArray				*currentLots;
 	NSMutableArray				*resultLots;	
 	NSMutableArray				*lastFewLotsForAnamation;
 	int							lastRandomValue;
 	float						currentLotsOriginalCount;
+	NSTimer						*updateTimer;
 }
 
 
