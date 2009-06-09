@@ -155,18 +155,19 @@
 
 
 - (void)dealloc {
-	[resultLots release];
 	[lotsData release];
+	[resultLots release];
+	
 	[lotsView release];
 	[barButtonStart release];
 	[lotsLabel release];
 	[indicatorView release];
-	
+	[randomSequence release];	
 	[remainderBar release];
 	[remainderBarBase release];
+	
 	[self stopUpdateTimer];
 	
-	[randomSequence release];
     [super dealloc];
 }
 

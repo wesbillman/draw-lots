@@ -18,11 +18,11 @@
 	IBOutlet UIView				*remainderBar;
 	IBOutlet UIView				*remainderBarBase;
 	IBOutlet UIActivityIndicatorView *indicatorView;
+	LotsRandomSequence			*randomSequence;
 	
 	NSTimer						*updateTimer;
 	NSMutableArray				*resultLots;	
 
-	LotsRandomSequence			*randomSequence;
 }
 
 @property (nonatomic, retain) LotsData *lotsData;

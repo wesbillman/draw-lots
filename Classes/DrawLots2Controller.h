@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "LotsData.h"
+#import "LotsRandomSequence.h"
 
 @interface DrawLots2Controller : UIViewController {
 	LotsData					*lotsData;
@@ -17,18 +18,22 @@
 	IBOutlet UIView				*remainderBar;
 	IBOutlet UIView				*remainderBarBase;
 	IBOutlet UIActivityIndicatorView *indicatorView;
+	LotsRandomSequence			*randomSequence;
 	
-	NSMutableArray				*currentLots;
-	NSMutableArray				*resultLots;	
-	NSMutableArray				*lastFewLotsForAnamation;
-	int							lastRandomValue;
-	float						currentLotsOriginalCount;
 	NSTimer						*updateTimer;
+	NSMutableArray				*resultLots;	
+
+	//group 2
+	IBOutlet UIView				*lotsView2;
+	IBOutlet UITextField		*lotsLabel2;
+	IBOutlet UIView				*remainderBar2;
+	IBOutlet UIView				*remainderBarBase2;
+	IBOutlet UIActivityIndicatorView *indicatorView2;
+	LotsRandomSequence			*randomSequence2;
 }
 
 
 @property (nonatomic, retain) LotsData *lotsData;
-@property (nonatomic, retain) NSMutableArray *currentLots;
 @property (nonatomic, retain) NSMutableArray *resultLots;
 
 - (void) startBarButtonDown:(id)sender;
