@@ -10,6 +10,7 @@
 #import "CreateLotsController.h"
 #import "LotsData.h"
 #import "UIKeepRatioImageView.h"
+#import "HistoryController.h"
 
 @implementation DrawLots1Controller
 @synthesize lotsData, resultLots;
@@ -197,6 +198,14 @@
 {
 	CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
 	controller.lotsData = self.lotsData;
+	[self.navigationController pushViewController:controller animated:YES];
+	[controller release];
+}
+
+- (void) resultBarButtonDown:(id)sender
+{
+	HistoryController *controller = [[HistoryController alloc] initWithNibName:@"HistoryController" bundle:nil];
+	controller.result = self.resultLots;
 	[self.navigationController pushViewController:controller animated:YES];
 	[controller release];
 }

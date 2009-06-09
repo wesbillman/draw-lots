@@ -38,6 +38,7 @@
 
 - (void) startBarButtonDown:(id)sender;
 - (void) editBarButtonDown:(id)sender;
+- (void) resultBarButtonDown:(id)sender;
 
 - (void) stopUpdateTimer;
 - (void) startUpdateTimer;

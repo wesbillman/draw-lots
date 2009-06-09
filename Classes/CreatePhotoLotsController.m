@@ -293,7 +293,7 @@
 				cell.selectionStyle = UITableViewCellSelectionStyleNone;
 			}
 			int i;
-			for(int i=0;i<cell.subviews.count;++i)
+			for(i=0;i<cell.subviews.count;++i)
 			{
 				if([[cell.subviews objectAtIndex:i] isKindOfClass:[UIKeepRatioImageView class]])
 				{

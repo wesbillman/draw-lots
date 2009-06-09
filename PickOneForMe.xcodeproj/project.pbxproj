@@ -32,6 +32,8 @@
 		F1DF23460FDC67080090E312 /* CreateLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17712850FDBA427009B3560 /* CreateLotsController.xib */; };
 		F1DF23470FDC670F0090E312 /* CreateNumberLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12E06290FDBD2E7006F06CD /* CreateNumberLotsController.xib */; };
 		F1DF23480FDC67150090E312 /* CreateStringLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12E062E0FDBD2F2006F06CD /* CreateStringLotsController.xib */; };
+		F1F4ACB50FDE6C2800930533 /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4ACB30FDE6C2800930533 /* HistoryController.m */; };
+		F1F4ACB60FDE6C2800930533 /* HistoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F4ACB40FDE6C2800930533 /* HistoryController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,9 @@
 		F1C47B740FDC2821007A6B05 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1C47B750FDC2821007A6B05 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1CDB1420FDC44EA0056A42D /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1F4ACB20FDE6C2800930533 /* HistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryController.h; sourceTree = "<group>"; };
+		F1F4ACB30FDE6C2800930533 /* HistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
+		F1F4ACB40FDE6C2800930533 /* HistoryController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HistoryController.xib; path = Classes/HistoryController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 				F1B713040FDC54880084CCAB /* DrawLots2Controller.m */,
 				F1B8B90F0FDE058700A20059 /* LotsRandomSequence.h */,
 				F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */,
+				F1F4ACB20FDE6C2800930533 /* HistoryController.h */,
+				F1F4ACB30FDE6C2800930533 /* HistoryController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -152,6 +159,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F1F4ACB40FDE6C2800930533 /* HistoryController.xib */,
 				F1B713050FDC54880084CCAB /* DrawLots2Controller.xib */,
 				F1B713000FDC54740084CCAB /* DrawLots1Controller.xib */,
 				F129AC1A0FDA5D06004DD2DF /* CreatePhotoLotsController.xib */,
@@ -245,6 +253,7 @@
 				F1CDB1430FDC44EA0056A42D /* Localizable.strings in Resources */,
 				F1DF23440FDC66F30090E312 /* DrawLots1Controller.xib in Resources */,
 				F1B713E70FDC66D90084CCAB /* DrawLots2Controller.xib in Resources */,
+				F1F4ACB60FDE6C2800930533 /* HistoryController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +276,7 @@
 				F1B713010FDC54740084CCAB /* DrawLots1Controller.m in Sources */,
 				F1B713060FDC54880084CCAB /* DrawLots2Controller.m in Sources */,
 				F1B8B9110FDE058700A20059 /* LotsRandomSequence.m in Sources */,
+				F1F4ACB50FDE6C2800930533 /* HistoryController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
