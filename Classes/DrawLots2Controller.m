@@ -67,7 +67,7 @@
 	{
 		case 0: // photo
 			lotsLabel.hidden = YES;
-			[randomSequence setSrcArray: [lotsData.photoLots objectAtIndex:0]];
+			[self.randomSequence setSrcArray: [lotsData.photoLots objectAtIndex:0]];
 			break;
 		case 1: // number
 		{
@@ -93,7 +93,7 @@
 	{
 		case 0: // photo
 			lotsLabel2.hidden = YES;
-			[randomSequence2 setSrcArray: [lotsData.photoLots objectAtIndex:1]];
+			[self.randomSequence2 setSrcArray: [lotsData.photoLots objectAtIndex:1]];
 			break;
 		case 1: // number
 		{

@@ -8,6 +8,17 @@
 
 #import "PickOneForMeAppDelegate.h"
 #import "RootViewController.h"
+#import "LotsData.h"
+
+
+#define LOTSDATA_NAME_KEY		@"LOTSDATA_NAME_KEY"
+#define LOTSDATA_DATE_KEY		@"LOTSDATA_DATE_KEY"
+#define LOTSDATA_NUM_GROUP_KEY	@"LOTSDATA_NUM_GROUP_KEY"
+#define LOTSDATA_GROUP_KEY		@"LOTSDATA_GROUP_KEY"
+#define LOTSDATA_PHOTO_KEY		@"LOTSDATA_PHOTO_KEY"
+#define LOTSDATA_NUMBER_KEY		@"LOTSDATA_NUMBER_KEY"
+#define LOTSDATA_STRING_KEY		@"LOTSDATA_STRING_KEY"
+#define LOTSDATA_REPEAT_KEY		@"LOTSDATA_REPEAT_KEY"
 
 #define DATA_PLIST @"saved_lots.plist"
 
@@ -21,22 +32,36 @@
 #pragma mark -
 #pragma mark Application lifecycle
 
-#if 0
 - (void) serializeDataWithFilePath:(NSString *)filePath
 {
 	NSString *errorDesc = nil;
 	
-	NSMutableArray *data = [[NSMutableArray alloc] initWithCapacity:[alarms count]];
-	for(Alarm * alarm in alarms)
+	NSMutableArray *data = [[NSMutableArray alloc] initWithCapacity:[lotsData count]];
+	for(LotsData * lData in lotsData)
 	{
+		//convert UIImage to NSData first
+		NSMutableArray *photoData = [NSMutableArray arrayWithCapacity:lData.photoLots.count];
+		for(int i=0;i<lData.photoLots.count;++i)
+		{
+			NSMutableArray *array = [NSMutableArray arrayWithCapacity:((NSArray*)[lData.photoLots objectAtIndex:i]).count];
+			for(int j=0;j<((NSArray*)[lData.photoLots objectAtIndex:i]).count;++j)
+			{
+				[array addObject:UIImagePNGRepresentation([((NSArray*)[lData.photoLots objectAtIndex:i]) objectAtIndex:j])];
+			}
+			[photoData addObject:array];
+		}
+		
 		NSDictionary *dict = [NSDictionary 
 				dictionaryWithObjectsAndKeys:
-			alarm.repeat, ALARM_KEY_REPEAT,
-			alarm.snooze, ALARM_KEY_SNOOZE,
-			alarm.label, ALARM_KEY_LABEL,
-			[NSNumber numberWithInteger:alarm.time.hour], ALARM_KEY_TIMEHOUR,
-			[NSNumber numberWithInteger:alarm.time.minute], ALARM_KEY_TIMEMINUTE,
-			alarm.enable, ALARM_KEY_ENABLE, nil];
+			lData.lotsName, LOTSDATA_NAME_KEY,
+			lData.lotsDate, LOTSDATA_DATE_KEY,
+			lData.numberOfGroup, LOTSDATA_NUM_GROUP_KEY,
+			lData.groupTypes, LOTSDATA_GROUP_KEY,
+			photoData, LOTSDATA_PHOTO_KEY,
+			lData.numberLots, LOTSDATA_NUMBER_KEY,
+			lData.stringLots, LOTSDATA_STRING_KEY,
+			lData.repeatables, LOTSDATA_REPEAT_KEY,
+			nil];
 		[data addObject:dict];
 	}
 	
@@ -69,27 +94,43 @@
 		[errorDesc release];
 	}	
 	
-	alarms = [[NSMutableArray alloc] initWithCapacity:16];
+	lotsData = [[NSMutableArray alloc] initWithCapacity:16];
 	for(NSDictionary * dict in data)
 	{
-		Alarm *alarm = [[Alarm alloc] initWithLabel: [dict objectForKey:ALARM_KEY_LABEL]];
-		alarm.repeat = [dict objectForKey:ALARM_KEY_REPEAT];
-		alarm.snooze = [dict objectForKey:ALARM_KEY_SNOOZE];
-		[alarm.time setHour:((NSNumber*)[dict objectForKey:ALARM_KEY_TIMEHOUR]).integerValue];
-		[alarm.time setMinute:((NSNumber*)[dict objectForKey:ALARM_KEY_TIMEMINUTE]).integerValue];
-		alarm.enable = [dict objectForKey:ALARM_KEY_ENABLE];
-		[alarms addObject:alarm];
+		NSString *name = [dict objectForKey:LOTSDATA_NAME_KEY];
+		NSDate *date = [dict objectForKey:LOTSDATA_DATE_KEY];
+		NSNumber *numberOfGroup = [dict objectForKey:LOTSDATA_NUM_GROUP_KEY];
+		LotsData *lData = [[LotsData alloc] initWithNumberofGroup:numberOfGroup lotsName:name lotsDate:date];
+		
+		//convert NSData to UIImage first
+		NSMutableArray *srcData = [dict objectForKey:LOTSDATA_PHOTO_KEY];
+		NSMutableArray *photoData = [NSMutableArray arrayWithCapacity:srcData.count];
+		for(int i=0;i<srcData.count;++i)
+		{
+			NSMutableArray *array = [NSMutableArray arrayWithCapacity:((NSArray*)[srcData objectAtIndex:i]).count];
+			for(int j=0;j<((NSArray*)[srcData objectAtIndex:i]).count;++j)
+			{
+				[array addObject:[UIImage imageWithData:[((NSArray*)[srcData objectAtIndex:i]) objectAtIndex:j]]];
+			}
+			[photoData addObject:array];
+		}
+		lData.groupTypes = [dict objectForKey:LOTSDATA_GROUP_KEY];
+		lData.photoLots = photoData;
+		lData.numberLots = [dict objectForKey:LOTSDATA_NUMBER_KEY];
+		lData.stringLots = [dict objectForKey:LOTSDATA_STRING_KEY];
+		lData.repeatables = [dict objectForKey:LOTSDATA_REPEAT_KEY];
+		
+		[lotsData addObject:lData];
+		[lData release];
 	}
 }
-#endif
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
     // Override point for customization after app launch    
-#if 0
 	NSArray *paths =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
-	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:ALARMS_PLIST];
+	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:DATA_PLIST];
 	
 	//only for debug purpose
 	//	[[NSFileManager defaultManager] removeItemAtPath:filePath error:nil];
@@ -99,14 +140,14 @@
 		[[NSFileManager defaultManager] createFileAtPath:filePath 
 												contents:nil
 											  attributes:nil];
-		alarms = [[NSMutableArray alloc] initWithCapacity:16];
+		lotsData = [[NSMutableArray alloc] initWithCapacity:16];
 		[self serializeDataWithFilePath:filePath];
 	}
 	else
 	{
 		[self deserializeDataWithFilePath:filePath];
 	}
-#endif	
+
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
 	srand(time(0));
@@ -115,7 +156,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 	// Save data if appropriate
-#if 0
 	if(lotsData)
 	{
 		NSArray *paths =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -123,7 +163,6 @@
 		NSString *filePath = [documentsDirectory stringByAppendingPathComponent:DATA_PLIST];
 		[self serializeDataWithFilePath:filePath];
     }
-#endif
 }
 
 

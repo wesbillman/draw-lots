@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 2114}}";
-			sepNavSelRange = "{3759, 0}";
-			sepNavVisRect = "{{0, 1575}, {1185, 539}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 2660}}";
+			sepNavSelRange = "{4032, 28}";
+			sepNavVisRect = "{{0, 834}, {1185, 647}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* PickOneForMe */ = {
@@ -37,8 +37,8 @@
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 3038}}";
-			sepNavSelRange = "{3785, 0}";
-			sepNavVisRect = "{{0, 1306}, {1185, 539}}";
+			sepNavSelRange = "{4952, 0}";
+			sepNavVisRect = "{{0, 1795}, {1185, 624}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -50,7 +50,6 @@
 			1D6058900D05DD3D006BFB54 /* PickOneForMe */,
 		);
 		breakpoints = (
-			F1F4AC5C0FDE617600930533 /* CreateLotsController.m:37 */,
 		);
 		codeSenseManager = F129ABE80FDA573E004DD2DF /* Code sense */;
 		executables = (
@@ -510,6 +509,49 @@
 			F1F4AC5F0FDE61C400930533 /* PBXTextBookmark */ = F1F4AC5F0FDE61C400930533 /* PBXTextBookmark */;
 			F1F4AC600FDE61C400930533 /* PBXTextBookmark */ = F1F4AC600FDE61C400930533 /* PBXTextBookmark */;
 			F1F4AC610FDE61C400930533 /* PBXTextBookmark */ = F1F4AC610FDE61C400930533 /* PBXTextBookmark */;
+			F1F4AC660FDE65F100930533 /* PBXTextBookmark */ = F1F4AC660FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC670FDE65F100930533 /* PBXTextBookmark */ = F1F4AC670FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC680FDE65F100930533 /* PBXTextBookmark */ = F1F4AC680FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC690FDE65F100930533 /* PBXTextBookmark */ = F1F4AC690FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6A0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6A0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6B0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6B0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6C0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6C0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6D0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6D0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6E0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6E0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC6F0FDE65F100930533 /* PBXTextBookmark */ = F1F4AC6F0FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC700FDE65F100930533 /* PBXTextBookmark */ = F1F4AC700FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC710FDE65F100930533 /* PBXTextBookmark */ = F1F4AC710FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC720FDE65F100930533 /* PBXTextBookmark */ = F1F4AC720FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC730FDE65F100930533 /* PBXTextBookmark */ = F1F4AC730FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC740FDE65F100930533 /* PBXTextBookmark */ = F1F4AC740FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC750FDE65F100930533 /* PBXTextBookmark */ = F1F4AC750FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC760FDE65F100930533 /* PBXTextBookmark */ = F1F4AC760FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC770FDE65F100930533 /* PBXTextBookmark */ = F1F4AC770FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC780FDE65F100930533 /* PBXTextBookmark */ = F1F4AC780FDE65F100930533 /* PBXTextBookmark */;
+			F1F4AC8A0FDE698B00930533 /* PBXTextBookmark */ = F1F4AC8A0FDE698B00930533 /* PBXTextBookmark */;
+			F1F4AC910FDE6A7E00930533 /* PBXTextBookmark */ = F1F4AC910FDE6A7E00930533 /* PBXTextBookmark */;
+			F1F4AC920FDE6A7E00930533 /* PBXTextBookmark */ = F1F4AC920FDE6A7E00930533 /* PBXTextBookmark */;
+			F1F4AC930FDE6A7E00930533 /* PBXTextBookmark */ = F1F4AC930FDE6A7E00930533 /* PBXTextBookmark */;
+			F1F4AC940FDE6A7E00930533 /* PBXTextBookmark */ = F1F4AC940FDE6A7E00930533 /* PBXTextBookmark */;
+			F1F4AC990FDE6ACC00930533 /* PBXTextBookmark */ = F1F4AC990FDE6ACC00930533 /* PBXTextBookmark */;
+			F1F4AC9A0FDE6ACC00930533 /* PBXTextBookmark */ = F1F4AC9A0FDE6ACC00930533 /* PBXTextBookmark */;
+			F1F4AC9B0FDE6ACC00930533 /* PBXTextBookmark */ = F1F4AC9B0FDE6ACC00930533 /* PBXTextBookmark */;
+			F1F4AC9C0FDE6ACC00930533 /* PBXTextBookmark */ = F1F4AC9C0FDE6ACC00930533 /* PBXTextBookmark */;
+			F1F4AC9D0FDE6ACC00930533 /* PBXTextBookmark */ = F1F4AC9D0FDE6ACC00930533 /* PBXTextBookmark */;
+			F1F4ACA10FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA10FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA20FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA20FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA30FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA30FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA40FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA40FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA50FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA50FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA60FDE6B1400930533 /* PBXTextBookmark */ = F1F4ACA60FDE6B1400930533 /* PBXTextBookmark */;
+			F1F4ACA80FDE6B1F00930533 /* PBXTextBookmark */ = F1F4ACA80FDE6B1F00930533 /* PBXTextBookmark */;
+			F1F4ACA90FDE6B1F00930533 /* PBXTextBookmark */ = F1F4ACA90FDE6B1F00930533 /* PBXTextBookmark */;
+			F1F4ACAA0FDE6B1F00930533 /* PBXTextBookmark */ = F1F4ACAA0FDE6B1F00930533 /* PBXTextBookmark */;
+			F1F4ACAB0FDE6B1F00930533 /* PBXTextBookmark */ = F1F4ACAB0FDE6B1F00930533 /* PBXTextBookmark */;
+			F1F4ACAC0FDE6B2700930533 /* PBXTextBookmark */ = F1F4ACAC0FDE6B2700930533 /* PBXTextBookmark */;
+			F1F4ACAD0FDE6B2700930533 /* PBXTextBookmark */ = F1F4ACAD0FDE6B2700930533 /* PBXTextBookmark */;
+			F1F4ACAE0FDE6B2700930533 /* PBXTextBookmark */ = F1F4ACAE0FDE6B2700930533 /* PBXTextBookmark */;
+			F1F4ACAF0FDE6B2700930533 /* PBXTextBookmark */ = F1F4ACAF0FDE6B2700930533 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F129ABE70FDA573E004DD2DF /* Source Control */;
 		userBuildSettings = {
@@ -522,7 +564,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -740,8 +782,8 @@
 	F12E080F0FDBF754006F06CD /* LotsData.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 672}}";
-			sepNavSelRange = "{183, 21}";
-			sepNavVisRect = "{{0, 84}, {1185, 539}}";
+			sepNavSelRange = "{331, 8}";
+			sepNavVisRect = "{{0, 0}, {1185, 647}}";
 		};
 	};
 	F12E08100FDBF754006F06CD /* LotsData.m */ = {
@@ -825,8 +867,8 @@
 	F17712840FDBA427009B3560 /* CreateLotsController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1436, 5124}}";
-			sepNavSelRange = "{2467, 21}";
-			sepNavVisRect = "{{0, 396}, {1185, 516}}";
+			sepNavSelRange = "{2259, 0}";
+			sepNavVisRect = "{{0, 1020}, {1185, 539}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
 	};
@@ -875,7 +917,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = "PickOneForMeAppDelegate.m: applicationDidFinishLaunching:";
 		rLen = 0;
-		rLoc = 3356;
+		rLoc = 5051;
 		rType = 0;
 		vrLen = 781;
 		vrLoc = 342;
@@ -970,8 +1012,8 @@
 	F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 4102}}";
-			sepNavSelRange = "{6233, 0}";
-			sepNavVisRect = "{{0, 3549}, {1185, 539}}";
+			sepNavSelRange = "{1955, 0}";
+			sepNavVisRect = "{{0, 732}, {1185, 624}}";
 		};
 	};
 	F1B713030FDC54880084CCAB /* DrawLots2Controller.h */ = {
@@ -984,8 +1026,8 @@
 	F1B713040FDC54880084CCAB /* DrawLots2Controller.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 5628}}";
-			sepNavSelRange = "{3742, 0}";
-			sepNavVisRect = "{{0, 1149}, {1185, 539}}";
+			sepNavSelRange = "{6900, 0}";
+			sepNavVisRect = "{{0, 2691}, {1185, 624}}";
 		};
 	};
 	F1B713210FDC56A90084CCAB /* PBXTextBookmark */ = {
@@ -1137,7 +1179,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4584;
+		rLoc = 4589;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 4474;
@@ -1187,7 +1229,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated:";
 		rLen = 0;
-		rLoc = 6768;
+		rLoc = 6773;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 6703;
@@ -1437,7 +1479,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: generateALot";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4845;
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 5096;
@@ -1457,7 +1499,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: nextRandomNumber";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4845;
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 4794;
@@ -1657,7 +1699,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: nextRandomNumber";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4845;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -1947,7 +1989,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: setLotsData:";
 		rLen = 0;
-		rLoc = 2982;
+		rLoc = 2987;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 1675;
@@ -1987,7 +2029,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: startBarButtonDown:";
 		rLen = 0;
-		rLoc = 5595;
+		rLoc = 5600;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 6402;
@@ -2007,7 +2049,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: startBarButtonDown:";
 		rLen = 0;
-		rLoc = 5755;
+		rLoc = 5760;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 6644;
@@ -2057,7 +2099,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated:";
 		rLen = 0;
-		rLoc = 6192;
+		rLoc = 6197;
 		rType = 0;
 		vrLen = 1235;
 		vrLoc = 7093;
@@ -2077,7 +2119,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "<#(id)aKey#>";
 		rLen = 3;
-		rLoc = 7348;
+		rLoc = 7353;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -2097,7 +2139,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 7039;
+		rLoc = 7044;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -2117,7 +2159,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 7850;
+		rLoc = 7855;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -2137,7 +2179,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = NSMutableDictionary;
 		rLen = 0;
-		rLoc = 7863;
+		rLoc = 7868;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -2167,7 +2209,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 7942;
+		rLoc = 7947;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 8328;
@@ -2197,7 +2239,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = remainderBar;
 		rLen = 12;
-		rLoc = 3725;
+		rLoc = 3730;
 		rType = 0;
 		vrLen = 1441;
 		vrLoc = 3656;
@@ -2217,7 +2259,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated";
 		rLen = 0;
-		rLoc = 6598;
+		rLoc = 6603;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 6572;
@@ -2277,7 +2319,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: startBarButtonDown:";
 		rLen = 0;
-		rLoc = 4909;
+		rLoc = 4914;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 1450;
@@ -2297,7 +2339,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: startBarButtonDown:";
 		rLen = 0;
-		rLoc = 5555;
+		rLoc = 5560;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 6669;
@@ -2367,7 +2409,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 7646;
+		rLoc = 7651;
 		rType = 0;
 		vrLen = 948;
 		vrLoc = 6915;
@@ -2387,7 +2429,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "removeLatestResult:NO";
 		rLen = 21;
-		rLoc = 7826;
+		rLoc = 7831;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 6766;
@@ -2477,7 +2519,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 7001;
+		rLoc = 7006;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 6868;
@@ -2506,7 +2548,7 @@
 		isa = PBXTextBookmark;
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: 15";
-		rLen = 7992;
+		rLen = 7997;
 		rLoc = 307;
 		rType = 0;
 		vrLen = 672;
@@ -2517,7 +2559,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: 305";
 		rLen = 0;
-		rLoc = 12346;
+		rLoc = 12356;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 7647;
@@ -2567,7 +2609,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: 287";
 		rLen = 0;
-		rLoc = 7945;
+		rLoc = 7950;
 		rType = 0;
 		vrLen = 1151;
 		vrLoc = 5715;
@@ -2597,7 +2639,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: 305";
 		rLen = 0;
-		rLoc = 12346;
+		rLoc = 12356;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 7586;
@@ -2647,7 +2689,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 6866;
+		rLoc = 6876;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 4438;
@@ -2657,7 +2699,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4788;
+		rLoc = 4793;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 4148;
@@ -2677,7 +2719,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 6720;
+		rLoc = 6730;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 4437;
@@ -2697,7 +2739,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4585;
+		rLoc = 4590;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 4151;
@@ -2727,7 +2769,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4608;
+		rLoc = 4613;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 4151;
@@ -2747,7 +2789,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 6743;
+		rLoc = 6753;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 4433;
@@ -2757,7 +2799,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 6950;
+		rLoc = 6960;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 4437;
@@ -2777,7 +2819,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 6743;
+		rLoc = 6753;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 4433;
@@ -2787,7 +2829,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4608;
+		rLoc = 4613;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 4151;
@@ -2807,7 +2849,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 10397;
@@ -2891,7 +2933,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 10395;
@@ -2901,7 +2943,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 10395;
@@ -2931,7 +2973,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 785;
 		vrLoc = 10395;
@@ -3268,7 +3310,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = "PickOneForMeAppDelegate.m: applicationWillTerminate:";
 		rLen = 0;
-		rLoc = 3759;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3357;
@@ -3288,7 +3330,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 9536;
@@ -3308,7 +3350,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4608;
+		rLoc = 4613;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 4151;
@@ -3408,7 +3450,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = "PickOneForMeAppDelegate.m: dealloc";
 		rLen = 0;
-		rLoc = 3781;
+		rLoc = 5463;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 2742;
@@ -3428,7 +3470,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = "PickOneForMeAppDelegate.m: applicationWillTerminate:";
 		rLen = 0;
-		rLoc = 3720;
+		rLoc = 5409;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 303;
@@ -3448,7 +3490,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = "PickOneForMeAppDelegate.m: applicationWillTerminate:";
 		rLen = 0;
-		rLoc = 3759;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 3357;
@@ -3578,7 +3620,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: timerFunc:";
 		rLen = 0;
-		rLoc = 11698;
+		rLoc = 11708;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 9536;
@@ -3698,7 +3740,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: dealloc";
 		rLen = 0;
-		rLoc = 4608;
+		rLoc = 4613;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 4151;
@@ -4118,7 +4160,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "[self.randomSequence removeLatestResult:!self.lotsData.repeatableLots1];";
 		rLen = 74;
-		rLoc = 9010;
+		rLoc = 9020;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 7453;
@@ -4156,7 +4198,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "[self.randomSequence2 removeLatestResult:!self.lotsData.repeatableLots2];";
 		rLen = 75;
-		rLoc = 9084;
+		rLoc = 9094;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 7453;
@@ -4176,7 +4218,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "[self.randomSequence removeLatestResult:!self.lotsData.repeatableLots1];";
 		rLen = 74;
-		rLoc = 9010;
+		rLoc = 9020;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 7453;
@@ -4186,7 +4228,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "<#(id)aKey#>";
 		rLen = 0;
-		rLoc = 2982;
+		rLoc = 2987;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 1793;
@@ -4214,7 +4256,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue";
 		rLen = 0;
-		rLoc = 2982;
+		rLoc = 2987;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 2826;
@@ -4314,7 +4356,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "[self configRandomSequence];";
 		rLen = 28;
-		rLoc = 4431;
+		rLoc = 4441;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 2787;
@@ -4324,7 +4366,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 2815;
+		rLoc = 2820;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 1760;
@@ -4553,7 +4595,7 @@
 		isa = PBXTextBookmark;
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: configRandomSequence";
-		rLen = 2326;
+		rLen = 2336;
 		rLoc = 1970;
 		rType = 0;
 		vrLen = 1071;
@@ -4564,7 +4606,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 2815;
+		rLoc = 2820;
 		rType = 0;
 		vrLen = 1194;
 		vrLoc = 1760;
@@ -4574,7 +4616,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "[self configRandomSequence];";
 		rLen = 28;
-		rLoc = 4431;
+		rLoc = 4441;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 2787;
@@ -4584,7 +4626,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated";
 		rLen = 0;
-		rLoc = 6233;
+		rLoc = 6238;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 7633;
@@ -4594,7 +4636,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated";
 		rLen = 0;
-		rLoc = 6233;
+		rLoc = 6238;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 7572;
@@ -4614,7 +4656,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated";
 		rLen = 0;
-		rLoc = 6233;
+		rLoc = 6238;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 7633;
@@ -4634,7 +4676,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: lotGenerated";
 		rLen = 0;
-		rLoc = 6233;
+		rLoc = 6238;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 7572;
@@ -4644,7 +4686,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 3968;
+		rLoc = 3978;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 2796;
@@ -4654,7 +4696,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 3968;
+		rLoc = 3978;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 2796;
@@ -4664,7 +4706,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: setLotsData:";
 		rLen = 0;
-		rLoc = 2982;
+		rLoc = 2987;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 2817;
@@ -4679,28 +4721,12 @@
 		vrLen = 1711;
 		vrLoc = 7963;
 	};
-	F1F4AC5C0FDE617600930533 /* CreateLotsController.m:37 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = F17712840FDBA427009B3560 /* CreateLotsController.m */;
-		functionName = "-viewWillAppear:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 37;
-		modificationTime = 266232182.60668;
-		state = 1;
-	};
 	F1F4AC5E0FDE61C400930533 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 3742;
+		rLoc = 3752;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 2796;
@@ -4720,7 +4746,7 @@
 		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
 		name = "DrawLots2Controller.m: configRandomSequence";
 		rLen = 0;
-		rLoc = 3742;
+		rLoc = 3752;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 2796;
@@ -4734,5 +4760,429 @@
 		rType = 0;
 		vrLen = 1892;
 		vrLoc = 1557;
+	};
+	F1F4AC660FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2259;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 3676;
+	};
+	F1F4AC670FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
+		name = "DrawLots2Controller.h: lotsView2";
+		rLen = 235;
+		rLoc = 652;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 0;
+	};
+	F1F4AC680FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = lotsName;
+		rLen = 8;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC690FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 52";
+		rLen = 0;
+		rLoc = 1960;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 498;
+	};
+	F1F4AC6A0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 2259;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 3676;
+	};
+	F1F4AC6B0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: applicationWillTerminate:";
+		rLen = 0;
+		rLoc = 5165;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 2367;
+	};
+	F1F4AC6C0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = "LotsData.h: lotsName";
+		rLen = 217;
+		rLoc = 319;
+		rType = 0;
+		vrLen = 1183;
+		vrLoc = 136;
+	};
+	F1F4AC6D0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
+		name = "DrawLots2Controller.h: lotsView2";
+		rLen = 235;
+		rLoc = 652;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 0;
+	};
+	F1F4AC6E0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 48";
+		rLen = 0;
+		rLoc = 1972;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 191;
+	};
+	F1F4AC6F0FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = LotsData;
+		rLen = 8;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC700FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 764;
+	};
+	F1F4AC710FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = repeatables;
+		rLen = 11;
+		rLoc = 523;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC720FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 46";
+		rLen = 0;
+		rLoc = 1802;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 763;
+	};
+	F1F4AC730FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = groupTypes;
+		rLen = 10;
+		rLoc = 408;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC740FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 47";
+		rLen = 0;
+		rLoc = 1792;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 293;
+	};
+	F1F4AC750FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = numberOfGroup;
+		rLen = 13;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC760FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: 52";
+		rLen = 0;
+		rLoc = 1960;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 498;
+	};
+	F1F4AC770FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
+		name = lotsName;
+		rLen = 8;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 0;
+	};
+	F1F4AC780FDE65F100930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "PickOneForMeAppDelegate.m: serializeDataWithFilePath:";
+		rLen = 0;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 1432;
+		vrLoc = 695;
+	};
+	F1F4AC8A0FDE698B00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "Key:LOTSDATA_REPEAT_KEY];";
+		rLen = 28;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 829;
+	};
+	F1F4AC910FDE6A7E00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "Key:LOTSDATA_REPEAT_KEY];";
+		rLen = 28;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1526;
+		vrLoc = 829;
+	};
+	F1F4AC920FDE6A7E00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = "DrawLots2Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 3752;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 1609;
+	};
+	F1F4AC930FDE6A7E00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "Key:LOTSDATA_REPEAT_KEY];";
+		rLen = 28;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1526;
+		vrLoc = 829;
+	};
+	F1F4AC940FDE6A7E00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = "DrawLots2Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 2141;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 6639;
+	};
+	F1F4AC990FDE6ACC00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = configRandomSequence;
+		rLen = 20;
+		rLoc = 4137;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 3226;
+	};
+	F1F4AC9A0FDE6ACC00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "Key:LOTSDATA_REPEAT_KEY];";
+		rLen = 28;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 1834;
+	};
+	F1F4AC9B0FDE6ACC00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = configRandomSequence;
+		rLen = 20;
+		rLoc = 4137;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 3226;
+	};
+	F1F4AC9C0FDE6ACC00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "Key:LOTSDATA_REPEAT_KEY];";
+		rLen = 28;
+		rLoc = 4032;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 1834;
+	};
+	F1F4AC9D0FDE6ACC00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:cellForRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 3785;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 4238;
+	};
+	F1F4ACA10FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:cellForRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 3785;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 4238;
+	};
+	F1F4ACA20FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = "DrawLots2Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 3124;
+		rType = 0;
+		vrLen = 1586;
+		vrLoc = 2574;
+	};
+	F1F4ACA30FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: lotGenerated";
+		rLen = 0;
+		rLoc = 6238;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 7512;
+	};
+	F1F4ACA40FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:cellForRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 3785;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 4238;
+	};
+	F1F4ACA50FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = "DrawLots2Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 3124;
+		rType = 0;
+		vrLen = 1586;
+		vrLoc = 2574;
+	};
+	F1F4ACA60FDE6B1400930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 1955;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 1760;
+	};
+	F1F4ACA80FDE6B1F00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 1955;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 1760;
+	};
+	F1F4ACA90FDE6B1F00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		rLen = 0;
+		rLoc = 150;
+		rType = 1;
+	};
+	F1F4ACAA0FDE6B1F00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: configRandomSequence";
+		rLen = 0;
+		rLoc = 1955;
+		rType = 0;
+		vrLen = 1318;
+		vrLoc = 1760;
+	};
+	F1F4ACAB0FDE6B1F00930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 4952;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 4254;
+	};
+	F1F4ACAC0FDE6B2700930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 4952;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 4254;
+	};
+	F1F4ACAD0FDE6B2700930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		rLen = 0;
+		rLoc = 214;
+		rType = 1;
+	};
+	F1F4ACAE0FDE6B2700930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:didSelectRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 4952;
+		rType = 0;
+		vrLen = 1481;
+		vrLoc = 4254;
+	};
+	F1F4ACAF0FDE6B2700930533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713040FDC54880084CCAB /* DrawLots2Controller.m */;
+		name = "DrawLots2Controller.m: startBarButtonDown:";
+		rLen = 0;
+		rLoc = 6900;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 6513;
 	};
 }

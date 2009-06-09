@@ -55,7 +55,7 @@
 								<int key="IBUISystemItemIdentifier">5</int>
 							</object>
 							<object class="IBUIBarButtonItem" id="132074282">
-								<string key="IBUITitle">Start All</string>
+								<string key="IBUITitle">Start</string>
 								<int key="IBUIStyle">1</int>
 								<reference key="IBUIToolbar" ref="725669305"/>
 							</object>
@@ -618,7 +618,7 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>DrawLots2Controller</string>
 					<string>UIResponder</string>
-					<string>{{496, 206}, {320, 480}}</string>
+					<string>{{438, 206}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
