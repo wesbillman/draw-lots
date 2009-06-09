@@ -57,6 +57,9 @@
 
 
 - (void)dealloc {
+	[textFieldStart release];
+	[textFieldRange release];
+	[okButton release];
     [super dealloc];
 }
 
@@ -102,6 +105,18 @@
 	
 	[textField resignFirstResponder];
 	return YES;
+}
+
+- (void) okButtonDown: (id) sender
+{
+	if([textFieldStart isFirstResponder])
+	{
+		[self textFieldShouldReturn:textFieldStart];
+	}
+	else if([textFieldRange isFirstResponder])
+	{
+		[self textFieldShouldReturn:textFieldRange];
+	}
 }
 
 

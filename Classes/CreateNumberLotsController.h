@@ -13,8 +13,10 @@
 	NSRange					range;
 	IBOutlet UITextField	*textFieldStart;
 	IBOutlet UITextField	*textFieldRange;
-
+	IBOutlet UIButton		*okButton;
 }
 
 @property (nonatomic, assign) NSRange	range;
+
+- (void) okButtonDown: (id) sender;
 @end

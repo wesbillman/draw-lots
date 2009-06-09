@@ -54,62 +54,47 @@
     return randomSequence;
 }
 
+- (void) configRandomSequence
+{
+	switch(((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue)
+	{
+		case 0: // photo
+			lotsLabel.hidden = YES;
+			[randomSequence setSrcArray: [lotsData.photoLots objectAtIndex:0]];
+			break;
+		case 1: // number
+		{
+			int i;
+			lotsLabel.hidden = NO;
+			NSMutableArray *array = [NSMutableArray arrayWithCapacity: ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue];
+			int start = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
+			int end = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue + start;
+			for(i=start; i < end; ++i)
+			{
+				[array addObject: [NSNumber numberWithInt:i]];
+			}
+			[self.randomSequence setSrcArray:array];
+		}
+			break;
+		case 2: // string
+			lotsLabel.hidden = NO;
+			[self.randomSequence setSrcArray: [lotsData.stringLots objectAtIndex:0]];
+			break;
+	}	
+}
+
 - (void) setLotsData: (LotsData*) newLots
 {
 	[lotsData release];
 	lotsData = [newLots retain];
 	[self.resultLots removeAllObjects];
-	switch(lotsData.group1Type)
-	{
-		case 0: // photo
-			lotsLabel.hidden = YES;
-			[randomSequence setSrcArray:lotsData.photoLots1];
-			break;
-		case 1: // number
-		{
-			int i;
-			lotsLabel.hidden = NO;
-			NSMutableArray *array = [NSMutableArray arrayWithCapacity: lotsData.numberLots1.length];
-			for(i=lotsData.numberLots1.location; i < (lotsData.numberLots1.location+lotsData.numberLots1.length); ++i)
-			{
-				[array addObject: [NSNumber numberWithInt:i]];
-			}
-			[self.randomSequence setSrcArray:array];
-		}
-			break;
-		case 2: // string
-			lotsLabel.hidden = NO;
-			[self.randomSequence setSrcArray:lotsData.stringLots1];
-			break;
-	}
+	[self configRandomSequence];
 }
 
 - (void) resetLots
 {
 	[self.resultLots removeAllObjects];
-	switch(lotsData.group1Type)
-	{
-		case 0: // photo
-			lotsLabel.hidden = YES;
-			[self.randomSequence setSrcArray:lotsData.photoLots1];
-			break;
-		case 1: // number
-		{
-			int i;
-			lotsLabel.hidden = NO;
-			NSMutableArray *array = [NSMutableArray arrayWithCapacity: lotsData.numberLots1.length];
-			for(i=lotsData.numberLots1.location; i< (lotsData.numberLots1.location+lotsData.numberLots1.length); ++i)
-			{
-				[array addObject: [NSNumber numberWithInt:i]];
-			}
-			[self.randomSequence setSrcArray:array];
-		}
-			break;
-		case 2: // string
-			lotsLabel.hidden = NO;
-			[self.randomSequence setSrcArray:lotsData.stringLots1];
-			break;
-	}
+	[self configRandomSequence];
 
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
@@ -182,13 +167,13 @@
 			return;
 		}
 				
-		lotsLabel.hidden = (self.lotsData.group1Type == 0);
-		if(self.lotsData.group1Type == 1)
+		lotsLabel.hidden = (((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue == 0);
+		if(((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue == 1)
 		{
 			lotsLabel.text = @"";
 			lotsLabel.font = [UIFont systemFontOfSize:100];
 		}
-		if(self.lotsData.group1Type == 2)
+		if(((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue == 2)
 		{
 			lotsLabel.text = @"";
 			lotsLabel.font = [UIFont systemFontOfSize:20];
@@ -219,7 +204,7 @@
 - (void) lotGenerated
 {
 	[self.resultLots insertObject:[[self.randomSequence getResult] objectForKey:RS_DATA] atIndex:0];
-	[self.randomSequence removeLatestResult:!self.lotsData.repeatableLots1];
+	[self.randomSequence removeLatestResult:!((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue];
 
 	CGRect newFrame = remainderBar.frame;
 	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
@@ -245,7 +230,7 @@
 	id data = [dict objectForKey:RS_DATA];
 	int occurence = ((NSNumber*)[dict objectForKey:RS_OCCURENCE]).intValue;
 
-	switch(lotsData.group1Type)
+	switch(((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue)
 	{
 		case 0:
 		{

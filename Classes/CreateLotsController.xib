@@ -621,13 +621,12 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 					<int key="connectionID">45</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">repeatableSwitchValueChanged:</string>
-						<reference key="source" ref="694646389"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">13</int>
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">repeatableSwitchLabel2</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="829208732"/>
 					</object>
-					<int key="connectionID">50</int>
+					<int key="connectionID">56</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -635,7 +634,7 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="694646389"/>
 					</object>
-					<int key="connectionID">53</int>
+					<int key="connectionID">71</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -643,24 +642,7 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="579037667"/>
 					</object>
-					<int key="connectionID">54</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">repeatableSwitchValueChanged:</string>
-						<reference key="source" ref="579037667"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">13</int>
-					</object>
-					<int key="connectionID">55</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">repeatableSwitchLabel2</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="829208732"/>
-					</object>
-					<int key="connectionID">56</int>
+					<int key="connectionID">72</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -818,7 +800,7 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>UINavigationController</string>
+					<string>CreateLotsController</string>
 					<string>UIResponder</string>
 					<string>{{299, 287}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -860,9 +842,77 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">70</int>
+			<int key="maxID">72</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">CreateLotsController</string>
+					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSMutableArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>buttonCancelDown:</string>
+							<string>buttonEditDown:</string>
+							<string>buttonSaveDown:</string>
+							<string>segControlGroupValueChanged:</string>
+							<string>segControlNumberValueChanged:</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSMutableArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>buttonEdit1</string>
+							<string>buttonEdit2</string>
+							<string>buttonStart</string>
+							<string>labelDetail1</string>
+							<string>labelDetail2</string>
+							<string>labelGroup1</string>
+							<string>labelGroup2</string>
+							<string>repeatableSwitch1</string>
+							<string>repeatableSwitch2</string>
+							<string>repeatableSwitchLabel2</string>
+							<string>segControlGroup1</string>
+							<string>segControlGroup2</string>
+							<string>segControlNumber</string>
+							<string>textFieldName</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UILabel</string>
+							<string>UISwitch</string>
+							<string>UISwitch</string>
+							<string>UILabel</string>
+							<string>UISegmentedControl</string>
+							<string>UISegmentedControl</string>
+							<string>UISegmentedControl</string>
+							<string>UITextField</string>
+						</object>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/CreateLotsController.h</string>
+					</object>
+				</object>
+			</object>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.LastKnownRelativeProjectPath">../PickOneForMe.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>

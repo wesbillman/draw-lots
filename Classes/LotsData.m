@@ -10,46 +10,64 @@
 
 
 @implementation LotsData
-@synthesize numberOfGroup, lotsName, lotsDate, group1Type, group2Type, photoLots1, photoLots2, numberLots1, numberLots2, stringLots1, stringLots2;
-@synthesize repeatableLots1, repeatableLots2;
+@synthesize numberOfGroup, lotsName, lotsDate;
+@synthesize groupTypes, photoLots, numberLots, stringLots, repeatables;
 
-- (id) initWithNumberofGroup:(NSInteger) nfg
+- (id) initWithNumberofGroup:(NSNumber*) nfg
 					lotsName:(NSString*) name
 					lotsDate:(NSDate*) date
-				  group1Type:(NSInteger) type1
-				  group2Type:(NSInteger) type2
-				  photoLots1:(NSMutableArray*) pLots1
-				  photoLots2:(NSMutableArray*) pLots2
-				 numberLots1:(NSRange) nLots1
-				 numberLots2:(NSRange) nLots2
-				 stringLots1:(NSMutableArray*) sLots1
-				 stringLots2:(NSMutableArray*) sLots2
 {
 	if(self = [super init])
 	{
 		self.numberOfGroup = nfg;
 		self.lotsName = name;
 		self.lotsDate = date;
-		self.group1Type = type1;
-		self.group2Type = type2;
-		self.photoLots1 = pLots1;
-		self.photoLots2 = pLots2;
-		self.numberLots1 = nLots1;
-		self.numberLots2 = nLots2;
-		self.stringLots1 = sLots1;
-		self.stringLots2 = sLots2;
-		self.repeatableLots1 = self.repeatableLots2 = YES;
+
+		groupTypes = [[NSMutableArray alloc] initWithCapacity:4];
+		photoLots = [[NSMutableArray alloc] initWithCapacity:4];
+		numberLots = [[NSMutableArray alloc] initWithCapacity:4];
+		stringLots = [[NSMutableArray alloc] initWithCapacity:4];
+		repeatables = [[NSMutableArray alloc] initWithCapacity:4];
 	}
 	return self;
 }
 
-- (void)dealloc {
+- (void) resetArray
+{
+	[groupTypes removeAllObjects];
+	[photoLots removeAllObjects];
+	[numberLots removeAllObjects];
+	[stringLots removeAllObjects];
+	[repeatables removeAllObjects];
+}
+
+- (void) addGroupWithType:(NSNumber*) type
+			   photosLots:(NSMutableArray*) pLots
+			   numberLots:(NSDictionary*) nLots
+			   stringLots:(NSMutableArray*) sLots
+			   repeatable:(NSNumber*) repeat
+{
+	if(groupTypes.count >= self.numberOfGroup.intValue)
+	{
+		NSLog(@"ERROR");
+		return;
+	}
+	[groupTypes addObject:type];
+	[photoLots addObject:pLots];
+	[numberLots addObject:nLots];
+	[stringLots addObject:sLots];
+	[repeatables addObject:repeat];
+}
+
+- (void) dealloc {
 	[lotsName release];
 	[lotsDate release];
-	[photoLots1 release];
-	[photoLots2 release];
-	[stringLots1 release];
-	[stringLots2 release];
+	
+	[groupTypes release];
+	[photoLots release];
+	[numberLots release];
+	[stringLots release];
+	[repeatables release];
     [super dealloc];
 }
 

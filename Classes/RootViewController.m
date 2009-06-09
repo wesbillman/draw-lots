@@ -110,17 +110,18 @@
 			cell.textLabel.text = NSLocalizedString(@"Untitled Lots", @"Untitled Lots");
 		else
 			cell.textLabel.text = data.lotsName;
-		if(data.numberOfGroup == 1)
+		if(data.numberOfGroup.intValue == 1)
 		{
 			cell.detailTextLabel.text = 
 			[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ Lots)", @"%@ (%@ Lots)"),
-				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type]];
+				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex: ((NSNumber*)[data.groupTypes objectAtIndex:0]).intValue]];
 		}
 		else
 		{
 			cell.detailTextLabel.text = 
 			[NSString stringWithFormat: NSLocalizedString(@"%@ (%@ and %@ Lots)", @"%@ (%@ and %@ Lots)"),
-				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:data.group1Type], [lotsTitleArray objectAtIndex:data.group2Type]];
+				[data.lotsDate.description substringWithRange:dateRange], [lotsTitleArray objectAtIndex:((NSNumber*)[data.groupTypes objectAtIndex:0]).intValue],
+				[lotsTitleArray objectAtIndex:((NSNumber*)[data.groupTypes objectAtIndex:1]).intValue]];
 		}
 		return cell;
 	}
@@ -137,7 +138,7 @@
 // Override to support row selection in the table view.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	LotsData *data = [appDelegate.lotsData objectAtIndex:indexPath.row];
-	if(data.numberOfGroup == 1)
+	if(data.numberOfGroup.intValue == 1)
 	{
 		DrawLots1Controller *controller = [[DrawLots1Controller alloc] initWithNibName:@"DrawLots1Controller" bundle:nil];
 		controller.lotsData = data;

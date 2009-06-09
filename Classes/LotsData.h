@@ -8,52 +8,40 @@
 
 #import <Foundation/Foundation.h>
 
+#define LOTSDATA_NUMBER_START @"LOTSDATA_NUMBER_START"
+#define LOTSDATA_NUMBER_RANGE @"LOTSDATA_NUMBER_RANGE"
 
 @interface LotsData : NSObject {
-	NSInteger		numberOfGroup;
 	NSString		*lotsName;
 	NSDate			*lotsDate;
 	
-	NSInteger		group1Type;
-	NSInteger		group2Type;
-
-	NSMutableArray	*photoLots1;
-	NSMutableArray	*photoLots2;
-	NSRange			numberLots1;
-	NSRange			numberLots2;
-	NSMutableArray	*stringLots1;
-	NSMutableArray	*stringLots2;
-	
-	BOOL			repeatableLots1;
-	BOOL			repeatableLots2;
+	NSNumber		*numberOfGroup;
+	NSMutableArray	*groupTypes;
+	NSMutableArray	*photoLots;
+	NSMutableArray	*numberLots;
+	NSMutableArray	*stringLots;
+	NSMutableArray	*repeatables;
 }
 
-@property (nonatomic, assign) NSInteger			numberOfGroup;
 @property (nonatomic, retain) NSString			*lotsName;
 @property (nonatomic, retain) NSDate			*lotsDate;
-@property (nonatomic, assign) NSInteger			group1Type;
-@property (nonatomic, assign) NSInteger			group2Type;
+@property (nonatomic, retain) NSNumber			*numberOfGroup;
+@property (nonatomic, retain) NSMutableArray	*groupTypes;
+@property (nonatomic, retain) NSMutableArray	*photoLots;
+@property (nonatomic, retain) NSMutableArray	*numberLots;
+@property (nonatomic, retain) NSMutableArray	*stringLots;
+@property (nonatomic, retain) NSMutableArray	*repeatables;
 
-@property (nonatomic, retain) NSMutableArray	*photoLots1;
-@property (nonatomic, retain) NSMutableArray	*photoLots2;
-@property (nonatomic, assign) NSRange			numberLots1;
-@property (nonatomic, assign) NSRange			numberLots2;
-@property (nonatomic, retain) NSMutableArray	*stringLots1;
-@property (nonatomic, retain) NSMutableArray	*stringLots2;
 
-@property (nonatomic, assign) BOOL			repeatableLots1;
-@property (nonatomic, assign) BOOL			repeatableLots2;
-
-- (id) initWithNumberofGroup:(NSInteger) nfg
+- (id) initWithNumberofGroup:(NSNumber*) nfg
 					lotsName:(NSString*) name
-					lotsDate:(NSDate*) date
-				  group1Type:(NSInteger) type1
-				  group2Type:(NSInteger) type2
-				  photoLots1:(NSMutableArray*) pLots1
-				  photoLots2:(NSMutableArray*) pLots2
-				 numberLots1:(NSRange) nLots1
-				 numberLots2:(NSRange) nLots2
-				 stringLots1:(NSMutableArray*) sLots1
-				 stringLots2:(NSMutableArray*) sLots2;
+					lotsDate:(NSDate*) date;
+
+- (void) addGroupWithType:(NSNumber*) type
+			   photosLots:(NSMutableArray*) pLots
+			   numberLots:(NSDictionary*) nLots
+			   stringLots:(NSMutableArray*) sLots
+			   repeatable:(NSNumber*) repeat;
+- (void) resetArray;
 
 @end

@@ -35,20 +35,25 @@
 	if(lotsData)
 	{
 		textFieldName.text = lotsData.lotsName;
-		segControlNumber.selectedSegmentIndex = lotsData.numberOfGroup - 1;
-		
-		segControlGroup1.selectedSegmentIndex = lotsData.group1Type;
-		
-		segControlGroup2.selectedSegmentIndex = lotsData.group2Type;
+		segControlNumber.selectedSegmentIndex = lotsData.numberOfGroup.intValue - 1;
+		segControlGroup1.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue;
+		segControlGroup2.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:1]).intValue;
+		repeatableSwitch1.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue;
+		repeatableSwitch2.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:1]).boolValue;
 
-		photoLots1.imageArray = lotsData.photoLots1;
-		photoLots2.imageArray = lotsData.photoLots2;
+		photoLots1.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]);
+		photoLots2.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:1]);
 		
-		numberLots1.range = lotsData.numberLots1;
-		numberLots2.range = lotsData.numberLots2;
+		NSRange range;
+		range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
+		range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
+		numberLots1.range= range; 
+		range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
+		range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
+		numberLots2.range = range;
 		
-		stringLots1.stringArray = lotsData.stringLots1;
-		stringLots2.stringArray = lotsData.stringLots2;
+		stringLots1.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:0]);
+		stringLots2.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:1]);
 		
 		self.title = NSLocalizedString(@"Edit Lots", @"Edit Lots");
 	}
@@ -238,38 +243,48 @@
 	}
 	if(lotsData == nil)
 	{
-		lotsData = [[LotsData alloc] initWithNumberofGroup:segControlNumber.selectedSegmentIndex+1
+		lotsData = [[LotsData alloc] initWithNumberofGroup:[NSNumber numberWithInt:(segControlNumber.selectedSegmentIndex+1)]
 												  lotsName:textFieldName.text 
-												  lotsDate:[[[NSDate date] retain] autorelease]
-												group1Type:segControlGroup1.selectedSegmentIndex 
-												group2Type:segControlGroup2.selectedSegmentIndex 
-												photoLots1:photoLots1.imageArray
-												photoLots2:photoLots2.imageArray
-											   numberLots1:numberLots1.range
-											   numberLots2:numberLots2.range 
-											   stringLots1:stringLots1.stringArray
-											   stringLots2:stringLots2.stringArray];
-		lotsData.repeatableLots1 = repeatableSwitch1.on;
-		lotsData.repeatableLots2 = repeatableSwitch2.on;
+												  lotsDate:[[[NSDate date] retain] autorelease]];
+
+		[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup1.selectedSegmentIndex]
+						photosLots:photoLots1.imageArray
+						numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
+							[NSNumber numberWithInt:numberLots1.range.location], LOTSDATA_NUMBER_START,
+							[NSNumber numberWithInt:numberLots1.range.length], LOTSDATA_NUMBER_RANGE, nil]
+						stringLots:stringLots1.stringArray
+						repeatable:[NSNumber numberWithBool:repeatableSwitch1.on]];
+		[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup2.selectedSegmentIndex]
+						photosLots:photoLots2.imageArray
+						numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
+							[NSNumber numberWithInt:numberLots2.range.location], LOTSDATA_NUMBER_START,
+							[NSNumber numberWithInt:numberLots2.range.length], LOTSDATA_NUMBER_RANGE, nil]
+						stringLots:stringLots2.stringArray
+						repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
+
 		PickOneForMeAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
 		[appDelegate.lotsData addObject:lotsData];
 		//[lotsData release];
 	}
 	else
 	{
-		
-		lotsData.numberOfGroup = segControlNumber.selectedSegmentIndex+1;
+		lotsData.numberOfGroup = [NSNumber numberWithInt:(segControlNumber.selectedSegmentIndex+1)];
 		lotsData.lotsName = textFieldName.text;
-		
-		lotsData.group1Type = segControlGroup1.selectedSegmentIndex;
-		lotsData.group2Type = segControlGroup2.selectedSegmentIndex;
-		
-		lotsData.photoLots1 = photoLots1.imageArray;
-		lotsData.photoLots2 = photoLots2.imageArray;
-		lotsData.numberLots1 = numberLots1.range;
-		lotsData.numberLots2 = numberLots2.range;
-		lotsData.stringLots1 = stringLots1.stringArray;
-		lotsData.stringLots2 = stringLots2.stringArray;
+		[lotsData resetArray];
+		[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup1.selectedSegmentIndex]
+						photosLots:photoLots1.imageArray
+						numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
+							[NSNumber numberWithInt:numberLots1.range.location], LOTSDATA_NUMBER_START,
+							[NSNumber numberWithInt:numberLots1.range.length], LOTSDATA_NUMBER_RANGE, nil]
+						stringLots:stringLots1.stringArray
+						repeatable:[NSNumber numberWithBool:repeatableSwitch1.on]];
+		[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup2.selectedSegmentIndex]
+						photosLots:photoLots2.imageArray
+						numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
+							[NSNumber numberWithInt:numberLots2.range.location], LOTSDATA_NUMBER_START,
+							[NSNumber numberWithInt:numberLots2.range.length], LOTSDATA_NUMBER_RANGE, nil]
+						stringLots:stringLots2.stringArray
+						repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
 	}
 	[self.navigationController popViewControllerAnimated:YES];
 }
@@ -345,18 +360,6 @@
 {
 	[textField resignFirstResponder];
 	return YES;
-}
-
-
-- (void) repeatableSwitchValueChanged:(id)sender
-{
-	if(lotsData != nil)
-	{
-		if(sender == repeatableSwitch1)
-			self.lotsData.repeatableLots1 = repeatableSwitch1.on;
-		else if(sender == repeatableSwitch2)
-			self.lotsData.repeatableLots2 = repeatableSwitch2.on;
-	}
 }
 
 @end
