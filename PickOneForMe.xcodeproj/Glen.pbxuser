@@ -37,8 +37,8 @@
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 3024}}";
-			sepNavSelRange = "{5865, 22}";
-			sepNavVisRect = "{{0, 2182}, {1185, 647}}";
+			sepNavSelRange = "{785, 37}";
+			sepNavVisRect = "{{0, 24}, {1185, 647}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -255,6 +255,23 @@
 			F11C467C0FDFD63400062717 /* PBXTextBookmark */ = F11C467C0FDFD63400062717 /* PBXTextBookmark */;
 			F11C46800FDFD6D500062717 /* PBXTextBookmark */ = F11C46800FDFD6D500062717 /* PBXTextBookmark */;
 			F11C468A0FDFD76600062717 /* PBXTextBookmark */ = F11C468A0FDFD76600062717 /* PBXTextBookmark */;
+			F11C46900FDFD93B00062717 /* PBXTextBookmark */ = F11C46900FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46910FDFD93B00062717 /* PBXTextBookmark */ = F11C46910FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46920FDFD93B00062717 /* PBXTextBookmark */ = F11C46920FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46930FDFD93B00062717 /* PBXTextBookmark */ = F11C46930FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46940FDFD93B00062717 /* PBXTextBookmark */ = F11C46940FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46950FDFD93B00062717 /* PBXTextBookmark */ = F11C46950FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46960FDFD93B00062717 /* PBXTextBookmark */ = F11C46960FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46970FDFD93B00062717 /* PBXTextBookmark */ = F11C46970FDFD93B00062717 /* PBXTextBookmark */;
+			F11C46980FDFD93B00062717 /* PBXTextBookmark */ = F11C46980FDFD93B00062717 /* PBXTextBookmark */;
+			F11C469A0FDFD98C00062717 /* PBXTextBookmark */ = F11C469A0FDFD98C00062717 /* PBXTextBookmark */;
+			F11C469D0FDFDB3100062717 /* PBXTextBookmark */ = F11C469D0FDFDB3100062717 /* PBXTextBookmark */;
+			F11C469E0FDFDB3100062717 /* PBXTextBookmark */ = F11C469E0FDFDB3100062717 /* PBXTextBookmark */;
+			F11C469F0FDFDB3100062717 /* PBXTextBookmark */ = F11C469F0FDFDB3100062717 /* PBXTextBookmark */;
+			F11C46A00FDFDB3100062717 /* PBXTextBookmark */ = F11C46A00FDFDB3100062717 /* PBXTextBookmark */;
+			F11C46A10FDFDB3100062717 /* PBXTextBookmark */ = F11C46A10FDFDB3100062717 /* PBXTextBookmark */;
+			F11C46A20FDFDB3100062717 /* PBXTextBookmark */ = F11C46A20FDFDB3100062717 /* PBXTextBookmark */;
+			F11C46A90FDFDBCA00062717 /* PBXTextBookmark */ = F11C46A90FDFDBCA00062717 /* PBXTextBookmark */;
 			F129AC2B0FDA6429004DD2DF = F129AC2B0FDA6429004DD2DF /* PBXTextBookmark */;
 			F129AC320FDA6429004DD2DF = F129AC320FDA6429004DD2DF /* PBXTextBookmark */;
 			F129AC330FDA6429004DD2DF = F129AC330FDA6429004DD2DF /* PBXTextBookmark */;
@@ -349,7 +366,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 38";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1043;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -369,7 +386,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: viewWillAppear:";
 		rLen = 0;
-		rLoc = 3813;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 3017;
@@ -515,7 +532,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 38";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1043;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 0;
@@ -535,7 +552,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: viewWillAppear:";
 		rLen = 0;
-		rLoc = 3813;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 3017;
@@ -1836,6 +1853,176 @@
 		vrLen = 1317;
 		vrLoc = 5214;
 	};
+	F11C46900FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = self.navigationItem.leftBarButtonItem;
+		rLen = 37;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 3;
+	};
+	F11C46910FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
+		name = barButtonResult;
+		rLen = 15;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	F11C46920FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: startBarButtonDown:";
+		rLen = 0;
+		rLoc = 5692;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 4712;
+	};
+	F11C46930FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = deleteRowsAtIndexPaths;
+		rLen = 22;
+		rLoc = 5865;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 5214;
+	};
+	F11C46940FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: viewWillAppear:";
+		rLen = 0;
+		rLoc = 3901;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	F11C46950FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = self.navigationItem.leftBarButtonItem;
+		rLen = 37;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 3;
+	};
+	F11C46960FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: startBarButtonDown:";
+		rLen = 0;
+		rLoc = 5692;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 4712;
+	};
+	F11C46970FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
+		name = barButtonResult;
+		rLen = 15;
+		rLoc = 406;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	F11C46980FDFD93B00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = barButtonStart.title;
+		rLen = 20;
+		rLoc = 5543;
+		rType = 0;
+		vrLen = 1118;
+		vrLoc = 5036;
+	};
+	F11C469A0FDFD98C00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = leftBarButtonItem;
+		rLen = 17;
+		rLoc = 1213;
+		rType = 0;
+		vrLen = 1557;
+		vrLoc = 301;
+	};
+	F11C469D0FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: editBarButtonDown:";
+		rLen = 0;
+		rLoc = 6300;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	F11C469E0FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
+		name = "IBOutlet UIBarButtonItem\t*barButtonResult;";
+		rLen = 44;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	F11C469F0FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
+		name = "DrawLots2Controller.h: 38";
+		rLen = 0;
+		rLoc = 1043;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 0;
+	};
+	F11C46A00FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
+		name = "DrawLots1Controller.m: editBarButtonDown:";
+		rLen = 0;
+		rLoc = 6300;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	F11C46A10FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
+		name = "IBOutlet UIBarButtonItem\t*barButtonResult;";
+		rLen = 44;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	F11C46A20FDFDB3100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
+		name = "DrawLots2Controller.h: lotsLabel";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 0;
+	};
+	F11C46A90FDFDBCA00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
+		name = "DrawLots2Controller.h: lotsLabel";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 0;
+	};
 	F129ABD80FDA572E004DD2DF /* PickOneForMe */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -2216,7 +2403,7 @@
 		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
 		name = "DrawLots1Controller.h: 39";
 		rLen = 0;
-		rLoc = 933;
+		rLoc = 977;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 0;
@@ -2306,7 +2493,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: viewWillAppear:";
 		rLen = 0;
-		rLoc = 3793;
+		rLoc = 3881;
 		rType = 0;
 		vrLen = 1527;
 		vrLoc = 2897;
@@ -2316,7 +2503,7 @@
 		fRef = F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */;
 		name = "DrawLots1Controller.h: 39";
 		rLen = 0;
-		rLoc = 933;
+		rLoc = 977;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 0;
@@ -2326,7 +2513,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "[self resetLots];";
 		rLen = 19;
-		rLoc = 3792;
+		rLoc = 3880;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 3017;
@@ -2346,7 +2533,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 38";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1043;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 0;
@@ -2356,7 +2543,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: viewWillAppear:";
 		rLen = 0;
-		rLoc = 3813;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 3017;
@@ -2386,7 +2573,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 38";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1043;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 0;
@@ -2396,7 +2583,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = "DrawLots1Controller.m: viewWillAppear:";
 		rLen = 0;
-		rLoc = 3813;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 3017;
@@ -2424,22 +2611,22 @@
 	F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 647}}";
-			sepNavSelRange = "{933, 0}";
+			sepNavSelRange = "{379, 44}";
 			sepNavVisRect = "{{0, 0}, {1185, 647}}";
 		};
 	};
 	F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 3374}}";
-			sepNavSelRange = "{3813, 0}";
-			sepNavVisRect = "{{0, 1299}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 4382}}";
+			sepNavSelRange = "{6300, 0}";
+			sepNavVisRect = "{{0, 0}, {1185, 647}}";
 		};
 	};
 	F1B713030FDC54880084CCAB /* DrawLots2Controller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 658}}";
-			sepNavSelRange = "{999, 0}";
-			sepNavVisRect = "{{0, 0}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 672}}";
+			sepNavSelRange = "{423, 0}";
+			sepNavVisRect = "{{0, 0}, {1185, 624}}";
 		};
 	};
 	F1B713040FDC54880084CCAB /* DrawLots2Controller.m */ = {
@@ -2464,7 +2651,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 17";
 		rLen = 0;
-		rLoc = 1180;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 238;
 		vrLoc = 0;

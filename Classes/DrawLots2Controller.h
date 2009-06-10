@@ -14,6 +14,7 @@
 	LotsData					*lotsData;
 	IBOutlet UIView				*lotsView;
 	IBOutlet UIBarButtonItem	*barButtonStart;
+	IBOutlet UIBarButtonItem	*barButtonResult;
 	IBOutlet UITextField		*lotsLabel;
 	IBOutlet UIView				*remainderBar;
 	IBOutlet UIView				*remainderBarBase;

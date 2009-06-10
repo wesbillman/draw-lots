@@ -103,6 +103,9 @@
 	CGRect newFrame = remainderBar.frame;
 	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
+
+	self.navigationItem.rightBarButtonItem.enabled = YES;
+	barButtonResult.enabled = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -184,6 +187,10 @@
 		barButtonStart.title = NSLocalizedString(@"Stop", @"Stop");
 		barButtonStart.enabled = YES;
 		indicatorView.hidden = NO;
+
+		self.navigationItem.rightBarButtonItem.enabled = NO;
+		barButtonResult.enabled = NO;
+
 		[indicatorView startAnimating];
 		[self.randomSequence startGenerating];
 		[self startUpdateTimer];
@@ -227,6 +234,8 @@
 	else
 	{
 		barButtonStart.title = NSLocalizedString(@"Start", @"Start");
+		self.navigationItem.rightBarButtonItem.enabled = YES;
+		barButtonResult.enabled = YES;
 	}
 	barButtonStart.enabled = YES;
 	[indicatorView stopAnimating];
