@@ -313,7 +313,7 @@
 					<object class="IBUISwitch" id="694646389">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{198, 254}, {94, 27}}</string>
+						<string key="NSFrame">{{146, 256}, {94, 27}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -325,12 +325,12 @@
 					<object class="IBUILabel" id="144414443">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">256</int>
-						<string key="NSFrame">{{33, 254}, {140, 21}}</string>
+						<string key="NSFrame">{{33, 259}, {112, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="IBUIText">Repeatable Lots:</string>
+						<string key="IBUIText">Repeatable:</string>
 						<reference key="IBUITextColor" ref="507093456"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -339,7 +339,7 @@
 					<object class="IBUISwitch" id="579037667">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">-2147483392</int>
-						<string key="NSFrame">{{198, 374}, {94, 27}}</string>
+						<string key="NSFrame">{{146, 376}, {94, 27}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -351,12 +351,12 @@
 					<object class="IBUILabel" id="829208732">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">-2147483392</int>
-						<string key="NSFrame">{{33, 374}, {140, 21}}</string>
+						<string key="NSFrame">{{33, 379}, {112, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="IBUIText">Repeatable Lots:</string>
+						<string key="IBUIText">Repeatable:</string>
 						<reference key="IBUITextColor" ref="507093456"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>

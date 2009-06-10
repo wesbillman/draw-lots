@@ -36,9 +36,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 3038}}";
-			sepNavSelRange = "{688, 0}";
-			sepNavVisRect = "{{0, 2391}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 3024}}";
+			sepNavSelRange = "{5865, 22}";
+			sepNavVisRect = "{{0, 2182}, {1185, 647}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -224,6 +224,37 @@
 			F11C463B0FDFCFEC00062717 /* PBXTextBookmark */ = F11C463B0FDFCFEC00062717 /* PBXTextBookmark */;
 			F11C463C0FDFCFEC00062717 /* PBXTextBookmark */ = F11C463C0FDFCFEC00062717 /* PBXTextBookmark */;
 			F11C463F0FDFD0D800062717 /* PBXTextBookmark */ = F11C463F0FDFD0D800062717 /* PBXTextBookmark */;
+			F11C46440FDFD15400062717 /* PBXTextBookmark */ = F11C46440FDFD15400062717 /* PBXTextBookmark */;
+			F11C46450FDFD15400062717 /* PBXTextBookmark */ = F11C46450FDFD15400062717 /* PBXTextBookmark */;
+			F11C46460FDFD15400062717 /* PBXTextBookmark */ = F11C46460FDFD15400062717 /* PBXTextBookmark */;
+			F11C46470FDFD15400062717 /* PBXTextBookmark */ = F11C46470FDFD15400062717 /* PBXTextBookmark */;
+			F11C46480FDFD15400062717 /* PBXTextBookmark */ = F11C46480FDFD15400062717 /* PBXTextBookmark */;
+			F11C46510FDFD30D00062717 /* PBXTextBookmark */ = F11C46510FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46520FDFD30D00062717 /* PBXTextBookmark */ = F11C46520FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46530FDFD30D00062717 /* PBXTextBookmark */ = F11C46530FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46540FDFD30D00062717 /* PBXTextBookmark */ = F11C46540FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46550FDFD30D00062717 /* PBXTextBookmark */ = F11C46550FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46560FDFD30D00062717 /* PBXTextBookmark */ = F11C46560FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46570FDFD30D00062717 /* PBXTextBookmark */ = F11C46570FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46580FDFD30D00062717 /* PBXTextBookmark */ = F11C46580FDFD30D00062717 /* PBXTextBookmark */;
+			F11C46590FDFD30D00062717 /* PBXTextBookmark */ = F11C46590FDFD30D00062717 /* PBXTextBookmark */;
+			F11C465A0FDFD30D00062717 /* PBXTextBookmark */ = F11C465A0FDFD30D00062717 /* PBXTextBookmark */;
+			F11C465D0FDFD39700062717 /* PBXTextBookmark */ = F11C465D0FDFD39700062717 /* PBXTextBookmark */;
+			F11C465E0FDFD39700062717 /* PBXTextBookmark */ = F11C465E0FDFD39700062717 /* PBXTextBookmark */;
+			F11C465F0FDFD39700062717 /* PBXTextBookmark */ = F11C465F0FDFD39700062717 /* PBXTextBookmark */;
+			F11C46600FDFD39700062717 /* PBXTextBookmark */ = F11C46600FDFD39700062717 /* PBXTextBookmark */;
+			F11C46610FDFD39700062717 /* PBXTextBookmark */ = F11C46610FDFD39700062717 /* PBXTextBookmark */;
+			F11C46670FDFD3B300062717 /* PBXTextBookmark */ = F11C46670FDFD3B300062717 /* PBXTextBookmark */;
+			F11C466B0FDFD41000062717 /* PBXTextBookmark */ = F11C466B0FDFD41000062717 /* PBXTextBookmark */;
+			F11C466D0FDFD41E00062717 /* PBXTextBookmark */ = F11C466D0FDFD41E00062717 /* PBXTextBookmark */;
+			F11C466F0FDFD44100062717 /* PBXTextBookmark */ = F11C466F0FDFD44100062717 /* PBXTextBookmark */;
+			F11C46730FDFD4EE00062717 /* PBXTextBookmark */ = F11C46730FDFD4EE00062717 /* PBXTextBookmark */;
+			F11C46790FDFD63400062717 /* PBXTextBookmark */ = F11C46790FDFD63400062717 /* PBXTextBookmark */;
+			F11C467A0FDFD63400062717 /* PBXTextBookmark */ = F11C467A0FDFD63400062717 /* PBXTextBookmark */;
+			F11C467B0FDFD63400062717 /* PBXTextBookmark */ = F11C467B0FDFD63400062717 /* PBXTextBookmark */;
+			F11C467C0FDFD63400062717 /* PBXTextBookmark */ = F11C467C0FDFD63400062717 /* PBXTextBookmark */;
+			F11C46800FDFD6D500062717 /* PBXTextBookmark */ = F11C46800FDFD6D500062717 /* PBXTextBookmark */;
+			F11C468A0FDFD76600062717 /* PBXTextBookmark */ = F11C468A0FDFD76600062717 /* PBXTextBookmark */;
 			F129AC2B0FDA6429004DD2DF = F129AC2B0FDA6429004DD2DF /* PBXTextBookmark */;
 			F129AC320FDA6429004DD2DF = F129AC320FDA6429004DD2DF /* PBXTextBookmark */;
 			F129AC330FDA6429004DD2DF = F129AC330FDA6429004DD2DF /* PBXTextBookmark */;
@@ -414,7 +445,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 5540;
@@ -444,7 +475,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10538;
+		rLoc = 10908;
 		rType = 0;
 		vrLen = 1719;
 		vrLoc = 9141;
@@ -474,7 +505,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 5540;
@@ -604,7 +635,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 5540;
@@ -740,7 +771,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1451;
 		vrLoc = 5538;
@@ -790,7 +821,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 0;
@@ -800,7 +831,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: tableView:cellForRowAtIndexPath:";
 		rLen = 0;
-		rLoc = 9101;
+		rLoc = 9471;
 		rType = 0;
 		vrLen = 1788;
 		vrLoc = 8657;
@@ -830,7 +861,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: 349";
 		rLen = 0;
-		rLoc = 10540;
+		rLoc = 10910;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 9298;
@@ -850,7 +881,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10489;
+		rLoc = 10859;
 		rType = 0;
 		vrLen = 1457;
 		vrLoc = 9559;
@@ -880,7 +911,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1449;
 		vrLoc = 5540;
@@ -890,7 +921,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didSelectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10323;
+		rLoc = 10693;
 		rType = 0;
 		vrLen = 1459;
 		vrLoc = 9559;
@@ -910,7 +941,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10538;
+		rLoc = 10908;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 0;
@@ -940,7 +971,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10538;
+		rLoc = 10908;
 		rType = 0;
 		vrLen = 1719;
 		vrLoc = 9141;
@@ -1200,7 +1231,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 2819;
@@ -1220,7 +1251,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10538;
+		rLoc = 10908;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 5924;
@@ -1240,7 +1271,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 2819;
@@ -1260,7 +1291,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = imageArray;
 		rLen = 10;
-		rLoc = 7776;
+		rLoc = 8146;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 6391;
@@ -1280,7 +1311,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 2819;
@@ -1300,7 +1331,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1554;
 		vrLoc = 2819;
@@ -1310,7 +1341,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1554;
 		vrLoc = 2819;
@@ -1320,7 +1351,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 2819;
@@ -1350,7 +1381,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: deleteButton:";
 		rLen = 0;
-		rLoc = 3978;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 1597;
 		vrLoc = 2819;
@@ -1410,7 +1441,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10487;
+		rLoc = 10857;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 9102;
@@ -1440,7 +1471,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10487;
+		rLoc = 10857;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 9102;
@@ -1480,7 +1511,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10487;
+		rLoc = 10857;
 		rType = 0;
 		vrLen = 1445;
 		vrLoc = 9102;
@@ -1490,10 +1521,320 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: didUnselectedUIKeepRatioImageView:";
 		rLen = 0;
-		rLoc = 10487;
+		rLoc = 10857;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 0;
+	};
+	F11C46440FDFD15400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = deleteButton;
+		rLen = 12;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C46450FDFD15400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: 14";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 1474;
+		vrLoc = 9073;
+	};
+	F11C46460FDFD15400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: 14";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 1445;
+		vrLoc = 9102;
+	};
+	F11C46470FDFD15400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = deleteButton;
+		rLen = 12;
+		rLoc = 1095;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C46480FDFD15400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: deleteButton:";
+		rLen = 0;
+		rLoc = 4348;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 2819;
+	};
+	F11C46510FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: 15";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 12493;
+	};
+	F11C46520FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = UIImagePickerController;
+		rLen = 23;
+		rLoc = 632;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C46530FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@\"New\", @\"New\")";
+		rLen = 114;
+		rLoc = 784;
+		rType = 0;
+		vrLen = 1611;
+		vrLoc = 0;
+	};
+	F11C46540FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = imagePicker;
+		rLen = 11;
+		rLoc = 2647;
+		rType = 0;
+		vrLen = 1952;
+		vrLoc = 1843;
+	};
+	F11C46550FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: 123";
+		rLen = 0;
+		rLoc = 4348;
+		rType = 0;
+		vrLen = 1602;
+		vrLoc = 2819;
+	};
+	F11C46560FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: 15";
+		rLen = 0;
+		rLoc = 409;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 12493;
+	};
+	F11C46570FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = imagePicker;
+		rLen = 11;
+		rLoc = 2647;
+		rType = 0;
+		vrLen = 1952;
+		vrLoc = 1843;
+	};
+	F11C46580FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = UIImagePickerController;
+		rLen = 23;
+		rLoc = 632;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C46590FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@\"New\", @\"New\")";
+		rLen = 114;
+		rLoc = 784;
+		rType = 0;
+		vrLen = 1611;
+		vrLoc = 0;
+	};
+	F11C465A0FDFD30D00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: photoLibraryButton:";
+		rLen = 0;
+		rLoc = 2719;
+		rType = 0;
+		vrLen = 1866;
+		vrLoc = 1690;
+	};
+	F11C465D0FDFD39700062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = UIImagePickerController;
+		rLen = 23;
+		rLoc = 632;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C465E0FDFD39700062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: photoLibraryButton:";
+		rLen = 0;
+		rLoc = 2719;
+		rType = 0;
+		vrLen = 1877;
+		vrLoc = 1690;
+	};
+	F11C465F0FDFD39700062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: photoLibraryButton:";
+		rLen = 0;
+		rLoc = 2719;
+		rType = 0;
+		vrLen = 1877;
+		vrLoc = 1690;
+	};
+	F11C46600FDFD39700062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */;
+		name = UIImagePickerController;
+		rLen = 23;
+		rLoc = 632;
+		rType = 0;
+		vrLen = 1269;
+		vrLoc = 0;
+	};
+	F11C46610FDFD39700062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: navigationController:didShowViewController:animated:";
+		rLen = 0;
+		rLoc = 4028;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 3284;
+	};
+	F11C46670FDFD3B300062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: navigationController:didShowViewController:animated:";
+		rLen = 0;
+		rLoc = 4028;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 3284;
+	};
+	F11C466B0FDFD41000062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: navigationController:didShowViewController:animated:";
+		rLen = 0;
+		rLoc = 4028;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 3284;
+	};
+	F11C466D0FDFD41E00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: navigationController:didShowViewController:animated:";
+		rLen = 0;
+		rLoc = 4028;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 3284;
+	};
+	F11C466F0FDFD44100062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: 124";
+		rLen = 0;
+		rLoc = 4120;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 3284;
+	};
+	F11C46730FDFD4EE00062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: 124";
+		rLen = 0;
+		rLoc = 4120;
+		rType = 0;
+		vrLen = 1457;
+		vrLoc = 3284;
+	};
+	F11C46790FDFD63400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: createResizeImage:";
+		rLen = 0;
+		rLoc = 4486;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 0;
+	};
+	F11C467A0FDFD63400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@\"New\", @\"New\")";
+		rLen = 114;
+		rLoc = 784;
+		rType = 0;
+		vrLen = 1611;
+		vrLoc = 0;
+	};
+	F11C467B0FDFD63400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
+		name = "CreatePhotoLotsController.m: createResizeImage:";
+		rLen = 0;
+		rLoc = 4486;
+		rType = 0;
+		vrLen = 1484;
+		vrLoc = 0;
+	};
+	F11C467C0FDFD63400062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 23";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 0;
+	};
+	F11C46800FDFD6D500062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:commitEditingStyle:forRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6028;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 4839;
+	};
+	F11C468A0FDFD76600062717 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:commitEditingStyle:forRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6056;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 5214;
 	};
 	F129ABD80FDA572E004DD2DF /* PickOneForMe */ = {
 		isa = PBXExecutable;
@@ -1537,15 +1878,15 @@
 	F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 647}}";
-			sepNavSelRange = "{762, 12}";
+			sepNavSelRange = "{632, 23}";
 			sepNavVisRect = "{{0, 0}, {1185, 647}}";
 		};
 	};
 	F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1280, 4830}}";
-			sepNavSelRange = "{10487, 0}";
-			sepNavVisRect = "{{0, 0}, {1185, 624}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1280, 4970}}";
+			sepNavSelRange = "{4486, 0}";
+			sepNavVisRect = "{{0, 0}, {1185, 647}}";
 		};
 	};
 	F129AC2B0FDA6429004DD2DF /* PBXTextBookmark */ = {
@@ -1583,7 +1924,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = didSelectRowAtIndexPath;
 		rLen = 23;
-		rLoc = 4517;
+		rLoc = 4510;
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 3403;
@@ -1806,7 +2147,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1436, 5320}}";
 			sepNavSelRange = "{409, 0}";
-			sepNavVisRect = "{{0, 4578}, {1185, 624}}";
+			sepNavVisRect = "{{0, 4563}, {1185, 647}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
 	};
@@ -1855,7 +2196,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 0;
@@ -1895,7 +2236,7 @@
 		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
 		name = "RootViewController.m: viewDidLoad";
 		rLen = 0;
-		rLoc = 688;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 0;
@@ -2425,7 +2766,7 @@
 		fRef = F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */;
 		name = "CreatePhotoLotsController.m: tableView:cellForRowAtIndexPath:";
 		rLen = 685;
-		rLoc = 9445;
+		rLoc = 9815;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 8514;

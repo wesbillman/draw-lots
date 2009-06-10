@@ -112,6 +112,15 @@
 	}
 }
 
+#if 0
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+	if(navigationController == self.imagePicker)
+	{
+		viewController.navigationItem.rightBarButtonItem.title = NSLocalizedString(@"Done", @"Done");
+	}
+}
+#endif
 
 - (void)deleteButton:(id)sender {
 	if(selectImages.count)
@@ -120,6 +129,7 @@
 		[selectImages removeAllObjects];
 		[tableView reloadData];
 	}
+	barButtonDel.enabled = selectImages.count > 0;
 }
 
 #define IMAGE_HEIGHT_PIXEL 75
