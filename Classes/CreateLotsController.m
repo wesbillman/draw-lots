@@ -37,23 +37,34 @@
 		textFieldName.text = lotsData.lotsName;
 		segControlNumber.selectedSegmentIndex = lotsData.numberOfGroup.intValue - 1;
 		segControlGroup1.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue;
-		segControlGroup2.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:1]).intValue;
 		repeatableSwitch1.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue;
-		repeatableSwitch2.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:1]).boolValue;
-
-		photoLots1.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]);
-		photoLots2.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:1]);
-		
+		photoLots1.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]);		
 		NSRange range;
 		range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
 		range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
 		numberLots1.range= range; 
-		range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
-		range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
-		numberLots2.range = range;
-		
 		stringLots1.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:0]);
-		stringLots2.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:1]);
+		
+		if(lotsData.numberOfGroup.intValue > 1)
+		{
+			segControlGroup2.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:1]).intValue;
+			repeatableSwitch2.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:1]).boolValue;
+			photoLots2.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:1]);
+			range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
+			range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
+			numberLots2.range = range;
+			stringLots2.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:1]);
+		}
+		else
+		{
+			segControlGroup2.selectedSegmentIndex = 1;
+			repeatableSwitch2.on = YES;
+			photoLots2.imageArray = nil;
+			range.location = 1;
+			range.length = 10;
+			numberLots2.range = range;
+			stringLots2.stringArray = nil;
+		}
 		
 		self.title = NSLocalizedString(@"Edit Lots", @"Edit Lots");
 	}
@@ -65,6 +76,9 @@
 	[self segControlGroupValueChanged:segControlGroup1];
 	[self segControlGroupValueChanged:segControlGroup2];
 	//self.navigationController.navigationItem.leftBarButtonItem.title = NSLocalizedString(@"Back", @"Back");
+	segControlNumber.enabled = (lotsData == nil);
+	segControlGroup1.enabled = (lotsData == nil);
+	segControlGroup2.enabled = (lotsData == nil);
 }
 
 

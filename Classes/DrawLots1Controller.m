@@ -111,6 +111,8 @@
 	CGRect newFrame = remainderBar.frame;
 	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
+
+	[self resetLots];
 	
 	barButtonStart.enabled = YES;
 	lotsLabel.hidden = NO;

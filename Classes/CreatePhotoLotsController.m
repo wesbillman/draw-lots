@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = NSLocalizedString(@"Create Photo Lots", @"Create Photo Lots");
+	selectImages = [[NSMutableArray alloc] initWithCapacity:8];
 }
 
 
@@ -52,6 +53,7 @@
 
 
 - (void)dealloc {
+	[selectImages release];
 	[tableView release];
 	
 	[barButtonCamera release];
@@ -112,33 +114,17 @@
 
 
 - (void)deleteButton:(id)sender {
+	if(selectImages.count)
+	{
+		[self.imageArray removeObjectsInArray:selectImages];
+		[selectImages removeAllObjects];
+		[tableView reloadData];
+	}
 }
 
 #define IMAGE_HEIGHT_PIXEL 75
 #define IMAGE_PER_ROW 4
 #define IMAGE_GAP_PIXEL 4
-#if 0
-- (void) displayImages
-{
-	int i;
-	int width = scrollView.bounds.size.width;
-	int imageWidth = (width - (IMAGE_PER_ROW + 1) * IMAGE_GAP_PIXEL) / IMAGE_PER_ROW;
-	for(i=0;i<self.imageArray.count;++i)
-	{
-		[[self.imageArray objectAtIndex:i] removeFromSuperview];
-		CGRect rect;
-		rect.size.width = imageWidth;
-		rect.size.height = IMAGE_HEIGHT_PIXEL;
-		rect.origin.x = (i % IMAGE_PER_ROW) * (imageWidth + IMAGE_GAP_PIXEL) + IMAGE_GAP_PIXEL;
-		rect.origin.y = (i / IMAGE_PER_ROW) * (IMAGE_HEIGHT_PIXEL + IMAGE_GAP_PIXEL) + IMAGE_GAP_PIXEL;
-		((UIView*)[self.imageArray objectAtIndex:i]).frame = rect;
-		[scrollView addSubview:[self.imageArray objectAtIndex:i]];
-	}
-	[scrollView setNeedsLayout];
-	
-	[scrollView setNeedsDisplay];
-}
-#endif
 
 - (UIImage *) createResizeImage:(UIImage*) srcImage
 {
@@ -309,6 +295,7 @@
 
 				UIImage *img = [self.imageArray objectAtIndex:(i + IMAGE_PER_ROW * indexPath.row)];
 				UIKeepRatioImageView *curView = [[UIKeepRatioImageView alloc] initWithFrame:CGRectZero andImage:img];
+				curView.delegate = self;
 				
 				CGRect rect;
 				rect.size.width = imageWidth;
@@ -337,5 +324,21 @@
 	}
     return cell;
 }
+
+- (void)didSelectedUIKeepRatioImageView:(UIKeepRatioImageView *)view
+{
+	if(![selectImages containsObject:view.srcImage])
+	{
+		[selectImages addObject:view.srcImage];
+	}
+	barButtonDel.enabled = selectImages.count > 0;
+}
+
+- (void)didUnselectedUIKeepRatioImageView:(UIKeepRatioImageView *)view
+{
+	[selectImages removeObject:view.srcImage];
+	barButtonDel.enabled = selectImages.count > 0;
+}
+
 
 @end

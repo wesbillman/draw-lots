@@ -60,18 +60,13 @@
 								<reference key="IBUIToolbar" ref="965358595"/>
 								<int key="IBUISystemItemIdentifier">10</int>
 							</object>
-							<object class="IBUIBarButtonItem" id="404884677">
-								<int key="IBUIStyle">1</int>
-								<reference key="IBUIToolbar" ref="965358595"/>
-								<int key="IBUISystemItemIdentifier">12</int>
-							</object>
 							<object class="IBUIBarButtonItem" id="1047936504">
 								<reference key="IBUIToolbar" ref="965358595"/>
 								<int key="IBUISystemItemIdentifier">5</int>
 							</object>
 							<object class="IBUIBarButtonItem" id="1004874454">
 								<bool key="IBUIEnabled">NO</bool>
-								<int key="IBUIStyle">1</int>
+								<int key="IBUIStyle">2</int>
 								<reference key="IBUIToolbar" ref="965358595"/>
 								<int key="IBUISystemItemIdentifier">16</int>
 							</object>
@@ -354,7 +349,6 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 							<reference ref="1045933456"/>
 							<reference ref="732252197"/>
 							<reference ref="1047936504"/>
-							<reference ref="404884677"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -388,11 +382,6 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 						<reference key="object" ref="1047936504"/>
 						<reference key="parent" ref="965358595"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">38</int>
-						<reference key="object" ref="404884677"/>
-						<reference key="parent" ref="965358595"/>
-					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -407,7 +396,6 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 					<string>20.IBPluginDependency</string>
 					<string>30.IBPluginDependency</string>
 					<string>37.IBPluginDependency</string>
-					<string>38.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>7.IBPluginDependency</string>
 					<string>9.IBPluginDependency</string>
@@ -417,7 +405,6 @@ AADBtMUAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlLCBJbmMuLCAyMDA5AA</
 					<string>CreatePhotoLotsController</string>
 					<string>UIResponder</string>
 					<string>{{438, 278}, {320, 480}}</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

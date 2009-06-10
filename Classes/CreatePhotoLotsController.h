@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIKeepRatioImageView.h"
 
 @interface CreatePhotoLotsController : UIViewController <UITableViewDelegate, UITableViewDataSource, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIAlertViewDelegate> {
 	IBOutlet UITableView		*tableView;
@@ -21,6 +21,8 @@
 	UIAlertView					*imageAddedAlert;
 	
 	NSMutableArray				*imageArray;
+	
+	NSMutableArray				*selectImages;
 }
 
 @property (nonatomic, retain) UIImagePickerController	*imagePicker;
@@ -32,5 +34,8 @@
 - (void)photoLibraryButton:(id)sender;
 - (void)savedPhotosAlbumButton:(id)sender;
 - (void)deleteButton:(id)sender;
+
+- (void)didSelectedUIKeepRatioImageView:(UIKeepRatioImageView *)view;
+- (void)didUnselectedUIKeepRatioImageView:(UIKeepRatioImageView *)view;
 
 @end

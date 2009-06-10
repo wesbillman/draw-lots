@@ -153,6 +153,8 @@
 	newFrame.size.width = (remainderBarBase2.bounds.size.width-2) * [self.randomSequence2 getRemainingLotsPercentage];
 	remainderBar2.frame = newFrame;
 	
+	[self resetLots];
+	
 	barButtonStart.enabled = YES;
 	lotsLabel.hidden = NO;
 	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
