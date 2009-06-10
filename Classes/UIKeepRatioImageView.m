@@ -86,7 +86,7 @@
 {
 	UITouch* touch = (UITouch*)[touches anyObject];
 	CGPoint location = [touch locationInView:self];
-	NSLog(@"(%f, %f, %f, %f) (%f, %f)", self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.frame.size.height, location.x, location.y);
+	//NSLog(@"(%f, %f, %f, %f) (%f, %f)", self.frame.origin.x, self.frame.origin.y, self.frame.size.width, self.frame.size.height, location.x, location.y);
 	if(touches.count == 1 && CGRectContainsPoint(self.bounds, location))
 	{
 		touchBegin = YES;

@@ -37,6 +37,8 @@
 
 	//	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Back", @"Back")
 	//																			 style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonDown:)];
+	[UIAccelerometer sharedAccelerometer].delegate = self;
+	[UIAccelerometer sharedAccelerometer].updateInterval = 0.2;
 }
 
 - (NSMutableArray *) resultLots {
@@ -146,6 +148,9 @@
 
 
 - (void)dealloc {
+	[UIAccelerometer sharedAccelerometer].delegate = nil;
+	[lastAcceleration release];
+	
 	[lotsData release];
 	[resultLots release];
 	
@@ -307,6 +312,51 @@
 												 selector:@selector(timerFunc:)
 												 userInfo:nil
 												  repeats:YES];
+}
+
+
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+	if(lastAcceleration)
+	{
+		UIAccelerationValue x = lastAcceleration.x - acceleration.x;
+		UIAccelerationValue y = lastAcceleration.y - acceleration.y;
+		UIAccelerationValue z = lastAcceleration.z - acceleration.z;
+		x = x * x;
+		y = y * y;
+		z = z * z;
+//		NSLog(@"(%f, %f, %f) %f", acceleration.x, acceleration.y, acceleration.z, (x + y + z));
+		if((x + y + z) >= 0.8)
+		{
+			if(accelerationChanged < 3)
+				++accelerationChanged;
+		}
+		else
+		{
+			//accelerationChanged = 0;
+			if(accelerationChanged > 0)
+				--accelerationChanged;
+		}
+		if(accelerationChanged >= 3)
+		{
+			if([barButtonStart.title isEqualToString:NSLocalizedString(@"Start", @"Start")])
+			{
+				NSLog(@"Motion Started");
+				[self startBarButtonDown:barButtonStart];
+			}
+		}
+		else if(accelerationChanged == 0)
+		{
+			if([barButtonStart.title isEqualToString:NSLocalizedString(@"Stop", @"Stop")])
+			{
+				NSLog(@"Motion Ended");
+				[self startBarButtonDown:barButtonStart];
+			}
+		}
+	}
+
+	[lastAcceleration release];
+	lastAcceleration = [acceleration retain];
 }
 
 @end

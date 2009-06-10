@@ -10,7 +10,7 @@
 #import "LotsData.h"
 #import "LotsRandomSequence.h"
 
-@interface DrawLots2Controller : UIViewController {
+@interface DrawLots2Controller : UIViewController <UIAccelerometerDelegate>{
 	LotsData					*lotsData;
 	IBOutlet UIView				*lotsView;
 	IBOutlet UIBarButtonItem	*barButtonStart;
@@ -31,8 +31,10 @@
 	IBOutlet UIView				*remainderBarBase2;
 	IBOutlet UIActivityIndicatorView *indicatorView2;
 	LotsRandomSequence			*randomSequence2;
-}
 
+	int							accelerationChanged;
+	UIAcceleration				*lastAcceleration;
+}
 
 @property (nonatomic, retain) LotsData *lotsData;
 @property (nonatomic, retain) NSMutableArray *resultLots;
