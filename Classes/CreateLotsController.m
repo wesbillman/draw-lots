@@ -38,6 +38,7 @@
 		segControlNumber.selectedSegmentIndex = lotsData.numberOfGroup.intValue - 1;
 		segControlGroup1.selectedSegmentIndex = ((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue;
 		repeatableSwitch1.on = ((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue;
+		NSLog(@"%@ ->%d", [lotsData.photoLots description], lotsData.photoLots.count);
 		photoLots1.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]);		
 		NSRange range;
 		range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
@@ -277,7 +278,7 @@
 						repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
 
 		PickOneForMeAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-		[appDelegate.lotsData addObject:lotsData];
+		[appDelegate addLotsData:lotsData];
 		//[lotsData release];
 	}
 	else
@@ -299,6 +300,7 @@
 							[NSNumber numberWithInt:numberLots2.range.length], LOTSDATA_NUMBER_RANGE, nil]
 						stringLots:stringLots2.stringArray
 						repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
+		lotsData.dataChanged = YES;
 	}
 	[self.navigationController popViewControllerAnimated:YES];
 }

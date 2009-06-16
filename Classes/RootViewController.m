@@ -89,7 +89,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return appDelegate.lotsData.count;
+	return [appDelegate getLotsDataCount];
 }
 
 
@@ -97,7 +97,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
 	int idx = indexPath.row;
-	LotsData *data = [appDelegate.lotsData objectAtIndex:idx];
+	LotsData *data = [appDelegate getLotsDataAtIndex:idx];
 	if(data)
 	{
 		static NSString *CellIdentifier = @"LotsDataCell";
@@ -137,7 +137,8 @@
 
 // Override to support row selection in the table view.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	LotsData *data = [appDelegate.lotsData objectAtIndex:indexPath.row];
+	[appDelegate deserializeLotsImagesAtIndex:indexPath.row];
+	LotsData *data = [appDelegate getLotsDataAtIndex:indexPath.row];
 	if(data.numberOfGroup.intValue == 1)
 	{
 		DrawLots1Controller *controller = [[DrawLots1Controller alloc] initWithNibName:@"DrawLots1Controller" bundle:nil];
@@ -175,7 +176,7 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
         //[tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-		[appDelegate.lotsData removeObjectAtIndex:indexPath.row];
+		[appDelegate removeLotsDataAtIndex:indexPath.row];
 		[tableView reloadData];
     }   
 }

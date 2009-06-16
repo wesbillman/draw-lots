@@ -11,7 +11,7 @@
 
 @implementation LotsData
 @synthesize numberOfGroup, lotsName, lotsDate;
-@synthesize groupTypes, photoLots, numberLots, stringLots, repeatables;
+@synthesize groupTypes, photoLots, numberLots, stringLots, repeatables, dataChanged;
 
 - (id) initWithNumberofGroup:(NSNumber*) nfg
 					lotsName:(NSString*) name
@@ -28,6 +28,7 @@
 		numberLots = [[NSMutableArray alloc] initWithCapacity:4];
 		stringLots = [[NSMutableArray alloc] initWithCapacity:4];
 		repeatables = [[NSMutableArray alloc] initWithCapacity:4];
+		dataChanged = YES;
 	}
 	return self;
 }

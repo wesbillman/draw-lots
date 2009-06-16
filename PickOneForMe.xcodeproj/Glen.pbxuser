@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 647}}";
-			sepNavSelRange = "{477, 55}";
-			sepNavVisRect = "{{0, 0}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 435}}";
+			sepNavSelRange = "{494, 0}";
+			sepNavVisRect = "{{0, 0}, {1185, 435}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 2660}}";
-			sepNavSelRange = "{2292, 5}";
-			sepNavVisRect = "{{0, 2030}, {1185, 458}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 3780}}";
+			sepNavSelRange = "{3409, 0}";
+			sepNavVisRect = "{{0, 1232}, {1185, 435}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* PickOneForMe */ = {
@@ -36,9 +36,9 @@
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 3024}}";
-			sepNavSelRange = "{785, 37}";
-			sepNavVisRect = "{{0, 2566}, {1185, 458}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 3038}}";
+			sepNavSelRange = "{4620, 0}";
+			sepNavVisRect = "{{0, 1761}, {1185, 458}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -109,6 +109,22 @@
 		perUserProjectItems = {
 			F105352A0FE058A400A71A58 = F105352A0FE058A400A71A58 /* PBXTextBookmark */;
 			F105352B0FE058A400A71A58 = F105352B0FE058A400A71A58 /* PBXTextBookmark */;
+			F117F9B90FE7925300982F9C /* PBXTextBookmark */ = F117F9B90FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BA0FE7925300982F9C /* PBXTextBookmark */ = F117F9BA0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BB0FE7925300982F9C /* PBXTextBookmark */ = F117F9BB0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BC0FE7925300982F9C /* PBXTextBookmark */ = F117F9BC0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BD0FE7925300982F9C /* PBXTextBookmark */ = F117F9BD0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BE0FE7925300982F9C /* PBXTextBookmark */ = F117F9BE0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9BF0FE7925300982F9C /* PBXTextBookmark */ = F117F9BF0FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C00FE7925300982F9C /* PBXTextBookmark */ = F117F9C00FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C10FE7925300982F9C /* PBXTextBookmark */ = F117F9C10FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C20FE7925300982F9C /* PBXTextBookmark */ = F117F9C20FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C30FE7925300982F9C /* PBXTextBookmark */ = F117F9C30FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C40FE7925300982F9C /* PBXTextBookmark */ = F117F9C40FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C50FE7925300982F9C /* PBXTextBookmark */ = F117F9C50FE7925300982F9C /* PBXTextBookmark */;
+			F117F9C80FE7927E00982F9C /* PBXTextBookmark */ = F117F9C80FE7927E00982F9C /* PBXTextBookmark */;
+			F117F9CA0FE7927E00982F9C /* PBXTextBookmark */ = F117F9CA0FE7927E00982F9C /* PBXTextBookmark */;
+			F117F9CB0FE7927E00982F9C /* PBXTextBookmark */ = F117F9CB0FE7927E00982F9C /* PBXTextBookmark */;
 			F11C45920FDFCA0B00062717 = F11C45920FDFCA0B00062717 /* PBXTextBookmark */;
 			F11C45AD0FDFCA0B00062717 = F11C45AD0FDFCA0B00062717 /* PBXTextBookmark */;
 			F11C45FF0FDFCC3100062717 = F11C45FF0FDFCC3100062717 /* PBXTextBookmark */;
@@ -178,7 +194,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 16;
-		modificationTime = 266832154.828694;
+		modificationTime = 266837426.543996;
 		state = 0;
 	};
 	F105352A0FE058A400A71A58 /* PBXTextBookmark */ = {
@@ -186,7 +202,7 @@
 		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
 		name = NSLog;
 		rLen = 5;
-		rLoc = 2292;
+		rLoc = 4741;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 4893;
@@ -200,6 +216,161 @@
 		rType = 0;
 		vrLen = 1218;
 		vrLoc = 0;
+	};
+	F117F9B90FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:commitEditingStyle:forRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6062;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 5112;
+	};
+	F117F9BA0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "self.lotsData = array;";
+		rLen = 35;
+		rLoc = 7688;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 7397;
+	};
+	F117F9BB0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */;
+		name = "PickOneForMeAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+	F117F9BC0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: accessing unknown 'lotsData' getter method";
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		rLen = 1;
+		rLoc = 280;
+		rType = 1;
+	};
+	F117F9BD0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "@synthesize lotsData;";
+		rLen = 22;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 244;
+	};
+	F117F9BE0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: tableView:commitEditingStyle:forRowAtIndexPath:";
+		rLen = 0;
+		rLoc = 6062;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 5112;
+	};
+	F117F9BF0FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "[appDelegate.lotsData addObject:lotsData];";
+		rLen = 38;
+		rLoc = 10607;
+		rType = 0;
+		vrLen = 1773;
+		vrLoc = 9398;
+	};
+	F117F9C00FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "@synthesize lotsData;";
+		rLen = 22;
+		rLoc = 892;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 244;
+	};
+	F117F9C10FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 0;
+	};
+	F117F9C20FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PickOneForMeAppDelegate.m */;
+		name = "self.lotsData = array;";
+		rLen = 35;
+		rLoc = 7688;
+		rType = 0;
+		vrLen = 564;
+		vrLoc = 7397;
+	};
+	F117F9C30FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "[appDelegate.lotsData addObject:lotsData];";
+		rLen = 38;
+		rLoc = 10607;
+		rType = 0;
+		vrLen = 1864;
+		vrLoc = 9504;
+	};
+	F117F9C40FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */;
+		name = "PickOneForMeAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+	F117F9C50FE7925300982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = "CreateLotsController.m: buttonSaveDown:";
+		rLen = 0;
+		rLoc = 10634;
+		rType = 0;
+		vrLen = 1857;
+		vrLoc = 9504;
+	};
+	F117F9C80FE7927E00982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PickOneForMeAppDelegate.h */;
+		name = "PickOneForMeAppDelegate.h: 9";
+		rLen = 0;
+		rLoc = 162;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+	F117F9CA0FE7927E00982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		rLen = 11;
+		rLoc = 10622;
+		rType = 0;
+	};
+	F117F9CB0FE7927E00982F9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
+		name = addLotsData;
+		rLen = 11;
+		rLoc = 10622;
+		rType = 0;
+		vrLen = 2257;
+		vrLoc = 9441;
 	};
 	F11C45920FDFCA0B00062717 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -306,9 +477,9 @@
 	};
 	F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 588}}";
 			sepNavSelRange = "{632, 23}";
-			sepNavVisRect = "{{0, 0}, {1185, 647}}";
+			sepNavVisRect = "{{0, 0}, {1185, 458}}";
 		};
 	};
 	F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */ = {
@@ -404,7 +575,7 @@
 		fRef = F17712840FDBA427009B3560 /* CreateLotsController.m */;
 		name = "CreateLotsController.m: 58";
 		rLen = 0;
-		rLoc = 12255;
+		rLoc = 12359;
 		rType = 0;
 		vrLen = 1093;
 		vrLoc = 0;
@@ -489,16 +660,16 @@
 	};
 	F12E080F0FDBF754006F06CD /* LotsData.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 672}}";
-			sepNavSelRange = "{539, 52}";
-			sepNavVisRect = "{{0, 0}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 714}}";
+			sepNavSelRange = "{654, 8}";
+			sepNavVisRect = "{{0, 182}, {1185, 435}}";
 		};
 	};
 	F12E08100FDBF754006F06CD /* LotsData.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1393, 1064}}";
-			sepNavSelRange = "{1285, 5}";
-			sepNavVisRect = "{{0, 553}, {1393, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 1078}}";
+			sepNavSelRange = "{455, 0}";
+			sepNavVisRect = "{{0, 460}, {1185, 435}}";
 		};
 	};
 	F12E08190FDBF837006F06CD /* PBXTextBookmark */ = {
@@ -506,7 +677,7 @@
 		fRef = F12E080F0FDBF754006F06CD /* LotsData.h */;
 		name = "LotsData.h: stringLots2";
 		rLen = 0;
-		rLoc = 536;
+		rLoc = 559;
 		rType = 0;
 		vrLen = 383;
 		vrLoc = 0;
@@ -516,7 +687,7 @@
 		fRef = F12E08100FDBF754006F06CD /* LotsData.m */;
 		name = "LotsData.m: 29";
 		rLen = 0;
-		rLoc = 1675;
+		rLoc = 1709;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 0;
@@ -574,9 +745,9 @@
 	};
 	F17712840FDBA427009B3560 /* CreateLotsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1436, 5320}}";
-			sepNavSelRange = "{409, 0}";
-			sepNavVisRect = "{{0, 4563}, {1185, 647}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1436, 5348}}";
+			sepNavSelRange = "{2070, 0}";
+			sepNavVisRect = "{{0, 350}, {1185, 435}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
 	};
@@ -593,29 +764,29 @@
 	F1B712FE0FDC54740084CCAB /* DrawLots1Controller.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 602}}";
-			sepNavSelRange = "{791, 16}";
-			sepNavVisRect = "{{0, 47}, {1185, 435}}";
+			sepNavSelRange = "{780, 29}";
+			sepNavVisRect = "{{0, 37}, {1185, 458}}";
 		};
 	};
 	F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 5082}}";
-			sepNavSelRange = "{9892, 27}";
-			sepNavVisRect = "{{0, 4552}, {1185, 435}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 5166}}";
+			sepNavSelRange = "{2117, 11}";
+			sepNavVisRect = "{{0, 761}, {1185, 458}}";
 		};
 	};
 	F1B713030FDC54880084CCAB /* DrawLots2Controller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 672}}";
-			sepNavSelRange = "{423, 0}";
-			sepNavVisRect = "{{0, 0}, {1185, 624}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 714}}";
+			sepNavSelRange = "{1056, 0}";
+			sepNavVisRect = "{{0, 90}, {1185, 458}}";
 		};
 	};
 	F1B713040FDC54880084CCAB /* DrawLots2Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1185, 6594}}";
-			sepNavSelRange = "{6707, 0}";
-			sepNavVisRect = "{{0, 2369}, {1185, 624}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1185, 6678}}";
+			sepNavSelRange = "{14073, 0}";
+			sepNavVisRect = "{{0, 6120}, {1185, 458}}";
 		};
 	};
 	F1B713210FDC56A90084CCAB /* PBXTextBookmark */ = {
@@ -633,7 +804,7 @@
 		fRef = F1B713030FDC54880084CCAB /* DrawLots2Controller.h */;
 		name = "DrawLots2Controller.h: 17";
 		rLen = 0;
-		rLoc = 1224;
+		rLoc = 1253;
 		rType = 0;
 		vrLen = 238;
 		vrLoc = 0;
@@ -688,8 +859,8 @@
 	F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 1904}}";
-			sepNavSelRange = "{2103, 159}";
-			sepNavVisRect = "{{0, 1110}, {1185, 539}}";
+			sepNavSelRange = "{856, 11}";
+			sepNavVisRect = "{{0, 424}, {1185, 458}}";
 		};
 	};
 	F1B8B9550FDE2D7B00A20059 /* PBXTextBookmark */ = {

@@ -21,6 +21,8 @@
 	NSMutableArray	*numberLots;
 	NSMutableArray	*stringLots;
 	NSMutableArray	*repeatables;
+	
+	BOOL			dataChanged;
 }
 
 @property (nonatomic, retain) NSString			*lotsName;
@@ -31,6 +33,7 @@
 @property (nonatomic, retain) NSMutableArray	*numberLots;
 @property (nonatomic, retain) NSMutableArray	*stringLots;
 @property (nonatomic, retain) NSMutableArray	*repeatables;
+@property (nonatomic, assign) BOOL				dataChanged;
 
 
 - (id) initWithNumberofGroup:(NSNumber*) nfg
