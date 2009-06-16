@@ -34,6 +34,7 @@
 
 	int							accelerationChanged;
 	UIAcceleration				*lastAcceleration;
+	BOOL						triggeredByShake;
 }
 
 @property (nonatomic, retain) LotsData *lotsData;

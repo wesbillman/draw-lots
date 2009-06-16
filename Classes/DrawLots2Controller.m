@@ -221,6 +221,12 @@
 
 - (void) startBarButtonDown:(id)sender
 {
+	if(sender == nil && [barButtonStart.title isEqualToString:NSLocalizedString(@"Start", @"Start")])
+	{
+		triggeredByShake = YES;
+	}
+	else
+		triggeredByShake = NO;
 	if(updateTimer == nil)
 	{
  		if(self.randomSequence.srcArray.count == 0 || self.randomSequence2.srcArray.count == 0)
@@ -453,7 +459,7 @@
 				[self startBarButtonDown:barButtonStart];
 			}
 		}
-		else if(accelerationChanged == 0)
+		else if(triggeredByShake && accelerationChanged == 0)
 		{
 			if([barButtonStart.title isEqualToString:NSLocalizedString(@"Stop", @"Stop")])
 			{
