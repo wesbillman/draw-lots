@@ -119,6 +119,7 @@
 			NSString *documentsDirectory = [paths objectAtIndex:0];
 			NSString *fPath = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat:@"%d", t_sec] ];
 			[self serializeImages: lData.photoLots withFilePath:fPath];
+			lData.dataChanged = NO;
 		}
 		
 		NSDictionary *dict = [NSDictionary 
@@ -211,9 +212,8 @@
 	srand(time(0));
 }
 
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-	// Save data if appropriate
+- (void) serialize
+{
 	if(lotsData)
 	{
 		NSArray *paths =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -221,6 +221,11 @@
 		NSString *filePath = [documentsDirectory stringByAppendingPathComponent:DATA_PLIST];
 		[self serializeDataWithFilePath:filePath];
     }
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+	// Save data if appropriate
+	[self serialize];
 }
 
 
@@ -256,13 +261,26 @@
 
 - (void) removeLotsDataAtIndex:(int)index
 {
+	NSError *error;
+	LotsData *lData = [lotsData objectAtIndex:index];
+	NSTimeInterval t = [lData.lotsDate timeIntervalSince1970];
+	int t_sec = t;
+	NSArray *paths =  NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *filePath = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat:@"%d", t_sec] ];
 	[lotsData removeObjectAtIndex:index];
+
+	[[NSFileManager defaultManager] removeItemAtPath:filePath error:&error];
+	if(error)
+		NSLog(@"removeItemAtPath Error: %@", [error localizedFailureReason]);
+	[self serialize];
 }
 
 - (void) addLotsData: (LotsData*) lots
 {
 	lots.dataChanged = YES;
 	[[self lotsData] addObject:lots];
+	[self serialize];
 }
 
 @end
