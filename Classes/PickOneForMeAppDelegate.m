@@ -192,7 +192,7 @@
 	NSString *filePath = [documentsDirectory stringByAppendingPathComponent:DATA_PLIST];
 	
 	//only for debug purpose
-	//	[[NSFileManager defaultManager] removeItemAtPath:filePath error:nil];
+	//[[NSFileManager defaultManager] removeItemAtPath:filePath error:nil];
 	
 	if(![[NSFileManager defaultManager] fileExistsAtPath:filePath])
 	{

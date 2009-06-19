@@ -12,7 +12,6 @@
 #import "DrawLots1Controller.h"
 #import "DrawLots2Controller.h"
 
-
 @implementation RootViewController
 
 

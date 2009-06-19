@@ -13,6 +13,8 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		F12AC5D70FEB086E00658575 /* EditLotsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AC5D50FEB086E00658575 /* EditLotsController.m */; };
+		F12AC5D80FEB086E00658575 /* EditLotsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12AC5D60FEB086E00658575 /* EditLotsController.xib */; };
 		F12E08110FDBF754006F06CD /* LotsData.m in Sources */ = {isa = PBXBuildFile; fileRef = F12E08100FDBF754006F06CD /* LotsData.m */; };
 		F177111E0FDB63A9009B3560 /* UIKeepRatioImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F177111D0FDB63A9009B3560 /* UIKeepRatioImageView.m */; };
 		F1B713010FDC54740084CCAB /* DrawLots1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */; };
@@ -53,6 +55,9 @@
 		F129AC180FDA5D06004DD2DF /* CreatePhotoLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePhotoLotsController.h; sourceTree = "<group>"; };
 		F129AC190FDA5D06004DD2DF /* CreatePhotoLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePhotoLotsController.m; sourceTree = "<group>"; };
 		F129AC1A0FDA5D06004DD2DF /* CreatePhotoLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CreatePhotoLotsController.xib; path = Classes/CreatePhotoLotsController.xib; sourceTree = "<group>"; };
+		F12AC5D40FEB086E00658575 /* EditLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLotsController.h; sourceTree = "<group>"; };
+		F12AC5D50FEB086E00658575 /* EditLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLotsController.m; sourceTree = "<group>"; };
+		F12AC5D60FEB086E00658575 /* EditLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditLotsController.xib; path = Classes/EditLotsController.xib; sourceTree = "<group>"; };
 		F12E06270FDBD2E7006F06CD /* CreateNumberLotsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNumberLotsController.h; sourceTree = "<group>"; };
 		F12E06280FDBD2E7006F06CD /* CreateNumberLotsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNumberLotsController.m; sourceTree = "<group>"; };
 		F12E06290FDBD2E7006F06CD /* CreateNumberLotsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CreateNumberLotsController.xib; path = Classes/CreateNumberLotsController.xib; sourceTree = "<group>"; };
@@ -123,6 +128,8 @@
 				F1B8B9100FDE058700A20059 /* LotsRandomSequence.m */,
 				F1F4ACB20FDE6C2800930533 /* HistoryController.h */,
 				F1F4ACB30FDE6C2800930533 /* HistoryController.m */,
+				F12AC5D40FEB086E00658575 /* EditLotsController.h */,
+				F12AC5D50FEB086E00658575 /* EditLotsController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -159,6 +166,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F12AC5D60FEB086E00658575 /* EditLotsController.xib */,
 				F1F4ACB40FDE6C2800930533 /* HistoryController.xib */,
 				F1B713050FDC54880084CCAB /* DrawLots2Controller.xib */,
 				F1B713000FDC54740084CCAB /* DrawLots1Controller.xib */,
@@ -254,6 +262,7 @@
 				F1DF23440FDC66F30090E312 /* DrawLots1Controller.xib in Resources */,
 				F1B713E70FDC66D90084CCAB /* DrawLots2Controller.xib in Resources */,
 				F1F4ACB60FDE6C2800930533 /* HistoryController.xib in Resources */,
+				F12AC5D80FEB086E00658575 /* EditLotsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 				F1B713060FDC54880084CCAB /* DrawLots2Controller.m in Sources */,
 				F1B8B9110FDE058700A20059 /* LotsRandomSequence.m in Sources */,
 				F1F4ACB50FDE6C2800930533 /* HistoryController.m in Sources */,
+				F12AC5D70FEB086E00658575 /* EditLotsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

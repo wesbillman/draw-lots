@@ -7,7 +7,7 @@
 //
 
 #import "DrawLots1Controller.h"
-#import "CreateLotsController.h"
+#import "EditLotsController.h"
 #import "LotsData.h"
 #import "UIKeepRatioImageView.h"
 #import "HistoryController.h"
@@ -216,7 +216,7 @@
 
 - (void) editBarButtonDown:(id)sender
 {
-	CreateLotsController *controller = [[CreateLotsController alloc] initWithNibName:@"CreateLotsController" bundle:nil];
+	EditLotsController *controller = [[EditLotsController alloc] initWithNibName:@"EditLotsController" bundle:nil];
 	controller.lotsData = self.lotsData;
 	[self.navigationController pushViewController:controller animated:YES];
 	[controller release];
