@@ -123,17 +123,17 @@
 		switch(((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue)
 		{
 			case 0:
-				self.photoLots1.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]);
+				self.photoLots1.imageArray = [NSMutableArray arrayWithArray:((NSMutableArray*)[lotsData.photoLots objectAtIndex:0])];
 				[self.navigationController pushViewController:photoLots1 animated:YES];
 				break;
 			case 1:
 				range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
 				range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
-				numberLots1.range= range; 
+				self.numberLots1.range = range; 
 				[self.navigationController pushViewController:numberLots1 animated:YES];
 				break;
 			case 2:
-				stringLots1.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:0]);
+				self.stringLots1.stringArray = [NSMutableArray arrayWithArray:((NSMutableArray*)[lotsData.stringLots objectAtIndex:0])];
 				[self.navigationController pushViewController:stringLots1 animated:YES];
 				break;
 		}
@@ -143,17 +143,17 @@
 		switch(((NSNumber*)[lotsData.groupTypes objectAtIndex:1]).intValue)
 		{
 			case 0:
-				photoLots2.imageArray = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:1]);
+				self.photoLots2.imageArray = [NSMutableArray arrayWithArray:((NSMutableArray*)[lotsData.photoLots objectAtIndex:1])];
 				[self.navigationController pushViewController:photoLots2 animated:YES];
 				break;
 			case 1:
 				range.location = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_START]).intValue;
 				range.length = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
-				numberLots2.range = range;
+				self.numberLots2.range = range;
 				[self.navigationController pushViewController:numberLots2 animated:YES];
 				break;
 			case 2:
-				stringLots2.stringArray = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:1]);
+				self.stringLots2.stringArray = [NSMutableArray arrayWithArray:((NSMutableArray*)[lotsData.stringLots objectAtIndex:1])];
 				[self.navigationController pushViewController:stringLots2 animated:YES];
 				break;
 		}
@@ -296,25 +296,43 @@
 - (void) updateGroupDetail:(int)group
 {
 	UILabel *label = nil;
-	CreatePhotoLotsController *photo;
-	CreateNumberLotsController *number;
-	CreateStringLotsController *string;
+	int photo = 0;
+	int number = 0;
+	int string = 0;
 	int groupType;
 	
 	if(group == 0)
 	{
 		label = labelDetail1;
-		photo = photoLots1;
-		number = numberLots1;
-		string = stringLots1;
+		if(photoLots1)
+			photo = photoLots1.imageArray.count;
+		else
+			photo = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:0]).count;
+		if(numberLots1)
+			number = numberLots1.range.length;
+		else
+			number = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:0]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
+		if(stringLots1)
+			string = stringLots1.stringArray.count;
+		else
+			string = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:0]).count;
 		groupType = ((NSNumber*)[lotsData.groupTypes objectAtIndex:0]).intValue;
 	}
 	else if(group == 1)
 	{
 		label = labelDetail2;
-		photo = photoLots2;
-		number = numberLots2;
-		string = stringLots2;
+		if(photoLots2)
+			photo = photoLots2.imageArray.count;
+		else
+			photo = ((NSMutableArray*)[lotsData.photoLots objectAtIndex:1]).count;
+		if(numberLots2)
+			number = numberLots2.range.length;
+		else
+			number = ((NSNumber*)[((NSDictionary*)[lotsData.numberLots objectAtIndex:1]) objectForKey:LOTSDATA_NUMBER_RANGE]).intValue;
+		if(stringLots2)
+			string = stringLots2.stringArray.count;
+		else
+			string = ((NSMutableArray*)[lotsData.stringLots objectAtIndex:1]).count;
 		groupType = ((NSNumber*)[lotsData.groupTypes objectAtIndex:1]).intValue;
 	}
 	if(label)
@@ -323,31 +341,31 @@
 		switch(groupType)
 		{
 			case 0:
-				if(photo.imageArray.count <= 1)
+				if(photo <= 1)
 				{
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Photo", @"%d Photo"), photo.imageArray.count];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Photo", @"%d Photo"), photo];
 					label.textColor = [UIColor redColor];
 				}
 				else
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Photos", @"%d Photos"), photo.imageArray.count];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Photos", @"%d Photos"), photo];
 				break;
 			case 1:
-				if(number.range.length <= 1)
+				if(number <= 1)
 				{
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Number", @"%d Number"), number.range.length];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Number", @"%d Number"), number];
 					label.textColor = [UIColor redColor];
 				}
 				else
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Numbers", @"%d Numbers"), number.range.length];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Numbers", @"%d Numbers"), number];
 				break;
 			case 2:
-				if(string.stringArray.count <= 1)
+				if(string <= 1)
 				{
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d String", @"%d String"), string.stringArray.count];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d String", @"%d String"), string];
 					label.textColor = [UIColor redColor];
 				}
 				else
-					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Strings", @"%d Strings"), string.stringArray.count];
+					label.text = [NSString stringWithFormat: NSLocalizedString(@"%d Strings", @"%d Strings"), string];
 				break;
 		}
 	}
