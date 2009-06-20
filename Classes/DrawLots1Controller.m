@@ -96,7 +96,7 @@
 
 - (void) resetLots
 {
-	[self.resultLots removeAllObjects];
+//	[self.resultLots removeAllObjects];
 	[self configRandomSequence];
 
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");

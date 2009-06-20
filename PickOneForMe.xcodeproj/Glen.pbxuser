@@ -200,7 +200,7 @@
 		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 16;
-		modificationTime = 267156662.381786;
+		modificationTime = 267157047.808283;
 		state = 0;
 	};
 	F10F57AE0FEB4CA20035BA23 /* PBXTextBookmark */ = {
@@ -228,7 +228,7 @@
 		fRef = F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */;
 		name = EditLotsController;
 		rLen = 18;
-		rLoc = 6410;
+		rLoc = 6412;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 6115;
@@ -304,7 +304,7 @@
 		ignoreCount = 0;
 		lineNumber = 53;
 		location = PickOneForMe;
-		modificationTime = 267156662.200936;
+		modificationTime = 267157047.633905;
 		state = 1;
 	};
 	F1188C760FEC7C7400EE4259 /* PBXTextBookmark */ = {
@@ -690,7 +690,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1220, 1736}}";
 			sepNavSelRange = "{3277, 0}";
-			sepNavVisRect = "{{0, 1075}, {1185, 647}}";
+			sepNavVisRect = "{{0, 1192}, {1185, 458}}";
 		};
 	};
 	F12E062C0FDBD2F2006F06CD /* CreateStringLotsController.h */ = {
@@ -836,7 +836,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1436, 5390}}";
 			sepNavSelRange = "{10584, 0}";
-			sepNavVisRect = "{{0, 3512}, {1185, 435}}";
+			sepNavVisRect = "{{0, 3512}, {1185, 458}}";
 			sepNavWindowFrame = "{{15, 54}, {1185, 824}}";
 		};
 	};
@@ -870,8 +870,8 @@
 	F1B712FF0FDC54740084CCAB /* DrawLots1Controller.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1185, 5166}}";
-			sepNavSelRange = "{6410, 18}";
-			sepNavVisRect = "{{0, 2842}, {1185, 458}}";
+			sepNavSelRange = "{3158, 0}";
+			sepNavVisRect = "{{0, 1066}, {1185, 435}}";
 		};
 	};
 	F1B713030FDC54880084CCAB /* DrawLots2Controller.h */ = {
