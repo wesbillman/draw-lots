@@ -261,7 +261,7 @@
 
 - (void) removeLotsDataAtIndex:(int)index
 {
-	NSError *error;
+	NSError *error = nil;
 	LotsData *lData = [lotsData objectAtIndex:index];
 	NSTimeInterval t = [lData.lotsDate timeIntervalSince1970];
 	int t_sec = t;
@@ -270,9 +270,12 @@
 	NSString *filePath = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat:@"%d", t_sec] ];
 	[lotsData removeObjectAtIndex:index];
 
-	[[NSFileManager defaultManager] removeItemAtPath:filePath error:&error];
-	if(error)
-		NSLog(@"removeItemAtPath Error: %@", [error localizedFailureReason]);
+	if([[NSFileManager defaultManager] fileExistsAtPath:filePath])
+	{
+		[[NSFileManager defaultManager] removeItemAtPath:filePath error:&error];
+		if(error)
+			NSLog(@"removeItemAtPath Error: %@", [error localizedFailureReason]);
+	}
 	[self serialize];
 }
 

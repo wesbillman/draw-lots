@@ -280,7 +280,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 8}, {186, 710}}</string>
+							<string>{{0, 0}, {186, 710}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F10F57D40FEB4EB90035BA23</string>
+										<string>F19CE9950FEC00D500D6B951</string>
 										<key>history</key>
 										<array>
 											<string>F129AC2B0FDA6429004DD2DF</string>
@@ -361,7 +361,7 @@
 											<string>F10F57C90FEB4EB90035BA23</string>
 											<string>F10F57CA0FEB4EB90035BA23</string>
 											<string>F10F57CB0FEB4EB90035BA23</string>
-											<string>F10F57CC0FEB4EB90035BA23</string>
+											<string>F12C31720FEBF43300BB4009</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -397,15 +397,6 @@
 											<string>F117FA4E0FE79E7600982F9C</string>
 											<string>F12AC5DE0FEB087A00658575</string>
 											<string>F12AC5EB0FEB0B4F00658575</string>
-											<string>F10F57B00FEB4CA20035BA23</string>
-											<string>F10F57B10FEB4CA20035BA23</string>
-											<string>F10F57CD0FEB4EB90035BA23</string>
-											<string>F10F57CE0FEB4EB90035BA23</string>
-											<string>F10F57CF0FEB4EB90035BA23</string>
-											<string>F10F57D00FEB4EB90035BA23</string>
-											<string>F10F57D10FEB4EB90035BA23</string>
-											<string>F10F57D20FEB4EB90035BA23</string>
-											<string>F10F57D30FEB4EB90035BA23</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -463,9 +454,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F10F57B30FEB4CA20035BA23</string>
+				<string>F19CE97A0FEBFAF500D6B951</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F10F57B40FEB4CA20035BA23</string>
+				<string>F19CE97B0FEBFAF500D6B951</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -599,12 +590,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F10F57D50FEB4EB90035BA23</string>
-		<string>F10F57BD0FEB4CA20035BA23</string>
-		<string>F10F57BF0FEB4CA20035BA23</string>
-		<string>F129ABE50FDA573E004DD2DF</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Glen/iPhoneDev/Projects/PickOneForMe/PickOneForMe.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -685,7 +671,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F129ABE50FDA573E004DD2DF</string>
-				<string>F10F57B50FEB4CA20035BA23</string>
+				<string>F12C316A0FEBF36D00BB4009</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -805,13 +791,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F10F57B60FEB4CA20035BA23</string>
+				<string>F19CE97C0FEBFAF500D6B951</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F10F57B70FEB4CA20035BA23</string>
-				<string>F10F57B80FEB4CA20035BA23</string>
-				<string>F10F57B90FEB4CA20035BA23</string>
-				<string>F10F57BA0FEB4CA20035BA23</string>
-				<string>F10F57BB0FEB4CA20035BA23</string>
+				<string>F19CE97D0FEBFAF500D6B951</string>
+				<string>F19CE97E0FEBFAF500D6B951</string>
+				<string>F19CE97F0FEBFAF500D6B951</string>
+				<string>F19CE9800FEBFAF500D6B951</string>
+				<string>F19CE9810FEBFAF500D6B951</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -930,8 +916,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -967,7 +951,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F10F57BC0FEB4CA20035BA23</string>
+				<string>F12C316D0FEBF38700BB4009</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -977,7 +961,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

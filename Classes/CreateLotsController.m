@@ -269,13 +269,16 @@
 							[NSNumber numberWithInt:numberLots1.range.length], LOTSDATA_NUMBER_RANGE, nil]
 						stringLots:stringLots1.stringArray
 						repeatable:[NSNumber numberWithBool:repeatableSwitch1.on]];
-		[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup2.selectedSegmentIndex]
-						photosLots:photoLots2.imageArray
-						numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
-							[NSNumber numberWithInt:numberLots2.range.location], LOTSDATA_NUMBER_START,
-							[NSNumber numberWithInt:numberLots2.range.length], LOTSDATA_NUMBER_RANGE, nil]
-						stringLots:stringLots2.stringArray
-						repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
+		if(segControlNumber.selectedSegmentIndex > 0)
+		{
+			[lotsData addGroupWithType:[NSNumber numberWithInt:segControlGroup2.selectedSegmentIndex]
+							photosLots:photoLots2.imageArray
+							numberLots:[NSDictionary dictionaryWithObjectsAndKeys:
+								[NSNumber numberWithInt:numberLots2.range.location], LOTSDATA_NUMBER_START,
+								[NSNumber numberWithInt:numberLots2.range.length], LOTSDATA_NUMBER_RANGE, nil]
+							stringLots:stringLots2.stringArray
+							repeatable:[NSNumber numberWithBool:repeatableSwitch2.on]];
+		}
 
 		PickOneForMeAppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
 		[appDelegate addLotsData:lotsData];
