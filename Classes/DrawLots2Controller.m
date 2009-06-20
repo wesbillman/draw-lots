@@ -132,11 +132,17 @@
 //	[self.resultLots removeAllObjects];
 	[self configRandomSequence];
 	
+	if(self.resultLots.count == 0)
+	{
+		lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
+		lotsLabel.font = [UIFont systemFontOfSize:20];
+		lotsLabel2.text = NSLocalizedString(@"Press Start button", @"Press Start button");
+		lotsLabel2.font = [UIFont systemFontOfSize:20];
+		lotsLabel.hidden = NO;
+		lotsLabel2.hidden = NO;
+	}
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
-	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel.font = [UIFont systemFontOfSize:20];
-	lotsLabel2.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel2.font = [UIFont systemFontOfSize:20];
+	
 	CGRect newFrame = remainderBar.frame;
 	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
@@ -151,22 +157,10 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	self.title = self.lotsData.lotsName;
-	CGRect newFrame = remainderBar.frame;
-	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
-	remainderBar.frame = newFrame;
-	newFrame = remainderBar2.frame;
-	newFrame.size.width = (remainderBarBase2.bounds.size.width-2) * [self.randomSequence2 getRemainingLotsPercentage];
-	remainderBar2.frame = newFrame;
 	
 	[self resetLots];
 	
 	barButtonStart.enabled = YES;
-	lotsLabel.hidden = NO;
-	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel.font = [UIFont systemFontOfSize:20];
-	lotsLabel2.hidden = NO;
-	lotsLabel2.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel2.font = [UIFont systemFontOfSize:20];
 }
 
 
@@ -299,7 +293,11 @@
 
 - (void) lotGenerated
 {
-	[self.resultLots insertObject:[[self.randomSequence getResult] objectForKey:RS_DATA] atIndex:0];
+	id data1 = [[self.randomSequence getResult] objectForKey:RS_DATA];
+	id data2 = [[self.randomSequence2 getResult] objectForKey:RS_DATA];
+	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+		[NSNumber numberWithInt:2], HISTORY_DATA_COUNT, data1, HISTORY_DATA_1, data2, HISTORY_DATA_2, nil];
+	[self.resultLots insertObject:dict atIndex:0];
 	[self.randomSequence removeLatestResult:!((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue];
 	[self.randomSequence2 removeLatestResult:!((NSNumber*)[lotsData.repeatables objectAtIndex:1]).boolValue];
 	

@@ -99,9 +99,14 @@
 //	[self.resultLots removeAllObjects];
 	[self configRandomSequence];
 
+	if(self.resultLots.count == 0)
+	{
+		lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
+		lotsLabel.font = [UIFont systemFontOfSize:20];
+		lotsLabel.hidden = NO;
+	}
 	barButtonStart.title = NSLocalizedString(@"Start", @"Start");
-	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel.font = [UIFont systemFontOfSize:20];
+
 	CGRect newFrame = remainderBar.frame;
 	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
 	remainderBar.frame = newFrame;
@@ -113,16 +118,10 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 	self.title = self.lotsData.lotsName;
-	CGRect newFrame = remainderBar.frame;
-	newFrame.size.width = (remainderBarBase.bounds.size.width-2) * [self.randomSequence getRemainingLotsPercentage];
-	remainderBar.frame = newFrame;
 
 	[self resetLots];
 	
 	barButtonStart.enabled = YES;
-	lotsLabel.hidden = NO;
-	lotsLabel.text = NSLocalizedString(@"Press Start button", @"Press Start button");
-	lotsLabel.font = [UIFont systemFontOfSize:20];
 }
 
 
@@ -232,7 +231,10 @@
 
 - (void) lotGenerated
 {
-	[self.resultLots insertObject:[[self.randomSequence getResult] objectForKey:RS_DATA] atIndex:0];
+	id data1 = [[self.randomSequence getResult] objectForKey:RS_DATA];
+	NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+		[NSNumber numberWithInt:1], HISTORY_DATA_COUNT, data1, HISTORY_DATA_1, nil];
+	[self.resultLots insertObject:dict atIndex:0];
 	[self.randomSequence removeLatestResult:!((NSNumber*)[lotsData.repeatables objectAtIndex:0]).boolValue];
 
 	CGRect newFrame = remainderBar.frame;

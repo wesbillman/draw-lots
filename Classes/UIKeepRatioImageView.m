@@ -22,6 +22,16 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
+	if(srcImage == nil)
+	{
+		if(image)
+		{
+			[image removeFromSuperview];
+			[image release];
+			image = nil;
+		}
+		return;
+	}
 	if(self.bounds.size.width != 0 && self.bounds.size.height != 0 &&
 	   srcImage.size.width != 0 && srcImage.size.height != 0)
 	{

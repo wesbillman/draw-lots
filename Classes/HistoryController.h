@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#define HISTORY_DATA_COUNT @"HISTORY_DATA_COUNT"
+#define HISTORY_DATA_1 @"HISTORY_DATA_1"
+#define HISTORY_DATA_2 @"HISTORY_DATA_2"
 
 @interface HistoryController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
 	IBOutlet UITableView* tableView;
