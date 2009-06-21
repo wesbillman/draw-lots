@@ -160,7 +160,7 @@
 	
 	[self resetLots];
 	
-	barButtonStart.enabled = YES;
+	bigButton.enabled = barButtonStart.enabled = YES;
 }
 
 
@@ -199,6 +199,7 @@
 	[randomSequence release];
 	[remainderBar release];
 	[remainderBarBase release];
+	[bigButton release];
 	
 	[self stopUpdateTimer];
 	
@@ -260,7 +261,7 @@
 		[self.randomSequence2 startGenerating];
 		
 		barButtonStart.title = NSLocalizedString(@"Stop", @"Stop");
-		barButtonStart.enabled = YES;
+		bigButton.enabled = barButtonStart.enabled = YES;
 
 		self.navigationItem.rightBarButtonItem.enabled = NO;
 		barButtonResult.enabled = NO;
@@ -269,7 +270,7 @@
 	else
 	{
 		barButtonStart.title = NSLocalizedString(@"Wait", @"Wait");
-		barButtonStart.enabled = NO;
+		bigButton.enabled = barButtonStart.enabled = NO;
 		[self.randomSequence stopGenerating];
 		[self.randomSequence2 stopGenerating];
 	}
@@ -318,7 +319,7 @@
 		self.navigationItem.rightBarButtonItem.enabled = YES;
 		barButtonResult.enabled = YES;
 	}
-	barButtonStart.enabled = YES;
+	bigButton.enabled = barButtonStart.enabled = YES;
 	[indicatorView stopAnimating];
 	indicatorView.hidden = YES;
 	[indicatorView2 stopAnimating];
@@ -454,7 +455,7 @@
 			if([barButtonStart.title isEqualToString:NSLocalizedString(@"Start", @"Start")])
 			{
 				NSLog(@"Motion Started");
-				[self startBarButtonDown:barButtonStart];
+				[self startBarButtonDown:nil];
 			}
 		}
 		else if(triggeredByShake && accelerationChanged == 0)

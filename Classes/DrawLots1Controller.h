@@ -19,6 +19,7 @@
 	IBOutlet UIView				*remainderBar;
 	IBOutlet UIView				*remainderBarBase;
 	IBOutlet UIActivityIndicatorView *indicatorView;
+	IBOutlet UIButton			*bigButton;
 	LotsRandomSequence			*randomSequence;
 	
 	NSTimer						*updateTimer;

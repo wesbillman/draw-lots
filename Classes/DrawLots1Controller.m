@@ -121,7 +121,7 @@
 
 	[self resetLots];
 	
-	barButtonStart.enabled = YES;
+	bigButton.enabled = barButtonStart.enabled = YES;
 }
 
 
@@ -161,6 +161,7 @@
 	[remainderBar release];
 	[remainderBarBase release];
 	
+	[bigButton release];
 	[self stopUpdateTimer];
 	
     [super dealloc];
@@ -195,7 +196,7 @@
 			lotsLabel.font = [UIFont systemFontOfSize:20];
 		}
 		barButtonStart.title = NSLocalizedString(@"Stop", @"Stop");
-		barButtonStart.enabled = YES;
+		bigButton.enabled = barButtonStart.enabled = YES;
 		indicatorView.hidden = NO;
 
 		self.navigationItem.rightBarButtonItem.enabled = NO;
@@ -208,7 +209,7 @@
 	else
 	{
 		barButtonStart.title = NSLocalizedString(@"Wait", @"Wait");
-		barButtonStart.enabled = NO;
+		bigButton.enabled = barButtonStart.enabled = NO;
 		[self.randomSequence stopGenerating];
 	}
 }
@@ -250,7 +251,7 @@
 		self.navigationItem.rightBarButtonItem.enabled = YES;
 		barButtonResult.enabled = YES;
 	}
-	barButtonStart.enabled = YES;
+	bigButton.enabled = barButtonStart.enabled = YES;
 	[indicatorView stopAnimating];
 	indicatorView.hidden = YES;
 }
